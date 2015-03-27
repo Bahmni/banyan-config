@@ -3,7 +3,7 @@
         "id": "bahmni.clinical.consultation.observations",
         "extensionPointId": "org.bahmni.clinical.consultation.board",
         "type": "link",
-        "label": "Observations",
+        "label": "Forms",
         "url": "concept-set-group/observations",
         "default": true,
         "icon": "icon-user-md",
