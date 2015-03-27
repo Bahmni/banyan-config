@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:ext="http://www.liquibase.org/xml/ns/dbchangelog-ext"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-2.0.xsd
+        http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
+
+    <!-- This Liquibase file is meant to contain changesets for miscellaneous configuration Only -->
+    <changeSet id="BAHMNI-IMPL-OMRS-MISC-001" author="tw">
+        <comment>Location on Server where the patient uploaded images will be stored</comment>
+        <sql>
+            INSERT INTO global_property (`property`, `property_value`, `description`, `uuid`)
+            VALUES ('emr.personImagesDirectory', '/home/bahmni/patient_images', 'Location of patient images - required by emrapi', uuid());
+        </sql>
+    </changeSet>
+    <changeSet id="BAHMNI-IMPL-OMRS-MISC-002" author="tw">
+        <comment>Add concept set patient document and patient file concept as member</comment>
+        <sql>
+            set @concept_id = 0;
+            set @concept_name_short_id = 0;
+            set @concept_name_full_id = 0;
+
+            call add_concept(@concept_id, @concept_name_short_id, @concept_name_full_id, 'Patient Document', 'Patient Document', 'N/A', 'ConvSet', true);
+            call add_concept_word(@concept_id, @concept_name_short_id, 'PATIENT', 1);
+            call add_concept_word(@concept_id, @concept_name_short_id, 'DOCUMENT', 1);
+            set @patient_document_concept_id = @concept_id;
+
+            call add_concept(@concept_id, @concept_name_short_id, @concept_name_full_id, 'Patient file', 'Patient file', 'N/A', 'Misc', false);
+            call add_concept_word(@concept_id, @concept_name_short_id, 'PATIENT,', 1);
+            call add_concept_word(@concept_id, @concept_name_short_id, 'FILE', 1);
+            set @patient_file_concept_id = @concept_id;
+            call add_concept_set_members(@patient_document_concept_id,@patient_file_concept_id,1);
+        </sql>
+    </changeSet>
+    <changeSet id="BAHMNI-IMPL-OMRS-MISC-003" author="Rohan, Sravanthi">
+        <comment>sql to search active patients seen by the given provider</comment>
+        <sql>
+            insert into global_property	(property,property_value,description,uuid) values ('emrapi.sqlSearch.activePatientsByProvider','select distinct concat(pn.given_name," ", pn.family_name) as name, pi.identifier as identifier, concat("",p.uuid) as uuid,
+            concat("",v.uuid) as activeVisitUuid
+            from
+            visit v join person_name pn on v.patient_id = pn.person_id and pn.voided = 0 and v.voided=0
+            join patient_identifier pi on v.patient_id = pi.patient_id and pi.voided=0
+            join person p on p.person_id = v.patient_id  and p.voided=0
+            join encounter en on en.visit_id = v.visit_id and en.voided=0
+            join encounter_provider ep on ep.encounter_id = en.encounter_id  and ep.voided=0
+            join provider pr on ep.provider_id=pr.provider_id and pr.retired=0
+            join person per on pr.person_id=per.person_id and per.voided=0
+            where
+            v.date_stopped is null and
+            pr.uuid=${provider_uuid}
+            order by en.encounter_datetime desc','Sql query to get list of active patients by provider uuid',uuid())
+        </sql>
+    </changeSet>
+</databaseChangeLog>
