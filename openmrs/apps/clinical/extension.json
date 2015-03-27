@@ -31,16 +31,6 @@
         "requiredPrivilege": "app:clinical:dispositionTab"
     },
     {
-        "id": "bahmni.clinical.consultation.summary",
-        "extensionPointId": "org.bahmni.clinical.consultation.board",
-        "type": "link",
-        "label": "Consultation",
-        "url": "consultation",
-        "icon": "icon-user-md",
-        "order": 5,
-        "requiredPrivilege": "app:clinical:consultationTab"
-    },
-    {
         "id": "bahmni.clinical.orders.pending",
         "extensionPointId": "org.bahmni.clinical.orders",
         "type": "link",
