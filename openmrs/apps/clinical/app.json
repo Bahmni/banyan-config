@@ -48,6 +48,9 @@
         "Chief Complaint Data": {
           "multiple": 3
         },
+		"If Yes Specify"{
+		"conciseText": true
+       },
         "Chief Complaint": {
           "freeTextAutocomplete": true,
           "durationRequired": false
