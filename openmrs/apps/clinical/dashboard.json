@@ -1,138 +1,177 @@
 [
-    {
-        "dashboardName": "General",
-        "default": true,
-        "sections": [
-            {
-                "title": "Diagnosis",
-                "name": "diagnosis",
-                "showCertainty": true,
-                "showOrder": true
-            },
-             {
-                "title": "Disposition",
-                "name": "disposition",
-                "numberOfVisits":1
-            },
-            {
-                "title": "Treatments",
-                "name": "treatment",
-                "dashboardParams": {
-                    "showFlowSheet": true,
-                    "showListView": true,
-                    "showRoute": true,
-                    "showDrugForm": true,
-                    "numberOfVisits": 3,
-                    "showOtherActive": true,
-                    "showDetailsButton": true
-                },
-                "allTreatmentDetails": {
-                    "title": "Treatments",
-                    "showFlowSheet": true,
-                    "showListView": true,
-                    "showRoute": true,
-                    "showDrugForm": true,
-                    "numberOfVisits": 4,
-                    "showOtherActive": true,
-                    "showDetailsButton": true
-                }
-            },
-            {
-                "title": "Radiology",
-                "name": "radiology"
-            },
-            {
-                "title": "Lab Orders",
-                "name": "labOrders",
-                "dashboardParams": {
-                    "title": null,
-                    "showChart": false,
-                    "showTable": true,
-                    "showNormalLabResults": true,
-                    "numberOfVisits": 1,
-                    "showCommentsExpanded": true,
-                    "showAccessionNotes": true
-                },
-                "allLabDetails": {
-                    "numberOfVisits": 3
-                }
-            },
-            {
-                "title": "Nutritional Values",
-                "name": "vitals",
-                "isObservation": true,
-                "dashboardParams":{
-                    "conceptNames": ["Nutritional Values"],
-                    "numberOfVisits": 2
-                },
-                "allObservationDetails":{
-                    "conceptNames": ["Nutritional Values"],
-                    "numberOfVisits": 2,
-                    "scope": "latest",
-                    "showDetailsButton":true
-                }
-            },
-            {
-                "title": "Vitals",
-                "name": "vitals",
-                "isObservation": true,
-                "dashboardParams":{
-                    "conceptNames": ["Vitals"],
-                    "numberOfVisits": 2
-                },
-                "allObservationDetails":{
-                    "conceptNames": ["Vitals"],
-                    "numberOfVisits": 2,
-                    "showDetailsButton":true
-                }
-            },
-            {
-                "title": "Visits",
-                "name": "visits",
-                "dashboardParams": {
-                    "title": null,
-                    "maximumNoOfVisits": 10
-                }
-            },
-            {
-                "title": "Diabetes",
-                "templateName": "Diabetes Template",
-                "name": "diseaseTemplate",
-                "dashboardParams":
-                {
-                    "showOnly": []
+  {
+    "dashboardName": "General",
+    "default": true,
+    "sections": [
 
-                },
-                "allDiseaseDetails":
-                {
-                    "showDetailsButton":true,
-                    "pivotTable": 
-                    {
-                        "numberOfVisits": "15",
-                        "groupBy": "encounters",
-                        "obsConcepts": ["Weight", "Height", "Systolic", "Diastolic", "Diabetes, Foot Exam", "Diabetes, Eye Exam"],
-                        "drugConcepts": ["Ipratropium Pressurised", "Garbhpal Rasa"],
-                        "labConcepts": ["RBS", "FBS", "PP2BS", "Hb1AC", "Creatinine", "Albumin", "Polymorph"]
-                    }
-
-                }
-                
-            },
-            {
-                    "title": "Admission Details",
-                    "name": "admissionDetails"
-            }
+      {
+        "title": "Treatments",
+        "name": "treatment",
+        "dashboardParams": {
+          "showFlowSheet": true,
+          "showListView": true,
+          "showRoute": true,
+          "showDrugForm": true,
+          "numberOfVisits": 3,
+          "showOtherActive": true,
+          "showDetailsButton": true
+        },
+        "allTreatmentDetails": {
+          "title": "Treatments",
+          "showFlowSheet": true,
+          "showListView": true,
+          "showRoute": true,
+          "showDrugForm": true,
+          "numberOfVisits": 4,
+          "showOtherActive": true,
+          "showDetailsButton": true
+        }
+      },
+      {
+        "title": "Radiology",
+        "name": "radiology"
+      },
+      {
+        "title": "Lab Orders",
+        "name": "labOrders",
+        "dashboardParams": {
+          "title": null,
+          "showChart": false,
+          "showTable": true,
+          "showNormalLabResults": true,
+          "numberOfVisits": 1,
+          "showCommentsExpanded": true,
+          "showAccessionNotes": true
+        },
+        "allLabDetails": {
+          "numberOfVisits": 3
+        }
+      },
+      {
+        "title": "Nutritional Values",
+        "name": "vitals",
+        "isObservation": true,
+        "dashboardParams": {
+          "conceptNames": [
+            "Nutritional Values"
+          ],
+          "numberOfVisits": 2
+        },
+        "allObservationDetails": {
+          "conceptNames": [
+            "Nutritional Values"
+          ],
+          "numberOfVisits": 2,
+          "scope": "latest",
+          "showDetailsButton": true
+        }
+      },
+	  
+      {
+        "title": "Vitals",
+        "name": "vitals",
+        "isObservation": true,
+        "dashboardParams": {
+          "conceptNames": [
+            "Vitals"
+          ],
+          "numberOfVisits": 2
+        },
+        "allObservationDetails": {
+          "conceptNames": [
+            "Vitals"
+          ],
+          "numberOfVisits": 2,
+          "showDetailsButton": true
+        }
+      },
+      {
+        "title": "Visits",
+        "name": "visits",
+        "dashboardParams": {
+          "title": null,
+          "maximumNoOfVisits": 10
+        }
+      },
+      {
+        "title": "Diabetes",
+        "templateName": "Diabetes Template",
+        "name": "diseaseTemplate",
+        "dashboardParams": {
+          "showOnly": []
+        },
+        "allDiseaseDetails": {
+          "showDetailsButton": true,
+          "pivotTable": {
+            "numberOfVisits": "15",
+            "groupBy": "encounters",
+            "obsConcepts": [
+              "Weight",
+              "Height",
+              "Systolic",
+              "Diastolic",
+              "Diabetes, Foot Exam",
+              "Diabetes, Eye Exam"
+            ],
+            "drugConcepts": [
+              "Ipratropium Pressurised",
+              "Garbhpal Rasa"
+            ],
+            "labConcepts": [
+              "RBS",
+              "FBS",
+              "PP2BS",
+              "Hb1AC",
+              "Creatinine",
+              "Albumin",
+              "Polymorph"
+            ]
+          }
+        }
+      },
+      {
+        "title": "Scales",
+        "templateName": "Scales",
+        "name": "diseaseTemplate",
+        "dashboardParams": {
+          "showOnly": []
+        },
+        "allDiseaseDetails": {
+          "showDetailsButton": true,
+          "pivotTable": {}
+        }
+      },
+      {
+        "title": "Admission Details",
+        "name": "admissionDetails"
+      }
+    ]
+  },
+  {
+    "dashboardName": "General - 2",
+    "sections": [
+      {
+        "title": "Patient Information",
+        "name": "patientInformation",
+        "patientAttributes": [
+          "caste",
+          "class",
+          "education",
+          "occupation",
+          "debt",
+          "distanceFromCenter",
+          "isUrban",
+          "cluster",
+          "RationCard",
+          "familyIncome"
+        ],
+        "addressFields": [
+          "address1",
+          "address2",
+          "cityVillage",
+          "countryDistrict"
         ]
-    },
-    {
-        "dashboardName": "General - 2",
-        "sections": [
-            {
-                "title": "Patient Information",
-                "name": "patientInformation",
-                "patientAttributes": ["caste", "class", "education", "occupation", "debt", "distanceFromCenter", "isUrban", "cluster","RationCard", "familyIncome"],
-                "addressFields": ["address1", "address2", "cityVillage", "countryDistrict"]
-            }
-        ]
-    }
+      }
+    ]
+  }
 ]
