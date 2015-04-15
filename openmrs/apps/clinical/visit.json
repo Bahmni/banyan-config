@@ -1,5 +1,15 @@
 [
     {
+        "title": "General",
+        "default": true,
+        "printing": {
+          "title": "Jan Swasthya Sahyog Community Health Centre",
+          "header": "Visit",
+          "logo": "../images/jss-icon.png"
+        },
+        "defaultSections": true
+    },
+    {
         "title": "General - 2",
         "printing": {
             "title": "Jan Swasthya Sahyog Community Health Centre",
@@ -7,6 +17,14 @@
             "logo": "../images/jss-icon.png"
         },
         "sections": [
+            {
+                "type": "patientInformation",
+                "config": {
+                  "title": "PatientInformation",
+                  "patientAttributes": ["caste", "class", "education", "occupation", "debt", "distanceFromCenter", "isUrban", "cluster","RationCard", "familyIncome"],
+                  "addressFields": ["address1", "address2", "cityVillage", "countryDistrict"]
+                }
+            },
             {
                 "type": "pivotTable",
                 "title": "Pivot table",
@@ -21,14 +39,6 @@
                     "drugConcepts": ["Gamma Benzene Hexachloride"],
                     "labConcepts": ""
                 }
-            },
-            {
-                    "type": "patientInformation",
-                    "config": {
-                        "title": "PatientInformation",
-                        "patientAttributes": ["caste", "class", "education", "occupation", "debt", "distanceFromCenter", "isUrban", "cluster","RationCard", "familyIncome"],
-                        "addressFields": ["address1", "address2", "cityVillage", "countryDistrict"]
-                    }
             }
         ]
     }
