@@ -45,6 +45,52 @@
        "Blood Group":{
          "conciseText": true
        },
+	   "Epileptic":{
+         "conciseText": true
+       },
+	   "Indicator":{
+	   "conciseText": true
+	   },
+	  "Hair":{
+	   "conciseText": true
+	   },
+	   "Skins":{
+	   "conciseText": true
+	   },
+	   "Eyes":{
+	   "conciseText": true
+	   },
+	   "Nose":{
+	  "conciseText":true
+	  },
+	  "Ears":{
+	  "conciseText": true
+	  },
+	  "Mouth":{
+	  "conciseText":true
+	  },
+	  "Neck":{
+	  "conciseText":true
+	  },
+	  "Chest/Breasts":{
+	  "conciseText": true
+	  },
+	  "Abdomen":{
+	  "conciseText":true
+	  },
+	  "Pelvis/Genitalia":{
+	  "conciseText": true
+	  },
+	  "Extremities":{
+	  "conciseText": true
+	  },
+	  
+	   "Second Diagnosis":{
+         "conciseText": true
+       },
+        "Chief Complaint Data": {
+          "multiple": true
+        },
         "Chief Complaint Data": {
           "multiple": 3
         },
