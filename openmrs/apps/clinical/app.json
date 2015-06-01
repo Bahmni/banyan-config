@@ -91,6 +91,9 @@
         "Chief Complaint Data": {
           "multiple": true
         },
+		"Symptoms": {
+          "multiple": true
+        },
         "Chief Complaint Data": {
           "multiple": 3
         },
