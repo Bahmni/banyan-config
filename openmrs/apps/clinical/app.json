@@ -45,6 +45,15 @@
        "Blood Group":{
          "conciseText": true
        },
+	   "Epileptic":{
+         "conciseText": true
+       },
+	   "Indicator":{
+	   "conciseText": true
+	   },
+	  "Hair":{
+	   "conciseText": true
+	   },
         "Chief Complaint Data": {
           "multiple": 3
         },
