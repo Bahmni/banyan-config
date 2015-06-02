@@ -1,13 +1,5 @@
 [
     {
-        "name": "Hospital Activities - Number of Clients Served (New and Total)",
-        "type": "MRSGeneric",
-        "config": {
-          "type": "sqlReport",
-          "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/number_of_clients.sql"
-        }
-    },
-    {
         "name": "Hospital Activities - Number of Clients Served (Referred)",
         "type": "CodedObsCount",
         "config": {
@@ -17,15 +9,14 @@
         }
     },
     {
-        "name": "CBIMCI - Greater Than 2 Months (Total)",
-        "type": "obsCount",
+        "name": "Diagnosis Categorization",
+        "type": "diagnosisCount",
         "config": {
-            "type": "codedObsCountReport",
-            "ageGroupName": "Childhood Illness 59months",
-            "conceptNames": "'Childhood Illness( Children aged 2 months to 5 years)'"
+            "visitTypes": "'OPD'",
+            "type": "diagnosisReport"
         }
     },
-    {
+	    {
         "name": "CBIMCI - 2-59 months children (Refer Diarrhoea)",
         "type": "CodedObsByCodedObs",
         "config": {
@@ -60,21 +51,12 @@
         }
     },
     {
-        "name": "CBIMCI - 2-59 months children (Refer Total) [Refers Others = CBIMCI(Refer Total) - CBIMCI(Refer Diarrhoea) - CBIMCI(Refer ARI)]",
-        "type": "booleanConceptsCount",
-        "config": {
-            "type": "codedObsCountReport",
-            "ageGroupName": "All Ages",
-            "conceptNames": "'Childhood Illness, Referred out'"
-        }
-    },
-    {
-        "name": "Nutrition Program - Nutritional status of registered children",
+        "name": "Side Effects",
         "type": "CodedObsCount",
         "config": {
             "type": "codedObsCountReport",
-            "ageGroupName": "Nutritional Status For Registered Children",
-            "conceptNames": "'Nutrition, Nutritional Status'"
+            "ageGroupName": "All Ages",
+            "conceptNames": "'Side Effects'"
         }
     },
     {
@@ -93,14 +75,6 @@
             "type": "codedObsCountReport",
             "ageGroupName": "All Ages",
             "conceptNames": "'Childhood Illness, Albendazole Given'"
-        }
-    },
-    {
-        "name": "Nutrition Program - Pregnancy",
-        "type": "MRSGeneric",
-        "config": {
-            "type": "sqlReport",
-            "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/nutrition_program_pregnancy.sql"
         }
     },
     {
@@ -157,14 +131,6 @@
             "type": "codedObsCountReport",
             "ageGroupName": "All Ages",
             "conceptNames": "'Chlorhexidin applied on cord'"
-        }
-    },
-    {
-        "name": "Safe Motherhood Program - PNC Visit",
-        "type": "MRSGeneric",
-        "config": {
-            "type": "sqlReport",
-            "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/PNC_report.sql"
         }
     },
     {
@@ -248,14 +214,6 @@
         }
     },
     {
-        "name": "Leprosy control program - New Patients",
-        "type": "MRSGeneric",
-        "config": {
-            "type": "sqlReport",
-            "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/newLeprosyPatients.sql"
-        }
-    },
-    {
         "name": "Leprosy control program - Deformity Status (New cases)",
         "type": "CodedObsByCodedObs",
         "config": {
@@ -322,14 +280,6 @@
             "type": "codedObsCountReport",
             "ageGroupName": "Malaria",
             "conceptNames": "'Malaria, Finding'"
-        }
-    },
-    {
-        "name": "Malaria Control Programme - Died",
-        "type": "MRSGeneric",
-        "config": {
-            "type": "sqlReport",
-            "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/malaria_control_programme_died.sql"
         }
     },
     {
@@ -577,14 +527,6 @@
       }
     },
     {
-      "name": "HIV AIDS - Risk Groups and Key Population Group (Risk Group Syphilis)",
-      "type": "MRSGeneric",
-      "config": {
-        "type": "sqlReport",
-        "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/risk_groups_syphilis.sql"
-      }
-    },
-    {
         "name": "HIV AIDS Program - STI cases by sex and age group (Counselling)",
         "type": "booleanConceptsCount",
         "config": {
@@ -609,22 +551,6 @@
             "type": "codedObsCountReport",
             "ageGroupName": "Inpatient",
             "conceptNames": "'Discharge note, Inpatient outcome'"
-        }
-    },
-    {
-        "name": "Inpatient Outcome (death)",
-        "type": "MRSGeneric",
-        "config": {
-            "type": "sqlReport",
-            "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/inpatient_outcome_death.sql"
-        }
-    },
-    {
-        "name": "Surgeries - Post Operative Infection",
-        "type": "MRSGeneric",
-        "config": {
-            "type": "sqlReport",
-            "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/surgeries_post_operative_infection.sql"
         }
     },
     {
@@ -675,36 +601,12 @@
         }
     },
     {
-        "name": "Neonate Form",
-        "type": "MRSGeneric",
-        "config": {
-            "type": "sqlReport",
-            "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/neonate_form.sql"
-        }
-    },
-    {
-        "name": "Maternal Age",
-        "type": "MRSGeneric",
-        "config": {
-            "type": "sqlReport",
-            "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/maternal_age.sql"
-        }
-    },
-    {
         "name": "Hospital Services - Diagnostic Services (USG, ECG)",
         "type": "obsCount",
         "config": {
             "type": "codedObsCountReport",
             "ageGroupName": "All Ages",
             "conceptNames": "'USG Notes','ECG Notes'"
-        }
-    },
-    {
-        "name": "Abortion Services",
-        "type": "MRSGeneric",
-        "config": {
-            "type": "sqlReport",
-            "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/abortionServices.sql"
         }
     },
     {
