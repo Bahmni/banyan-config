@@ -8,7 +8,56 @@
             "conceptNames": "'Disposition'"
         }
     },
-    {
+	{
+	     "name": "Discharge List",
+         "type": "CodedObsCount",
+         "config": {
+             "type": "codedObsCountReport",
+             "ageGroupName": "All Ages",
+			  "conceptNames": "'Type Of Discharge'"
+			  }
+    },
+	{
+	     "name": "Admission List",
+         "type": "CodedObsCount",
+         "config": {
+             "type": "codedObsCountReport",
+             "ageGroupName": "All Ages",
+			  "conceptNames": "'Type Of Admission'"
+    }
+  },
+  {
+            "name": "Discharge Report",
+            "type": "obsTemplate",
+            "config": {
+              "type": "obsTemplateReport",
+             "templateName": "Type Of Discharge"
+         }
+		 },
+		 
+		 {
+            "name": "Admission Report",
+			"type": "obsTemplate",
+            "config": {
+              "type": "obsTemplateReport",
+             "templateName": "Type Of Admission"
+         }
+		 },
+		 {
+	     "name": "Department of Psychology",
+         "type": "CodedObsCount",
+         "config": {
+             "type": "codedObsCountReport",
+             "ageGroupName": "Cotherapy Session",
+			  "conceptNames": "'Cotherapy Session'"
+    }
+  },
+  {            
+			 "name": "OPD/IPD Visit Count",
+             "type": "IpdOpdVisitCount"
+			 },
+			 
+  {
         "name": "Diagnosis Categorization",
         "type": "diagnosisCount",
         "config": {
@@ -57,6 +106,15 @@
             "type": "codedObsCountReport",
             "ageGroupName": "All Ages",
             "conceptNames": "'Side Effects'"
+        }
+    },
+	{
+        "name": "Case Manager Review",
+        "type": "CodedObsCount",
+        "config": {
+            "type": "codedObsCountReport",
+            "ageGroupName": "All Ages",
+            "conceptNames": "'Progress'"
         }
     },
     {
