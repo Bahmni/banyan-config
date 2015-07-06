@@ -65,6 +65,15 @@
             "type": "diagnosisReport"
         }
     },
+	 {
+	     "name": "Hospital Emergency",
+         "type": "CodedObsCount",
+         "config": {
+		  "type": "codedObsCountReport",
+             "ageGroupName": "All Ages",
+			  "conceptNames": "'Category'"
+    }
+  },
 	    {
         "name": "CBIMCI - 2-59 months children (Refer Diarrhoea)",
         "type": "CodedObsByCodedObs",
