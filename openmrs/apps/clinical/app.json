@@ -39,10 +39,10 @@
         "F.14":{
           "autocomplete":true
         },
-		"Symptoms":{
-          "multiSelect":true
-        },
-		 "Blood Group":{
+       "Symptoms":{
+         "multiSelect":true
+       },
+       "Blood Group":{
          "conciseText": true
        },
 	   "Epileptic":{
@@ -75,9 +75,6 @@
 	  "Chest/Breasts":{
 	  "conciseText": true
 	  },
-	  "Specification":{
-	   "multiSelect": true
-	   },
 	  "Abdomen":{
 	  "conciseText":true
 	  },
@@ -92,9 +89,6 @@
          "conciseText": true
        },
         "Chief Complaint Data": {
-          "multiple": true
-        },
-		"Chief Complaint Data": {
           "multiple": 3
         },
 		"If Yes Specify": {

@@ -41,6 +41,16 @@
         "requiredPrivilege": "app:radiologyOrders"
     },
     {
+        "id": "bahmni.clinical.consultation.orders",
+        "extensionPointId": "org.bahmni.clinical.consultation.board",
+        "type": "link",
+        "label": "Orders",
+        "url": "orders",
+        "icon": "icon-user-md",
+        "order": 6,
+        "requiredPrivilege": "app:clinical:diagnosisTab"
+    },
+    {
         "id": "bahmni.clinical.patients.search.allPatients",
         "extensionPointId": "org.bahmni.patient.search",
         "type": "config",
@@ -66,7 +76,20 @@
       "order": 2,
       "requiredPrivilege": "app:clinical"
     },
-    {
+     {
+      "id": "bahmni.clinical.patients.search.allPatients",
+      "extensionPointId": "org.bahmni.patient.search",
+      "type": "config",
+      "extensionParams": {
+        "searchHandler": "emrapi.sqlSearch.activePatients",
+        "display":"TCC Program",
+        "forwardUrl" : "#/patient/{{patientUuid}}/consultationContext"
+      },
+      "label": "Active",
+      "order": 3,
+      "requiredPrivilege": "app:clinical"
+    },
+   {
         "id": "bahmni.clinical.patients.search.allPatients",
         "extensionPointId": "org.bahmni.patient.search",
         "type": "config",

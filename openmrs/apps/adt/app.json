@@ -28,7 +28,7 @@
             "onAdmissionForwardTo": "#/patient/search",
             "onTransferForwardTo": "#/patient/search",
             "onDischargeForwardTo": "#/patient/search",
-            "defaultVisitType": "IPD",
+            "defaultVisitType": "General",
             "dashboard":{
                 "dashboardName": "General",
                 "conceptName": "Adt Notes",

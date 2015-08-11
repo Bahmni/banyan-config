@@ -16,7 +16,7 @@
         "label": "Clinical",
         "url": "../clinical/",
         "icon": "fa-stethoscope",
-        "order": 3,
+        "order": 2,
         "requiredPrivilege": "app:clinical"
     },
     {
@@ -26,8 +26,38 @@
         "label": "Admission and Discharge",
         "url": "../adt/",
         "icon": "fa-file-o",
-        "order": 4,
+        "order": 3,
         "requiredPrivilege": "app:adt"
+    },
+    {
+        "id": "bahmni.orders",
+        "extensionPointId": "org.bahmni.home.dashboard",
+        "type": "link",
+        "label": "Orders",
+        "url": "../orders/#/search",
+        "icon": "fa-book",
+        "order": 4,
+        "requiredPrivilege": "app:clinical"
+    },
+    
+    {
+        "id": "bahmni.patient.document.upload",
+        "extensionPointId": "org.bahmni.home.dashboard",
+        "type": "link",
+        "label": "Patient Documents",
+        "url": "../document-upload/?encounterType=Patient Document&topLevelConcept=Patient Document&defaultOption=Patient file",
+        "icon": "fa-camera",
+        "order": 5,
+        "requiredPrivilege": "app:document-upload"
+    },
+    {
+        "id": "bahmni.reports",
+        "extensionPointId": "org.bahmni.home.dashboard",
+        "type": "link",
+        "label": "Reports",
+        "url": "../reports/#/dashboard",
+        "icon": "fa-user",
+        "order": 6
     },
     {
         "id": "bahmni.radiology.document.upload",
@@ -36,17 +66,7 @@
         "label": "Radiology Upload",
         "url": "../document-upload/?encounterType=RADIOLOGY&topLevelConcept=Radiology",
         "icon": "fa-camera",
-        "order": 5,
-        "requiredPrivilege": "app:document-upload"
-    },
-    {
-        "id": "bahmni.patient.document.upload",
-        "extensionPointId": "org.bahmni.home.dashboard",
-        "type": "link",
-        "label": "Patient Documents",
-        "url": "../document-upload/?encounterType=Patient Document&topLevelConcept=Patient Document&defaultOption=Patient file",
-        "icon": "fa-camera",
-        "order": 6,
+        "order": 7,
         "requiredPrivilege": "app:document-upload"
     },
     {
@@ -58,14 +78,5 @@
         "icon": "fa-user",
         "order": 7,
         "requiredPrivilege": "app:admin"
-    },
-    {
-        "id": "bahmni.reports",
-        "extensionPointId": "org.bahmni.home.dashboard",
-        "type": "link",
-        "label": "Reports",
-        "url": "../reports/#/dashboard",
-        "icon": "fa-user",
-        "order": 8
     }
 ]
