@@ -60,16 +60,6 @@
         "order": 6
     },
     {
-        "id": "bahmni.radiology.document.upload",
-        "extensionPointId": "org.bahmni.home.dashboard",
-        "type": "link",
-        "label": "Radiology Upload",
-        "url": "../document-upload/?encounterType=RADIOLOGY&topLevelConcept=Radiology",
-        "icon": "fa-camera",
-        "order": 7,
-        "requiredPrivilege": "app:document-upload"
-    },
-    {
         "id": "bahmni.admin",
         "extensionPointId": "org.bahmni.home.dashboard",
         "type": "link",
