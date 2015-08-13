@@ -1,0 +1,566 @@
+uuid,name,description,class,datatype,shortname,synonym.1,synonym.2,synonym.3,answer.1,reference-term-source,reference-term-code,reference-term-relationship
+,Measles,,Diagnosis,N/A,Measles,,,,,ICD 10 - WHO,B05,SAME-AS
+,Diptheria,,Diagnosis,N/A,Diptheria,,,,,ICD 10 - WHO,A36,SAME-AS
+,Whooping Cough,,Diagnosis,N/A,Whooping Cough,,,,,ICD 10 - WHO,A37,SAME-AS
+,Neonatal Tetanus,,Diagnosis,N/A,Neonatal Tetanus,,,,,ICD 10 - WHO,A33,SAME-AS
+,Tetanus,,Diagnosis,N/A,Tetanus,,,,,ICD 10 - WHO,A35,SAME-AS
+,Tuberculosis,,Diagnosis,N/A,Tuberculosis,,,,,ICD 10 - WHO,A16,SAME-AS
+,Multi Drug Resistant Tuberculosis,,Diagnosis,N/A,MDR Tuberculosis,,,,,,,
+,Extremely Drug Resistant Tuberculosis,,Diagnosis,N/A,XDR Tuberculosis,,,,,,,
+,Acute Flaccid Paralysis,,Diagnosis,N/A,AFP,,,,,ICD 10 - WHO,G83,SAME-AS
+,Rubella,,Diagnosis,N/A,Rubella,,,,,ICD 10 - WHO,B06,SAME-AS
+,Mumps,,Diagnosis,N/A,Mumps,,,,,ICD 10 - WHO,B26,SAME-AS
+,Chicken Pox,,Diagnosis,N/A,Chicken Pox,,,,,ICD 10 - WHO,B01,SAME-AS
+,Hepatitis B,,Diagnosis,N/A,Hepatitis B,,,,,ICD 10 - WHO,B16,SAME-AS
+,Acute Encephalitis Like Syndrome,,Diagnosis,N/A,AES,,,,,ICD 10 - WHO,A86,SAME-AS
+,Filariasis,,Diagnosis,N/A,Filariasis,,,,,ICD 10 - WHO,B74.9,SAME-AS
+,Clinical Malaria,,Diagnosis,N/A,Clinical Malaria,,,,,ICD 10 - WHO,B54,SAME-AS
+,Plasmodium Falciparum,,Diagnosis,N/A,Plasmodium Falciparum,,,,,ICD 10 - WHO,B50.9,SAME-AS
+,Plasmodium Vivax,,Diagnosis,N/A,Plasmodium Vivax,,,,,ICD 10 - WHO,B51.9,SAME-AS
+,Dengue Fever,,Diagnosis,N/A,Dengue Fever,,,,,ICD 10 - WHO,A90,SAME-AS
+,Kalaazar,,Diagnosis,N/A,Kalaazar,Leshmaniasis,,,,ICD 10 - WHO,B55.9,SAME-AS
+,Typhoid,,Diagnosis,N/A,Typhoid,Enteric Fever,,,,ICD 10 - WHO,A01.0,SAME-AS
+,Acute Gastro‐Enteritis,,Diagnosis,N/A,AGE,,,,,ICD 10 - WHO,A09,SAME-AS
+,Amoebic Dysentery,,Diagnosis,N/A,Amoebic Dysentery,Amoebiasis,,,,ICD 10 - WHO,A06.9,SAME-AS
+,Bacillary Dysentery,,Diagnosis,N/A,Bacillary Dysentery,Shigellosis,,,,ICD 10 - WHO,A03.9,SAME-AS
+,Presumed Non‐Infectious Diarrhoea,,Diagnosis,N/A,Presumed Non‐Infectious Diarrhoea,,,,,ICD 10 - WHO,K52.9,SAME-AS
+,Cholera,,Diagnosis,N/A,Cholera,,,,,ICD 10 - WHO,A00.9,SAME-AS
+,Intestinal Worms,,Diagnosis,N/A,Intestinal Worms,,,,,ICD 10 - WHO,B82.9,SAME-AS
+,Jaundice,,Diagnosis,N/A,Jaundice,,,,,ICD 10 - WHO,R17,SAME-AS
+,Hepatitis A,,Diagnosis,N/A,Hepatitis A,,,,,ICD 10 - WHO,B15.9,SAME-AS
+,Hepatitis E,,Diagnosis,N/A,Hepatitis E,,,,,ICD 10 - WHO,B17.2,SAME-AS
+,Volume Depletion,,Diagnosis,N/A,Volume Depletion,Dehydration,,,,ICD 10 - WHO,E86,SAME-AS
+,Leprosy,,Diagnosis,N/A,Leprosy,,,,,ICD 10 - WHO,A30.9,SAME-AS
+,Meningitis,,Diagnosis,N/A,Meningitis,,,,,ICD 10 - WHO,G03.9,SAME-AS
+,HIV Infection,,Diagnosis,N/A,HIV Infection,,,,,ICD 10 - WHO,B20,SAME-AS
+,Urethral Discharge Syndrome,,Diagnosis,N/A,UDS,,,,,ICD 10 - WHO,A54.0,SAME-AS
+,Scrotal Swelling Syndrome,,Diagnosis,N/A,SSS,,,,,ICD 10 - WHO,N49.9,SAME-AS
+,Vaginal Discharge Syndrome,,Diagnosis,N/A,VDS,,,,,ICD 10 - WHO,N89.8,SAME-AS
+,Lower Abdominal Pain Syndrome,,Diagnosis,N/A,LAPS,,,,,ICD 10 - WHO,N74,SAME-AS
+,Neonatal Conjuctive Syndrome,,Diagnosis,N/A,NCS,,,,,ICD 10 - WHO,A54.3,SAME-AS
+,Genital Ulcer Disease Syndrome ‐ Female,,Diagnosis,N/A,GUDS,,,,,ICD 10 - WHO,N76.6,SAME-AS
+,Genital Ulcer Disease Syndrome ‐ Male,,Diagnosis,N/A,GUDS,,,,,ICD 10 - WHO,N50.8,SAME-AS
+,Inguinal Bubo Syndrome ,,Diagnosis,N/A,IBS,,,,,ICD 10 - WHO,A55,SAME-AS
+,Syphilis,,Diagnosis,N/A,Syphilis,,,,,ICD 10 - WHO,A51,SAME-AS
+,Lower Respiratory Tract Infection,,Diagnosis,N/A,LRTI,ARI,,,,ICD 10 - WHO,J22,SAME-AS
+,Upper Respiratory Tract Infection,,Diagnosis,N/A,URTI,,,,,ICD 10 - WHO,J06.9,SAME-AS
+,Pneumonia,,Diagnosis,N/A,Pneumonia,,,,,ICD 10 - WHO,J18.9,SAME-AS
+,Severe Pneumonia,,Diagnosis,N/A,Severe Pneumonia,,,,,ICD 10 - WHO,J15,SAME-AS
+,Bronchitis (Acute & Chronic),,Diagnosis,N/A,Bronchitis (Acute & Chronic),,,,,ICD 10 - WHO,J40,SAME-AS
+,Urinary Tract Infection,,Diagnosis,N/A,UTI,,,,,ICD 10 - WHO,N39.9,SAME-AS
+,Viral Influenza,,Diagnosis,N/A,Viral Influenza,,,,,ICD 10 - WHO,J11,SAME-AS
+,Reproductive Tract Infection‐Female,,Diagnosis,N/A,RTI–Female,,,,,ICD 10 - WHO,N99.9,SAME-AS
+,Reproductive Tract Infection-Male,,Diagnosis,N/A,RTI-Male,,,,,ICD 10 - WHO,N51,SAME-AS
+,"Goitre, Cretinism",,Diagnosis,N/A,"Goitre, Cretinism",,,,,ICD 10 - WHO,E04.9,SAME-AS
+,Diabetes Mellitus,,Diagnosis,N/A,DM,,,,,ICD 10 - WHO,E14,SAME-AS
+,Malnutrition,,Diagnosis,N/A,Malnutrition,,,,,ICD 10 - WHO,E46,SAME-AS
+,Avitaminoses & Other Nutrient Deficiency,,Diagnosis,N/A,Avitaminoses & Other Nutrient Deficiency,,,,,ICD 10 - WHO,E50.9,SAME-AS
+,Obesity,,Diagnosis,N/A,Obesity,,,,,ICD 10 - WHO,E66.9,SAME-AS
+,Anaemia / Polyneuropathy,,Diagnosis,N/A,Anaemia / Polyneuropathy,,,,,ICD 10 - WHO,D64.9,SAME-AS
+,Polyneuritis,,Diagnosis,N/A,Polyneuritis,,,,,ICD 10 - WHO,G62.9,SAME-AS
+,Acne,,Diagnosis,N/A,Acne,,,,,ICD 10 - WHO,L70,SAME-AS
+,Warts,,Diagnosis,N/A,Warts,,,,,ICD 10 - WHO,B07,SAME-AS
+,Chloasma,,Diagnosis,N/A,Chloasma,Melasma,,,,ICD 10 - WHO,L81.1,SAME-AS
+,Urticaria,,Diagnosis,N/A,Urticaria,,,,,ICD 10 - WHO,L50,SAME-AS
+,Dermatitis,,Diagnosis,N/A,Dermatitis,Eczema,,,,ICD 10 - WHO,L30.9,SAME-AS
+,Alopecia,,Diagnosis,N/A,Alopecia,,,,,ICD 10 - WHO,L65,SAME-AS
+,Vitiligo,,Diagnosis,N/A,Vitiligo,,,,,ICD 10 - WHO,L80,SAME-AS
+,Albinism,,Diagnosis,N/A,Albinism,,,,,ICD 10 - WHO,E70.3,SAME-AS
+,Herpes Simplex,,Diagnosis,N/A,Herpes Simplex,,,,,ICD 10 - WHO,B00,SAME-AS
+,Herpes Zoster,,Diagnosis,N/A,Herpes Zoster,,,,,ICD 10 - WHO,B02,SAME-AS
+,Erythroderma,,Diagnosis,N/A,Erythroderma,,,,,ICD 10 - WHO,L53.9,SAME-AS
+,Impetigo,,Diagnosis,N/A,Impetigo,,,,,ICD 10 - WHO,L01.0,SAME-AS
+,Boils,,Diagnosis,N/A,Boils,,,,,ICD 10 - WHO,L02,SAME-AS
+,Abscess,,Diagnosis,N/A,Abscess,,,,,ICD 10 - WHO,L02.0,SAME-AS
+,Furunculosis,,Diagnosis,N/A,Furunculosis,,,,,ICD 10 - WHO,L02.9,SAME-AS
+,Fungal Infection,,Diagnosis,N/A,Fungal Infection,Lichen Planus,,,,ICD 10 - WHO,L43,SAME-AS
+,Scabies,,Diagnosis,N/A,Scabies,,,,,ICD 10 - WHO,B86,SAME-AS
+,Leukoderma,,Diagnosis,N/A,Leukoderma,,,,,ICD 10 - WHO,L81.5,SAME-AS
+,Psoriasis,,Diagnosis,N/A,Psoriasis,,,,,ICD 10 - WHO,L40,SAME-AS
+,Acute Lymphadenitis,,Diagnosis,N/A,Acute Lymphadenitis,,,,,ICD 10 - WHO,L04,SAME-AS
+,Acute Suppurative Otitis Media,,Diagnosis,N/A,Acute Suppurative Otitis Media,,,,,ICD 10 - WHO,H66.0,SAME-AS
+,Chronic Suppurative Otitis Media,,Diagnosis,N/A,Chronic Suppurative Otitis Media,,,,,ICD 10 - WHO,H66.1,SAME-AS
+,Sinusitis,,Diagnosis,N/A,Sinusitis,,,,,ICD 10 - WHO,J32,SAME-AS
+,Acute Tonsilitis,,Diagnosis,N/A,Acute Tonsilitis,,,,,ICD 10 - WHO,J03,SAME-AS
+,Pharyngitis,,Diagnosis,N/A,Pharyngitis,Sore Throat,,,,ICD 10 - WHO,J02,SAME-AS
+,Foreign Body In Ear,,Diagnosis,N/A,Foreign Body In Ear,,,,,ICD 10 - WHO,T16,SAME-AS
+,Foreign Body In Nose ,,Diagnosis,N/A,Foreign Body In Nose ,,,,,ICD 10 - WHO,T17.1,SAME-AS
+,Foreign Body In Throat,,Diagnosis,N/A,Foreign Body In Throat,,,,,ICD 10 - WHO,T17.2,SAME-AS
+,Wax,,Diagnosis,N/A,Wax,,,,,ICD 10 - WHO,H61.2,SAME-AS
+,Nasal Polyps,,Diagnosis,N/A,Nasal Polyps,,,,,ICD 10 - WHO,J33,SAME-AS
+,Deviated Nasal Septum,,Diagnosis,N/A,DNS,,,,,ICD 10 - WHO,J34.2,SAME-AS
+,Rhinitis,,Diagnosis,N/A,Rhinitis,,,,,ICD 10 - WHO,J31,SAME-AS
+,Otitis Externa,,Diagnosis,N/A,Otitis Externa,,,,,ICD 10 - WHO,H60,SAME-AS
+,Reflux Laryngitis,,Diagnosis,N/A,Reflux Laryngitis,,,,,ICD 10 - WHO,K21.0,SAME-AS
+,Dental Caries,,Diagnosis,N/A,Dental Caries,,,,,ICD 10 - WHO,K02,SAME-AS
+,Toothache,,Diagnosis,N/A,Toothache,,,,,ICD 10 - WHO,K08.8,SAME-AS
+,Periodontal Disease,,Diagnosis,N/A,Periodontal Disease,Gum Disease,,,,ICD 10 - WHO,K05,SAME-AS
+,Other Disorder Of Teeth,,Diagnosis,N/A,Other Disorder Of Teeth,,,,,ICD 10 - WHO,K08.9,SAME-AS
+,Aphthous Oral Ulcer,,Diagnosis,N/A,Aphthous Oral Ulcer,Herpetic Oral Ulcer,,,,ICD 10 - WHO,K12,SAME-AS
+,Tooth Impaction,,Diagnosis,N/A,Tooth Impaction,,,,,ICD 10 - WHO,K01.1,SAME-AS
+,Hypoplasia,,Diagnosis,N/A,Hypoplasia,,,,,ICD 10 - WHO,K00.4,SAME-AS
+,Fungal Infection Lichen Planus,,Diagnosis,N/A,Lichen Planus,,,,,ICD 10 - WHO,L43,SAME-AS
+,Fungal Infection Candidiasis,,Diagnosis,N/A,Candidiasis,,,,,ICD 10 - WHO,B37,SAME-AS
+,Oral Space Infection And  Abscess,,Diagnosis,N/A,Oral Space Infection And  Abscess,,,,,ICD 10 - WHO,K04,SAME-AS
+,Conjunctivitis,,Diagnosis,N/A,Conjunctivitis,,,,,ICD 10 - WHO,H10,SAME-AS
+,Trachoma,,Diagnosis,N/A,Trachoma,,,,,ICD 10 - WHO,A71,SAME-AS
+,Cataract,,Diagnosis,N/A,Cataract,,,,,ICD 10 - WHO,H26,SAME-AS
+,Blindness,,Diagnosis,N/A,Blindness,,,,,ICD 10 - WHO,H54,SAME-AS
+,Refractive Error,,Diagnosis,N/A,Refractive Error,,,,,ICD 10 - WHO,H52,SAME-AS
+,Glaucoma,,Diagnosis,N/A,Glaucoma,,,,,ICD 10 - WHO,H40,SAME-AS
+,Colour Blindness,,Diagnosis,N/A,Colour Blindness,,,,,ICD 10 - WHO,H53.5,SAME-AS
+,Exophthalmos,,Diagnosis,N/A,Exophthalmos,,,,,ICD 10 - WHO,H05.2,SAME-AS
+,Sty,,Diagnosis,N/A,Sty,,,,,ICD 10 - WHO,H00.0,SAME-AS
+,Chalazion,,Diagnosis,N/A,Chalazion,,,,,ICD 10 - WHO,H00.1,SAME-AS
+,Pterygium,,Diagnosis,N/A,Pterygium,,,,,ICD 10 - WHO,H11.0,SAME-AS
+,Diabetic Retinopathy,,Diagnosis,N/A,Diabetic Retinopathy,,,,,ICD 10 - WHO,E14.3†,SAME-AS
+,Hypertensive Retinopathy,,Diagnosis,N/A,Hypertensive Retinopathy,,,,,ICD 10 - WHO,H35,SAME-AS
+,Entropion,,Diagnosis,N/A,Entropion,,,,,ICD 10 - WHO,H02,SAME-AS
+,Ectropion,,Diagnosis,N/A,Ectropion,,,,,ICD 10 - WHO,H02.1,SAME-AS
+,Traumatic Eye Disease,,Diagnosis,N/A,Traumatic Eye Disease,,,,,ICD 10 - WHO,H26.1,SAME-AS
+,Uveitis,,Diagnosis,N/A,Uveitis,,,,,ICD 10 - WHO,H20,SAME-AS
+,Age Related Macular Degeneration,,Diagnosis,N/A,Age Related Macular Degeneration,,,,,ICD 10 - WHO,H35.3,SAME-AS
+,Amblyopia,,Diagnosis,N/A,Amblyopia,Lazy Eye,,,,ICD 10 - WHO,H53.0,SAME-AS
+,Squint,,Diagnosis,N/A,Squint,,,,,ICD 10 - WHO,H50,SAME-AS
+,Retinitis Pigmentosa,,Diagnosis,N/A,Retinitis Pigmentosa,,,,,ICD 10 - WHO,H35.5,SAME-AS
+,Night Blindness,,Diagnosis,N/A,Night Blindness,Visual Disturbance,,,,ICD 10 - WHO,H53.6,SAME-AS
+,Retinoblastoma,,Diagnosis,N/A,Retinoblastoma,,,,,ICD 10 - WHO,C69.2,SAME-AS
+,Ectopic Pregnancy,,Diagnosis,N/A,Ectopic Pregnancy,,,,,ICD 10 - WHO,O00,SAME-AS
+,Abortion Complication,,Diagnosis,N/A,Abortion Complication,,,,,ICD 10 - WHO,O08,SAME-AS
+,Pregnancy Induced Hypertension,,Diagnosis,N/A,PIH,,,,,ICD 10 - WHO,O13,SAME-AS
+,Pre‐Eclampsia,,Diagnosis,N/A,Pre‐Eclampsia,Severe Pre‐Eclampsia,,,,ICD 10 - WHO,O14,SAME-AS
+,Antepartum Eclampsia,,Diagnosis,N/A,Antepartum Eclampsia,,,,,ICD 10 - WHO,O15.0,SAME-AS
+,Intrapartum Eclampsia,,Diagnosis,N/A,Intrapartum Eclampsia,,,,,ICD 10 - WHO,O15.1,SAME-AS
+,Postpartum Eclampsia,,Diagnosis,N/A,Postpartum Eclampsia,,,,,ICD 10 - WHO,O15.2,SAME-AS
+,Hyperemesis Grivadarum,,Diagnosis,N/A,Hyperemesis Grivadarum,,,,,ICD 10 - WHO,O21,SAME-AS
+,Antepartum Haemorrhage,,Diagnosis,N/A,Antepartum Haemorrhage,,,,,ICD 10 - WHO,O46,SAME-AS
+,Prolonged Labour,,Diagnosis,N/A,Prolonged Labour,,,,,ICD 10 - WHO,O63,SAME-AS
+,Obstructed Labor,,Diagnosis,N/A,Obstructed Labor,,,,,ICD 10 - WHO,O64‐O66,SAME-AS
+,Ruptured Uterus,,Diagnosis,N/A,Ruptured Uterus,,,,,ICD 10 - WHO,S37,SAME-AS
+,Postpartum Haemorrhage,,Diagnosis,N/A,Postpartum Haemorrhage,,,,,ICD 10 - WHO,O72,SAME-AS
+,Retained Placenta,,Diagnosis,N/A,Retained Placenta,,,,,ICD 10 - WHO,O73,SAME-AS
+,Other Complications Of Labor And Delivery,,Diagnosis,N/A,Other Complications Of Labor And Delivery,,,,,ICD 10 - WHO,O75,SAME-AS
+,Pueperal Sepsis,,Diagnosis,N/A,Pueperal Sepsis,,,,,ICD 10 - WHO,O85,SAME-AS
+,Pelvic Inflammatory Disease,,Diagnosis,N/A,PID,,,,,ICD 10 - WHO,N73,SAME-AS
+,Prolapsed Uterus,,Diagnosis,N/A,Prolapsed Uterus,,,,,ICD 10 - WHO,N81.4,SAME-AS
+,Menstrual Disorder,,Diagnosis,N/A,Menstrual Disorder,,,,,ICD 10 - WHO,N92,SAME-AS
+,Dysfunctional Uterine Bleeding,,Diagnosis,N/A,DUB,,,,,ICD 10 - WHO,N93,SAME-AS
+,Sub‐Fertility (Female),,Diagnosis,N/A,Sub‐Fertility (Female),,,,,ICD 10 - WHO,N97,SAME-AS
+,Sub‐Fertility (Male),,Diagnosis,N/A,Sub‐Fertility (Male),Infertility(Male),,,,ICD 10 - WHO,N46,SAME-AS
+,Dementia,,Diagnosis,N/A,Dementia,,,,,ICD 10 - WHO,F03,SAME-AS
+,Addiction,,Diagnosis,N/A,Addiction,Alcoholism,Dipsomania,Drug Addiction,,ICD 10 - WHO,F10,SAME-AS
+,Schizophrenia,,Diagnosis,N/A,Schizophrenia,,,,,ICD 10 - WHO,F20,SAME-AS
+,Psychosis,,Diagnosis,N/A,Psychosis,,,,,ICD 10 - WHO,F29,SAME-AS
+,Bipolar Affective Disorder,,Diagnosis,N/A,Bipolar Affective Disorder,,,,,ICD 10 - WHO,F31,SAME-AS
+,Depression,,Diagnosis,N/A,Depression,,,,,ICD 10 - WHO,F32,SAME-AS
+,Phobic Anxiety,,Diagnosis,N/A,Phobic Anxiety,,,,,ICD 10 - WHO,F40,SAME-AS
+,Other Anxiety,,Diagnosis,N/A,Other Anxiety,,,,,ICD 10 - WHO,F41,SAME-AS
+,Obsessive-Compulsive Disorder,,Diagnosis,N/A,Obsessive-Compulsive Disorder,,,,,ICD 10 - WHO,F42,SAME-AS
+,Conversive Disorder,,Diagnosis,N/A,Conversive Disorder,Hysteria,,,,ICD 10 - WHO,F44,SAME-AS
+,Neurosis,,Diagnosis,N/A,Neurosis,,,,,ICD 10 - WHO,F48,SAME-AS
+,Mental Retardation,,Diagnosis,N/A,Mental Retardation,,,,,ICD 10 - WHO,F79,SAME-AS
+,Epilepsy,,Diagnosis,N/A,Epilepsy,,,,,ICD 10 - WHO,G40,SAME-AS
+,Migraine,,Diagnosis,N/A,Migraine,,,,,ICD 10 - WHO,G43,SAME-AS
+,Mental Illness,,Diagnosis,N/A,Mental Illness,Mental Disorder,,,,ICD 10 - WHO,F99,SAME-AS
+,Breast Cancer,,Diagnosis,N/A,Breast Cancer,,,,,ICD 10 - WHO,C50,SAME-AS
+,Cervical Cancer,,Diagnosis,N/A,Cervical Cancer,Uteri Cancer,,,,ICD 10 - WHO,C53,SAME-AS
+,Lung Cancer,,Diagnosis,N/A,Lung Cancer,Brunchial Cancer,,,,ICD 10 - WHO,C34,SAME-AS
+,Oesophagus Cancer,,Diagnosis,N/A,Oesophagus Cancer,,,,,ICD 10 - WHO,C15,SAME-AS
+,Stomach Cancer,,Diagnosis,N/A,Stomach Cancer,,,,,ICD 10 - WHO,C16,SAME-AS
+,Thyroid Cancer,,Diagnosis,N/A,Thyroid Cancer,,,,,ICD 10 - WHO,C73,SAME-AS
+,Liver Cancer,,Diagnosis,N/A,Liver Cancer,,,,,ICD 10 - WHO,C22,SAME-AS
+,Pancreatic Cancer,,Diagnosis,N/A,Pancreatic Cancer,,,,,ICD 10 - WHO,C25,SAME-AS
+,Bone  Marrow Cancer,,Diagnosis,N/A,Bone  Marrow Cancer,,,,,ICD 10 - WHO,C79.5,SAME-AS
+,Gall Bladder Cancer,,Diagnosis,N/A,Gall Bladder Cancer,,,,,ICD 10 - WHO,C23,SAME-AS
+,Colorectal Cancer,,Diagnosis,N/A,Colorectal Cancer,Colon With Rectum  Cancer,,,,ICD 10 - WHO,C19,SAME-AS
+,Oral Cancer,,Diagnosis,N/A,Oral Cancer,,,,,ICD 10 - WHO,C06,SAME-AS
+,Lymphoma Cancer,,Diagnosis,N/A,Lymphoma Cancer,,,,,ICD 10 - WHO,C85,SAME-AS
+,Ovary Cancer,,Diagnosis,N/A,Ovary Cancer,,,,,ICD 10 - WHO,C56,SAME-AS
+,Urinary Bladder Cancer,,Diagnosis,N/A,Urinary Bladder Cancer,,,,,ICD 10 - WHO,C67,SAME-AS
+,Nasopharyngeal Cancer,,Diagnosis,N/A,Nasopharyngeal Cancer,,,,,ICD 10 - WHO,C11,SAME-AS
+,Head & Neck Cancer,,Diagnosis,N/A,Head & Neck Cancer,,,,,ICD 10 - WHO,C49.0,SAME-AS
+,Other Cancer,,Diagnosis,N/A,Other Cancer,,,,,ICD 10 - WHO,C80,SAME-AS
+,Hypertension,,Diagnosis,N/A,Hypertension,,,,,ICD 10 - WHO,I10,SAME-AS
+,Congestive Heart Failure ,,Diagnosis,N/A,Congestive Heart Failure ,,,,,ICD 10 - WHO,I50.0,SAME-AS
+,Cardiac Heart Failure,,Diagnosis,N/A,Cardiac Heart Failure,,,,,ICD 10 - WHO,I50.9,SAME-AS
+,Chronic Obstructive Pulmonary Disease,,Diagnosis,N/A,COPD,,,,,ICD 10 - WHO,J44,SAME-AS
+,Acute Rheumatic Fever,,Diagnosis,N/A,Acute Rheumatic Fever,,,,,ICD 10 - WHO,I01,SAME-AS
+,Rheumatic Heart Disease,,Diagnosis,N/A,RHD,,,,,ICD 10 - WHO,I09,SAME-AS
+,Ischemic Heart Disease,,Diagnosis,N/A,Ischemic Heart Disease,,,,,ICD 10 - WHO,I24,SAME-AS
+,Other Cardiovascular Problems,,Diagnosis,N/A,Other Cardiovascular Problems,,,,,ICD 10 - WHO,I52,SAME-AS
+,Bronchial Asthma,,Diagnosis,N/A,Bronchial Asthma,,,,,ICD 10 - WHO,J45,SAME-AS
+,Acute Renal Failure,,Diagnosis,N/A,Acute Renal Failure,,,,,ICD 10 - WHO,N17,SAME-AS
+,Chronic Renal Failure,,Diagnosis,N/A,Chronic Renal Failure,,,,,ICD 10 - WHO,N18,SAME-AS
+,Nephritis,,Diagnosis,N/A,Nephritis,,,,,ICD 10 - WHO,N05,SAME-AS
+,Nephrotic Syndrome,,Diagnosis,N/A,Nephrotic Syndrome,,,,,ICD 10 - WHO,N04,SAME-AS
+,Headache,,Diagnosis,N/A,Headache,,,,,ICD 10 - WHO,R51,SAME-AS
+,Pyrexia Of Unknown Origin,,Diagnosis,N/A,PUO,,,,,ICD 10 - WHO,R50,SAME-AS
+,Gastritis,,Diagnosis,N/A,APD,,,,,ICD 10 - WHO,K29,SAME-AS
+,Insect Bite,,Diagnosis,N/A,Insect Bite,Wasp Bite,,,,ICD 10 - WHO,W57,SAME-AS
+,Abdominal Pain,,Diagnosis,N/A,Abdominal Pain,,,,,ICD 10 - WHO,R10,SAME-AS
+,Cirrhosis Of Liver,,Diagnosis,N/A,Cirrhosis Of Liver,,,,,ICD 10 - WHO,K74,SAME-AS
+,Burns And Scalds,,Diagnosis,N/A,Burns And Scalds,,,,,ICD 10 - WHO,T30,SAME-AS
+,Toxic Effect,,Diagnosis,N/A,Toxic Effect,,,,,ICD 10 - WHO,T65,SAME-AS
+,Dog Bite,,Diagnosis,N/A,Dog Bite,,,,,ICD 10 - WHO,W54,SAME-AS
+,Other Rabies Susceptible Animal Bite,,Diagnosis,N/A,Other Rabies Susceptible Animal Bite,,,,,ICD 10 - WHO,A82,SAME-AS
+,Snake Bite: Poisonous,,Diagnosis,N/A,Snake Bite: Poisonous,,,,,ICD 10 - WHO,T63.0,SAME-AS
+,Snake Bite: Non‐Poisonous,,Diagnosis,N/A,Snake Bite: Non‐Poisonous,,,,,ICD 10 - WHO,W59,SAME-AS
+,Physical Disability,,Diagnosis,N/A,Physical Disability,Disabled Person,,,,ICD 10 - WHO,Z73,SAME-AS
+,Falls,,Diagnosis,N/A,Falls,Injuries,Fractures,,,ICD 10 - WHO,T14,SAME-AS
+,Road Traffic Accident,,Diagnosis,N/A,RTA,,,,,ICD 10 - WHO,V89,SAME-AS
+,Rheumatoid Arthritis,,Diagnosis,N/A,Rheumatoid Arthritis,,,,,ICD 10 - WHO,M06,SAME-AS
+,Arthritis,,Diagnosis,N/A,Arthritis,,,,,ICD 10 - WHO,M13,SAME-AS
+,Osteo Arthrosis,,Diagnosis,N/A,Osteo Arthrosis,,,,,ICD 10 - WHO,M19,SAME-AS
+,Back Ache,,Diagnosis,N/A,Back Ache,Musculo‐Skeletal Pain,,,,ICD 10 - WHO,M54.9,SAME-AS
+,Acid Peptic Disorders,,Diagnosis,N/A,Acid Peptic Disorders,,,,,ICD 10 - WHO,K27,SAME-AS
+,Anal Fissure,,Diagnosis,N/A,Anal Fissure,,,,,ICD 10 - WHO,K60.2,SAME-AS
+,Anal Fistula,,Diagnosis,N/A,Anal Fistula,,,,,ICD 10 - WHO,K60.3,SAME-AS
+,Fistula Of Intestine,,Diagnosis,N/A,Fistula Of Intestine,,,,,ICD 10 - WHO,K63.2,SAME-AS
+,Renal Stones,,Diagnosis,N/A,Renal Stones,,,,,ICD 10 - WHO,N20.0,SAME-AS
+,Breast Lumps,,Diagnosis,N/A,Breast Lumps,Adenoma,,,,ICD 10 - WHO,N63,SAME-AS
+,Mastitis,,Diagnosis,N/A,Mastitis,Breast Abscess,Ignored breast,,,ICD 10 - WHO,N61,SAME-AS
+,Mastalgia Breast,,Diagnosis,N/A,Mastalgia Breast,,,,,ICD 10 - WHO,N64.4,SAME-AS
+,Lumps,,Diagnosis,N/A,Lumps,Lipoma,,,,ICD 10 - WHO,D17,SAME-AS
+,Sebaceous Cyst,,Diagnosis,N/A,Sebaceous Cyst,,,,,ICD 10 - WHO,L72.1,SAME-AS
+,Pilonidal Sinus,,Diagnosis,N/A,Pilonidal Sinus,,,,,ICD 10 - WHO,J32,SAME-AS
+,Appendicitis,,Diagnosis,N/A,Appendicitis,,,,,ICD 10 - WHO,K37,SAME-AS
+,Cholecystitis,,Diagnosis,N/A,Cholecystitis,,,,,ICD 10 - WHO,K81,SAME-AS
+,Cholelithiasis,,Diagnosis,N/A,Cholelithiasis,Gall Stone,,,,ICD 10 - WHO,K80,SAME-AS
+,Hernia,,Diagnosis,N/A,Hernia,,,,,ICD 10 - WHO,K46,SAME-AS
+,Hydrocoele,,Diagnosis,N/A,Hydrocoele,,,,,ICD 10 - WHO,N43,SAME-AS
+,Phimosis,,Diagnosis,N/A,Phimosis,Para‐Phimosis,,,,ICD 10 - WHO,N47,SAME-AS
+,Haemorrhoids,,Diagnosis,N/A,Haemorrhoids,Piles,,,,ICD 10 - WHO,I84,SAME-AS
+,Epididymitis,,Diagnosis,N/A,Epididymitis,Orchitis,,,,ICD 10 - WHO,N45,SAME-AS
+,Prostatism,,Diagnosis,N/A,Prostatism,BEP,BPH,,,ICD 10 - WHO,N41,SAME-AS
+,Not Mentioned Above And Other,,Diagnosis,N/A,Not Mentioned Above And Other,,,,,ICD 10 - WHO,R69,SAME-AS
+,Alzhiemer's Dementia,,Diagnosis,N/A,Alzhiemer's Dementia,,,,,ICD 10 - WHO,F00,SAME-AS
+,Alzheimers Dementia on Early Set,,Diagnosis,N/A,Alzheimers Dementia on Early Set,,,,,ICD 10 - WHO,F00.0,SAME-AS
+,Alzheimers Dementia on Late Set,,Diagnosis,N/A,Alzheimers Dementia on Late Set,,,,,ICD 10 - WHO,F00.1,SAME-AS
+,Atypical Alzhiemer's Dementia,,Diagnosis,N/A,Atypical Alzhiemer's Dementia,,,,,ICD 10 - WHO,F00.2,SAME-AS
+,"Dementia in Alzhiemer's Disease,Unspecified",,Diagnosis,N/A,"Dementia in Alzhiemer's Disease,Unspecified",,,,,ICD 10 - WHO,F00.9,SAME-AS
+,Vascular Dementia,,Diagnosis,N/A,Vascular Dementia,,,,,ICD 10 - WHO,F01,SAME-AS
+,Vascular Dementia of Acute Onset,,Diagnosis,N/A,Vascular Dementia of Acute Onset,,,,,ICD 10 - WHO,F01.0,SAME-AS
+,Multi Infarct Dementia,,Diagnosis,N/A,Multi Infarct Dementia,,,,,ICD 10 - WHO,F01.1,SAME-AS
+,Subcortical Vascular Dementia,,Diagnosis,N/A,Subcortical Vascular Dementia,,,,,ICD 10 - WHO,F01.2,SAME-AS
+,Mixed Cortical and Subcortical Vascular Dementia,,Diagnosis,N/A,Mixed Cortical and Subcortical Vascular Dementia,,,,,ICD 10 - WHO,F01.3,SAME-AS
+,Other Vascular Dementia,,Diagnosis,N/A,Other Vascular Dementia,,,,,ICD 10 - WHO,F01.8,SAME-AS
+,"Vascular Dementia,Unspecified",,Diagnosis,N/A,"Vascular Dementia,Unspecified",,,,,ICD 10 - WHO,F01.9,SAME-AS
+,Dementia in other Diseases,,Diagnosis,N/A,Dementia in other Diseases,,,,,ICD 10 - WHO,F02,SAME-AS
+,Dementia in pick Disease,,Diagnosis,N/A,Dementia in pick Disease,,,,,ICD 10 - WHO,F02.0,SAME-AS
+,Dementia in Cruetzfeldt-Jakob Disease,,Diagnosis,N/A,Dementia in Cruetzfeldt-Jakob Disease,,,,,ICD 10 - WHO,F02.1,SAME-AS
+,Dementia in Huntington Disease,,Diagnosis,N/A,Dementia in Huntington Disease,,,,,ICD 10 - WHO,F02.2,SAME-AS
+,Dementia in Parkinson Disease,,Diagnosis,N/A,Dementia in Parkinson Disease,,,,,ICD 10 - WHO,F02.3,SAME-AS
+,Dementia in Human Immunodeficiency Virus[HIV] Disease,,Diagnosis,N/A,Dementia in Human Immunodeficiency Virus[HIV] Disease,,,,,ICD 10 - WHO,F02.4,SAME-AS
+,Dementia in Other Specified Disease,,Diagnosis,N/A,Dementia in Other Specified Disease,,,,,ICD 10 - WHO,F02.8,SAME-AS
+,Unspecified Dementia,,Diagnosis,N/A,Unspecified Dementia,,,,,ICD 10 - WHO,F03,SAME-AS
+,"Organic Amnesia Syndrome,Not Induced by Alcohol and other Psychoactive Substances",,Diagnosis,N/A,"Organic Amnesia Syndrome,Not Induced by Alcohol and other Psychoactive Substances",,,,,ICD 10 - WHO,F04,SAME-AS
+,"Delirium,Not Induced by Alcohol and other Psychoactive Substances",,Diagnosis,N/A,"Delirium,Not Induced by Alcohol and other Psychoactive Substances",,,,,ICD 10 - WHO,F05,SAME-AS
+,"Delirium,Not Superimposed on Dementia",,Diagnosis,N/A,"Delirium,Not Superimposed on Dementia",,,,,ICD 10 - WHO,F05.0,SAME-AS
+,Delirium superimposed on Dementia,,Diagnosis,N/A,Delirium superimposed on Dementia,,,,,ICD 10 - WHO,F05.1,SAME-AS
+,Other Delirium,,Diagnosis,N/A,Other Delirium,,,,,ICD 10 - WHO,F05.8,SAME-AS
+,"Delirum,Unspecified",,Diagnosis,N/A,"Delirum,Unspecified",,,,,ICD 10 - WHO,F05.9,SAME-AS
+,Other mental disorders due to brain damage and dysfunction and to physical disease,,Diagnosis,N/A,Other mental disorders due to brain damage and dysfunction and to physical disease,,,,,ICD 10 - WHO,F06,SAME-AS
+,Organic hallucinosis,,Diagnosis,N/A,Organic hallucinosis,,,,,ICD 10 - WHO,F06.0,SAME-AS
+,Organic catatonic disorder,,Diagnosis,N/A,Organic catatonic disorder,,,,,ICD 10 - WHO,F06.1,SAME-AS
+,Organic delusional [schizophrenia-like] disorder,,Diagnosis,N/A,Organic delusional [schizophrenia-like] disorder,,,,,ICD 10 - WHO,F06.2,SAME-AS
+,Organic mood [affective] disorders,,Diagnosis,N/A,Organic mood [affective] disorders,,,,,ICD 10 - WHO,F06.3,SAME-AS
+,Organic anxiety disorder,,Diagnosis,N/A,Organic anxiety disorder,,,,,ICD 10 - WHO,F06.4,SAME-AS
+,Organic dissociative disorder,,Diagnosis,N/A,Organic dissociative disorder,,,,,ICD 10 - WHO,F06.5,SAME-AS
+,Organic emotionally labile [asthenic] disorder,,Diagnosis,N/A,Organic emotionally labile [asthenic] disorder,,,,,ICD 10 - WHO,F06.6,SAME-AS
+,Mild Cognitive Disorder,,Diagnosis,N/A,Mild Cognitive Disorder,,,,,ICD 10 - WHO,F06.7,SAME-AS
+,Other specified mental disorders due to brain damage and dysfunction and to physical disease,,Diagnosis,N/A,Other specified mental disorders due to brain damage and dysfunction and to physical disease,,,,,ICD 10 - WHO,F06.8,SAME-AS
+,Unspecified mental disorder due to brain damage and dysfunction and to physical disease,,Diagnosis,N/A,Unspecified mental disorder due to brain damage and dysfunction and to physical disease,,,,,ICD 10 - WHO,F06.9,SAME-AS
+,"Personality and behavioural disorders due to brain disease, damage and dysfunction",,Diagnosis,N/A,"Personality and behavioural disorders due to brain disease, damage and dysfunction",,,,,ICD 10 - WHO,F07,SAME-AS
+,Organic personality disorder,,Diagnosis,N/A,Organic personality disorder,,,,,ICD 10 - WHO,F07.0,SAME-AS
+,Postencephalitic syndrome,,Diagnosis,N/A,Postencephalitic syndrome,,,,,ICD 10 - WHO,F07.1,SAME-AS
+,Postconcussional syndrome,,Diagnosis,N/A,Postconcussional syndrome,,,,,ICD 10 - WHO,F07.2,SAME-AS
+,"Other organic personality and behavioural disorders due to brain disease, damage and dysfunction",,Diagnosis,N/A,"Other organic personality and behavioural disorders due to brain disease, damage and dysfunction",,,,,ICD 10 - WHO,F07.8,SAME-AS
+,"Unspecified organic personality and behavioural disorder due to brain disease, damage and dysfunction",,Diagnosis,N/A,"Unspecified organic personality and behavioural disorder due to brain disease, damage and dysfunction",,,,,ICD 10 - WHO,F07.9,SAME-AS
+,Unspecified organic or symptomatic mental disorder,,Diagnosis,N/A,Unspecified organic or symptomatic mental disorder,,,,,ICD 10 - WHO,F09,SAME-AS
+,Manic Episode,,Diagnosis,N/A,Manic Episode,,,,,ICD 10 - WHO,F30,SAME-AS
+,Hypomania,,Diagnosis,N/A,Hypomania,,,,,ICD 10 - WHO,F30.0,SAME-AS
+,Mania without psychotic symptoms,,Diagnosis,N/A,Mania without psychotic symptoms,,,,,ICD 10 - WHO,F30.1,SAME-AS
+,Mania with psychotic symptoms,,Diagnosis,N/A,Mania with psychotic symptoms,,,,,ICD 10 - WHO,F30.2,SAME-AS
+,Other manic episodes,,Diagnosis,N/A,Other manic episodes,,,,,ICD 10 - WHO,F30.8,SAME-AS
+,"Manic episode, unspecified",,Diagnosis,N/A,"Manic episode, unspecified",,,,,ICD 10 - WHO,F30.9,SAME-AS
+,Bipolar affective disorder,,Diagnosis,N/A,Bipolar affective disorder,,,,,ICD 10 - WHO,F31,SAME-AS
+,"Bipolar affective disorder, current episode hypomanic",,Diagnosis,N/A,"Bipolar affective disorder, current episode hypomanic",,,,,ICD 10 - WHO,F31.0,SAME-AS
+,"Bipolar affective disorder, current episode manic without psychotic symptoms",,Diagnosis,N/A,"Bipolar affective disorder, current episode manic without psychotic symptoms",,,,,ICD 10 - WHO,F31.1,SAME-AS
+,"Bipolar affective disorder, current episode manic with psychotic symptoms",,Diagnosis,N/A,"Bipolar affective disorder, current episode manic with psychotic symptoms",,,,,ICD 10 - WHO,F31.2,SAME-AS
+,"Bipolar affective disorder, current episode mild or moderate depression",,Diagnosis,N/A,"Bipolar affective disorder, current episode mild or moderate depression",,,,,ICD 10 - WHO,F31.3,SAME-AS
+,"Bipolar affective disorder, current episode severe depression without psychotic symptoms",,Diagnosis,N/A,"Bipolar affective disorder, current episode severe depression without psychotic symptoms",,,,,ICD 10 - WHO,F31.4,SAME-AS
+,"Bipolar affective disorder, current episode severe depression with psychotic symptoms",,Diagnosis,N/A,"Bipolar affective disorder, current episode severe depression with psychotic symptoms",,,,,ICD 10 - WHO,F31.5,SAME-AS
+,"Bipolar affective disorder, current episode mixed",,Diagnosis,N/A,"Bipolar affective disorder, current episode mixed",,,,,ICD 10 - WHO,F31.6,SAME-AS
+,"Bipolar affective disorder, currently in remission",,Diagnosis,N/A,"Bipolar affective disorder, currently in remission",,,,,ICD 10 - WHO,F31.7,SAME-AS
+,Other bipolar affective disorders,,Diagnosis,N/A,Other bipolar affective disorders,,,,,ICD 10 - WHO,F31.8,SAME-AS
+,"Bipolar affective disorder, unspecified",,Diagnosis,N/A,"Bipolar affective disorder, unspecified",,,,,ICD 10 - WHO,F31.9,SAME-AS
+,Depressive Episode,,Diagnosis,N/A,Depressive Episode,,,,,ICD 10 - WHO,F32,SAME-AS
+,Mild Depressive Episode,,Diagnosis,N/A,Mild Depressive Episode,,,,,ICD 10 - WHO,F32.0,SAME-AS
+,Moderate Depressive Episode,,Diagnosis,N/A,Moderate Depressive Episode,,,,,ICD 10 - WHO,F32.1,SAME-AS
+,Severe depressive episode without psychotic symptoms,,Diagnosis,N/A,Severe depressive episode without psychotic symptoms,,,,,ICD 10 - WHO,F32.2,SAME-AS
+,Severe depressive episode with psychotic symptoms,,Diagnosis,N/A,Severe depressive episode with psychotic symptoms,,,,,ICD 10 - WHO,F32.3,SAME-AS
+,Recurrent depressive disorder,,Diagnosis,N/A,Recurrent depressive disorder,,,,,ICD 10 - WHO,F33,SAME-AS
+,"Recurrent depressive disorder, current episode mild",,Diagnosis,N/A,"Recurrent depressive disorder, current episode mild",,,,,ICD 10 - WHO,F33.0,SAME-AS
+,"Recurrent depressive disorder, current episode moderate",,Diagnosis,N/A,"Recurrent depressive disorder, current episode moderate",,,,,ICD 10 - WHO,F33.1,SAME-AS
+,"Recurrent depressive disorder, current episode severe without psychotic symptoms",,Diagnosis,N/A,"Recurrent depressive disorder, current episode severe without psychotic symptoms",,,,,ICD 10 - WHO,F33.2,SAME-AS
+,"Recurrent depressive disorder, current episode severe with psychotic symptoms",,Diagnosis,N/A,"Recurrent depressive disorder, current episode severe with psychotic symptoms",,,,,ICD 10 - WHO,F33.3,SAME-AS
+,"Recurrent depressive disorder, currently in remission",,Diagnosis,N/A,"Recurrent depressive disorder, currently in remission",,,,,ICD 10 - WHO,F33.4,SAME-AS
+,Other recurrent depressive disorders,,Diagnosis,N/A,Other recurrent depressive disorders,,,,,ICD 10 - WHO,F33.8,SAME-AS
+,"Recurrent depressive disorder, unspecified",,Diagnosis,N/A,"Recurrent depressive disorder, unspecified",,,,,ICD 10 - WHO,F33.9,SAME-AS
+,Persistent mood [affective] disorders,,Diagnosis,N/A,Persistent mood [affective] disorders,,,,,ICD 10 - WHO,F34,SAME-AS
+,Cyclothymia,,Diagnosis,N/A,Cyclothymia,,,,,ICD 10 - WHO,F34.0,SAME-AS
+,Dysthymia,,Diagnosis,N/A,Dysthymia,,,,,ICD 10 - WHO,F34.1,SAME-AS
+,Other persistent mood [affective] disorders,,Diagnosis,N/A,Other persistent mood [affective] disorders,,,,,ICD 10 - WHO,F34.8,SAME-AS
+,"Persistent mood [affective] disorder, unspecified",,Diagnosis,N/A,"Persistent mood [affective] disorder, unspecified",,,,,ICD 10 - WHO,F34.9,SAME-AS
+,Other mood [affective] disorders,,Diagnosis,N/A,Other mood [affective] disorders,,,,,ICD 10 - WHO,F38,SAME-AS
+,Other single mood [affective] disorders,,Diagnosis,N/A,Other single mood [affective] disorders,,,,,ICD 10 - WHO,F38.0,SAME-AS
+,Other recurrent mood [affective] disorders,,Diagnosis,N/A,Other recurrent mood [affective] disorders,,,,,ICD 10 - WHO,F38.1,SAME-AS
+,Other specified mood [affective] disorders,,Diagnosis,N/A,Other specified mood [affective] disorders,,,,,ICD 10 - WHO,F38.8,SAME-AS
+,Unspecified mood [affective] disorder,,Diagnosis,N/A,Unspecified mood [affective] disorder,,,,,ICD 10 - WHO,F39,SAME-AS
+,Eating disorders,,Diagnosis,N/A,Eating disorders,,,,,ICD 10 - WHO,F50,SAME-AS
+,Anorexia nervosa,,Diagnosis,N/A,Anorexia nervosa,,,,,ICD 10 - WHO,F50.0,SAME-AS
+,Atypical anorexia nervosa,,Diagnosis,N/A,Atypical anorexia nervosa,,,,,ICD 10 - WHO,F50.1,SAME-AS
+,Bulimia nervosa,,Diagnosis,N/A,Bulimia nervosa,,,,,ICD 10 - WHO,F50.2,SAME-AS
+,Atypical bulimia nervosa,,Diagnosis,N/A,Atypical bulimia nervosa,,,,,ICD 10 - WHO,F50.3,SAME-AS
+,Overeating associated with other psychological disturbances,,Diagnosis,N/A,Overeating associated with other psychological disturbances,,,,,ICD 10 - WHO,F50.4,SAME-AS
+,Vomiting associated with other psychological disturbances,,Diagnosis,N/A,Vomiting associated with other psychological disturbances,,,,,ICD 10 - WHO,F50.5,SAME-AS
+,Other eating disorders,,Diagnosis,N/A,Other eating disorders,,,,,ICD 10 - WHO,F50.8,SAME-AS
+,"Eating disorder, unspecified",,Diagnosis,N/A,"Eating disorder, unspecified",,,,,ICD 10 - WHO,F50.9,SAME-AS
+,Nonorganic sleep disorders,,Diagnosis,N/A,Nonorganic sleep disorders,,,,,ICD 10 - WHO,F51,SAME-AS
+,Nonorganic insomnia,,Diagnosis,N/A,Nonorganic insomnia,,,,,ICD 10 - WHO,F51.0,SAME-AS
+,Nonorganic hypersomnia,,Diagnosis,N/A,Nonorganic hypersomnia,,,,,ICD 10 - WHO,F51.1,SAME-AS
+,Nonorganic disorder of the sleep-wake schedule,,Diagnosis,N/A,Nonorganic disorder of the sleep-wake schedule,,,,,ICD 10 - WHO,F51.2,SAME-AS
+,Sleepwalking [somnambulism],,Diagnosis,N/A,Sleepwalking [somnambulism],,,,,ICD 10 - WHO,F51.3,SAME-AS
+,Sleep terrors [night terrors],,Diagnosis,N/A,Sleep terrors [night terrors],,,,,ICD 10 - WHO,F51.4,SAME-AS
+,Nightmares,,Diagnosis,N/A,Nightmares,,,,,ICD 10 - WHO,F51.5,SAME-AS
+,Other nonorganic sleep disorders,,Diagnosis,N/A,Other nonorganic sleep disorders,,,,,ICD 10 - WHO,F51.8,SAME-AS
+,"Nonorganic sleep disorder, unspecified",,Diagnosis,N/A,"Nonorganic sleep disorder, unspecified",,,,,ICD 10 - WHO,F51.9,SAME-AS
+,"Sexual dysfunction, not caused by organic disorder or disease",,Diagnosis,N/A,"Sexual dysfunction, not caused by organic disorder or disease",,,,,ICD 10 - WHO,F52,SAME-AS
+,Lack or loss of sexual desire,,Diagnosis,N/A,Lack or loss of sexual desire,,,,,ICD 10 - WHO,F52.0,SAME-AS
+,Sexual aversion and lack of sexual enjoymen,,Diagnosis,N/A,Sexual aversion and lack of sexual enjoymen,,,,,ICD 10 - WHO,F52.1,SAME-AS
+,Failure of genital response,,Diagnosis,N/A,Failure of genital response,,,,,ICD 10 - WHO,F52.2,SAME-AS
+,Orgasmic dysfunction,,Diagnosis,N/A,Orgasmic dysfunction,,,,,ICD 10 - WHO,F52.3,SAME-AS
+,Premature ejaculation,,Diagnosis,N/A,Premature ejaculation,,,,,ICD 10 - WHO,F52.4,SAME-AS
+,Nonorganic vaginismus,,Diagnosis,N/A,Nonorganic vaginismus,,,,,ICD 10 - WHO,F52.5,SAME-AS
+,Nonorganic dyspareunia,,Diagnosis,N/A,Nonorganic dyspareunia,,,,,ICD 10 - WHO,F52.6,SAME-AS
+,Excessive sexual drive,,Diagnosis,N/A,Excessive sexual drive,,,,,ICD 10 - WHO,F52.7,SAME-AS
+,"Other sexual dysfunction, not caused by organic disorder or disease",,Diagnosis,N/A,"Other sexual dysfunction, not caused by organic disorder or disease",,,,,ICD 10 - WHO,F52.8,SAME-AS
+,"Unspecified sexual dysfunction, not caused by organic disorder or disease",,Diagnosis,N/A,"Unspecified sexual dysfunction, not caused by organic disorder or disease",,,,,ICD 10 - WHO,F52.9,SAME-AS
+,"Mental and behavioural disorders associated with the puerperium, not elsewhere classified",,Diagnosis,N/A,"Mental and behavioural disorders associated with the puerperium, not elsewhere classified",,,,,ICD 10 - WHO,F53,SAME-AS
+,"Mild mental and behavioural disorders associated with the puerperium, not elsewhere classified",,Diagnosis,N/A,"Mild mental and behavioural disorders associated with the puerperium, not elsewhere classified",,,,,ICD 10 - WHO,F53.0,SAME-AS
+,"Severe mental and behavioural disorders associated with the puerperium, not elsewhere classified",,Diagnosis,N/A,"Severe mental and behavioural disorders associated with the puerperium, not elsewhere classified",,,,,ICD 10 - WHO,F53.1,SAME-AS
+,"Other mental and behavioural disorders associated with the puerperium, not elsewhere classified",,Diagnosis,N/A,"Other mental and behavioural disorders associated with the puerperium, not elsewhere classified",,,,,ICD 10 - WHO,F53.8,SAME-AS
+,"Puerperal mental disorder, unspecified",,Diagnosis,N/A,"Puerperal mental disorder, unspecified",,,,,ICD 10 - WHO,F53.9,SAME-AS
+,Psychological and behavioural factors associated with disorders or diseases classified elsewhere,,Diagnosis,N/A,Psychological and behavioural factors associated with disorders or diseases classified elsewhere,,,,,ICD 10 - WHO,F54,SAME-AS
+,Abuse of non-dependence-producing substances,,Diagnosis,N/A,Abuse of non-dependence-producing substances,,,,,ICD 10 - WHO,F55,SAME-AS
+,Unspecified behavioural syndromes associated with physiological disturbances and physical factors,,Diagnosis,N/A,Unspecified behavioural syndromes associated with physiological disturbances and physical factors,,,,,ICD 10 - WHO,F59,SAME-AS
+,Specific personality disorders,,Diagnosis,N/A,Specific personality disorders,,,,,ICD 10 - WHO,F60,SAME-AS
+,Paranoid personality disorder,,Diagnosis,N/A,Paranoid personality disorder,,,,,ICD 10 - WHO,F60.0,SAME-AS
+,Schizoid personality disorder,,Diagnosis,N/A,Schizoid personality disorder,,,,,ICD 10 - WHO,F60.1,SAME-AS
+,Dissocial personality disorder,,Diagnosis,N/A,Dissocial personality disorder,,,,,ICD 10 - WHO,F60.2,SAME-AS
+,Emotionally unstable personality disorder,,Diagnosis,N/A,Emotionally unstable personality disorder,,,,,ICD 10 - WHO,F60.3,SAME-AS
+,Histrionic personality disorder,,Diagnosis,N/A,Histrionic personality disorder,,,,,ICD 10 - WHO,F60.4,SAME-AS
+,Anankastic personality disorder,,Diagnosis,N/A,Anankastic personality disorder,,,,,ICD 10 - WHO,F60.5,SAME-AS
+,Anxious [avoidant] personality disorder,,Diagnosis,N/A,Anxious [avoidant] personality disorder,,,,,ICD 10 - WHO,F60.6,SAME-AS
+,Dependent personality disorder,,Diagnosis,N/A,Dependent personality disorder,,,,,ICD 10 - WHO,F60.7,SAME-AS
+,Other specific personality disorders,,Diagnosis,N/A,Other specific personality disorders,,,,,ICD 10 - WHO,F60.8,SAME-AS
+,"Personality disorder, unspecified",,Diagnosis,N/A,"Personality disorder, unspecified",,,,,ICD 10 - WHO,F60.9,SAME-AS
+,Mixed and other personality disorders,,Diagnosis,N/A,Mixed and other personality disorders,,,,,ICD 10 - WHO,F61,SAME-AS
+,"Enduring personality changes, not attributable to brain damage and disease",,Diagnosis,N/A,"Enduring personality changes, not attributable to brain damage and disease",,,,,ICD 10 - WHO,F62,SAME-AS
+,Enduring personality change after catastrophic experience,,Diagnosis,N/A,Enduring personality change after catastrophic experience,,,,,ICD 10 - WHO,F62.0,SAME-AS
+,Enduring personality change after psychiatric illness,,Diagnosis,N/A,Enduring personality change after psychiatric illness,,,,,ICD 10 - WHO,F62.1,SAME-AS
+,Other enduring personality changes,,Diagnosis,N/A,Other enduring personality changes,,,,,ICD 10 - WHO,F62.8,SAME-AS
+,"Enduring personality change, unspecified",,Diagnosis,N/A,"Enduring personality change, unspecified",,,,,ICD 10 - WHO,F62.9,SAME-AS
+,Habit and impulse disorders,,Diagnosis,N/A,Habit and impulse disorders,,,,,ICD 10 - WHO,F63,SAME-AS
+,Pathological gambling,,Diagnosis,N/A,Pathological gambling,,,,,ICD 10 - WHO,F63.0,SAME-AS
+,Pathological fire-setting [pyromania],,Diagnosis,N/A,Pathological fire-setting [pyromania],,,,,ICD 10 - WHO,F63.1,SAME-AS
+,Pathological stealing [kleptomania],,Diagnosis,N/A,Pathological stealing [kleptomania],,,,,ICD 10 - WHO,F63.2,SAME-AS
+,Trichotillomania,,Diagnosis,N/A,Trichotillomania,,,,,ICD 10 - WHO,F63.3,SAME-AS
+,Other habit and impulse disorders,,Diagnosis,N/A,Other habit and impulse disorders,,,,,ICD 10 - WHO,F63.8,SAME-AS
+,"Habit and impulse disorder, unspecified",,Diagnosis,N/A,"Habit and impulse disorder, unspecified",,,,,ICD 10 - WHO,F63.9,SAME-AS
+,Gender identity disorders,,Diagnosis,N/A,Gender identity disorders,,,,,ICD 10 - WHO,F64,SAME-AS
+,Transsexualism,,Diagnosis,N/A,Transsexualism,,,,,ICD 10 - WHO,F64.0,SAME-AS
+,Dual-role transvestism,,Diagnosis,N/A,Dual-role transvestism,,,,,ICD 10 - WHO,F64.1,SAME-AS
+,Gender identity disorder of childhood,,Diagnosis,N/A,Gender identity disorder of childhood,,,,,ICD 10 - WHO,F64.2,SAME-AS
+,Other gender identity disorders,,Diagnosis,N/A,Other gender identity disorders,,,,,ICD 10 - WHO,F64.8,SAME-AS
+,"Gender identity disorder, unspecified",,Diagnosis,N/A,"Gender identity disorder, unspecified",,,,,ICD 10 - WHO,F64.9,SAME-AS
+,Disorders of sexual preference,,Diagnosis,N/A,Disorders of sexual preference,,,,,ICD 10 - WHO,F65,SAME-AS
+,Fetishism,,Diagnosis,N/A,Fetishism,,,,,ICD 10 - WHO,F65.0,SAME-AS
+,Fetishistic transvestism,,Diagnosis,N/A,Fetishistic transvestism,,,,,ICD 10 - WHO,F65.1,SAME-AS
+,Exhibitionism,,Diagnosis,N/A,Exhibitionism,,,,,ICD 10 - WHO,F65.2,SAME-AS
+,Voyeurism,,Diagnosis,N/A,Voyeurism,,,,,ICD 10 - WHO,F65.3,SAME-AS
+,Paedophilia,,Diagnosis,N/A,Paedophilia,,,,,ICD 10 - WHO,F65.4,SAME-AS
+,Sadomasochism,,Diagnosis,N/A,Sadomasochism,,,,,ICD 10 - WHO,F65.5,SAME-AS
+,Multiple disorders of sexual preference,,Diagnosis,N/A,Multiple disorders of sexual preference,,,,,ICD 10 - WHO,F65.6,SAME-AS
+,Other disorders of sexual preference,,Diagnosis,N/A,Other disorders of sexual preference,,,,,ICD 10 - WHO,F65.8,SAME-AS
+,"Disorder of sexual preference, unspecified",,Diagnosis,N/A,"Disorder of sexual preference, unspecified",,,,,ICD 10 - WHO,F65.9,SAME-AS
+,Psychological and behavioural disorders associated with sexual development and orientation,,Diagnosis,N/A,Psychological and behavioural disorders associated with sexual development and orientation,,,,,ICD 10 - WHO,F66,SAME-AS
+,Sexual maturation disorder,,Diagnosis,N/A,Sexual maturation disorder,,,,,ICD 10 - WHO,F66.0,SAME-AS
+,Egodystonic sexual orientation,,Diagnosis,N/A,Egodystonic sexual orientation,,,,,ICD 10 - WHO,F66.1,SAME-AS
+,Sexual relationship disorder,,Diagnosis,N/A,Sexual relationship disorder,,,,,ICD 10 - WHO,F66.2,SAME-AS
+,Other psychosexual development disorders,,Diagnosis,N/A,Other psychosexual development disorders,,,,,ICD 10 - WHO,F66.8,SAME-AS
+,"Psychosexual development disorder, unspecified",,Diagnosis,N/A,"Psychosexual development disorder, unspecified",,,,,ICD 10 - WHO,F66.9,SAME-AS
+,Other disorders of adult personality and behaviour,,Diagnosis,N/A,Other disorders of adult personality and behaviour,,,,,ICD 10 - WHO,F68,SAME-AS
+,Elaboration of physical symptoms for psychological reasons,,Diagnosis,N/A,Elaboration of physical symptoms for psychological reasons,,,,,ICD 10 - WHO,F68.0,SAME-AS
+,"Intentional production or feigning of symptoms or disabilities, either physical or psychological [factitious disorder]",,Diagnosis,N/A,"Intentional production or feigning of symptoms or disabilities, either physical or psychological [factitious disorder]",,,,,ICD 10 - WHO,F68.1,SAME-AS
+,Other specified disorders of adult personality and behaviour,,Diagnosis,N/A,Other specified disorders of adult personality and behaviour,,,,,ICD 10 - WHO,F68.8,SAME-AS
+,Unspecified disorder of adult personality and behaviour,,Diagnosis,N/A,Unspecified disorder of adult personality and behaviour,,,,,ICD 10 - WHO,F69,SAME-AS
+,Mild Mental Retardation,,Diagnosis,N/A,Mild Mental Retardation,,,,,ICD 10 - WHO,F70,SAME-AS
+,Moderate Mental Retardation,,Diagnosis,N/A,Moderate Mental Retardation,,,,,ICD 10 - WHO,F71,SAME-AS
+,Severe Mental Retardation,,Diagnosis,N/A,Severe Mental Retardation,,,,,ICD 10 - WHO,F72,SAME-AS
+,Profound Mental Retardation,,Diagnosis,N/A,Profound Mental Retardation,,,,,ICD 10 - WHO,F73,SAME-AS
+,Other Mental Retardation,,Diagnosis,N/A,Other Mental Retardation,,,,,ICD 10 - WHO,F78,SAME-AS
+,Unspecified  Mental Retardation,,Diagnosis,N/A,Unspecified  Mental Retardation,,,,,ICD 10 - WHO,F79,SAME-AS
+,Specific developmental disorders of speech and language,,Diagnosis,N/A,Specific developmental disorders of speech and language,,,,,ICD 10 - WHO,F80,SAME-AS
+,Specific speech articulation disorder,,Diagnosis,N/A,Specific speech articulation disorder,,,,,ICD 10 - WHO,F80.0,SAME-AS
+,Expressive language disorder,,Diagnosis,N/A,Expressive language disorder,,,,,ICD 10 - WHO,F80.1,SAME-AS
+,Receptive language disorder,,Diagnosis,N/A,Receptive language disorder,,,,,ICD 10 - WHO,F80.2,SAME-AS
+,Acquired aphasia with epilepsy [Landau-Kleffner],,Diagnosis,N/A,Acquired aphasia with epilepsy [Landau-Kleffner],,,,,ICD 10 - WHO,F80.3,SAME-AS
+,Other developmental disorders of speech and language,,Diagnosis,N/A,Other developmental disorders of speech and language,,,,,ICD 10 - WHO,F80.8,SAME-AS
+,"Developmental disorder of speech and language, unspecified",,Diagnosis,N/A,"Developmental disorder of speech and language, unspecified",,,,,ICD 10 - WHO,F80.9,SAME-AS
+,Specific developmental disorders of scholastic skills,,Diagnosis,N/A,Specific developmental disorders of scholastic skills,,,,,ICD 10 - WHO,F81,SAME-AS
+,Specific reading disorder,,Diagnosis,N/A,Specific reading disorder,,,,,ICD 10 - WHO,F81.0,SAME-AS
+,Specific spelling disorder,,Diagnosis,N/A,Specific spelling disorder,,,,,ICD 10 - WHO,F81.1,SAME-AS
+,Specific disorder of arithmetical skills,,Diagnosis,N/A,Specific disorder of arithmetical skills,,,,,ICD 10 - WHO,F81.2,SAME-AS
+,Mixed disorder of scholastic skills,,Diagnosis,N/A,Mixed disorder of scholastic skills,,,,,ICD 10 - WHO,F81.3,SAME-AS
+,Other developmental disorders of scholastic skills,,Diagnosis,N/A,Other developmental disorders of scholastic skills,,,,,ICD 10 - WHO,F81.8,SAME-AS
+,"Developmental disorder of scholastic skills, unspecified",,Diagnosis,N/A,"Developmental disorder of scholastic skills, unspecified",,,,,ICD 10 - WHO,F81.9,SAME-AS
+,Specific developmental disorder of motor function,,Diagnosis,N/A,Specific developmental disorder of motor function,,,,,ICD 10 - WHO,F82,SAME-AS
+,Mixed specific developmental disorders,,Diagnosis,N/A,Mixed specific developmental disorders,,,,,ICD 10 - WHO,F83,SAME-AS
+,Pervasive developmental disorders,,Diagnosis,N/A,Pervasive developmental disorders,,,,,ICD 10 - WHO,F84,SAME-AS
+,Childhood autism,,Diagnosis,N/A,Childhood autism,,,,,ICD 10 - WHO,F84.0,SAME-AS
+,Atypical autism,,Diagnosis,N/A,Atypical autism,,,,,ICD 10 - WHO,F84.1,SAME-AS
+,Rett Syndrome,,Diagnosis,N/A,Rett Syndrome,,,,,ICD 10 - WHO,F84.2,SAME-AS
+,Other childhood disintegrative disorder,,Diagnosis,N/A,Other childhood disintegrative disorder,,,,,ICD 10 - WHO,F84.3,SAME-AS
+,Overactive disorder associated with mental retardation and stereotyped movements,,Diagnosis,N/A,Overactive disorder associated with mental retardation and stereotyped movements,,,,,ICD 10 - WHO,F84.4,SAME-AS
+,Asperger syndrome,,Diagnosis,N/A,Asperger syndrome,,,,,ICD 10 - WHO,F84.5,SAME-AS
+,Other pervasive developmental disorders,,Diagnosis,N/A,Other pervasive developmental disorders,,,,,ICD 10 - WHO,F84.8,SAME-AS
+,"Pervasive developmental disorder, unspecified",,Diagnosis,N/A,"Pervasive developmental disorder, unspecified",,,,,ICD 10 - WHO,F84.9,SAME-AS
+,Other disorders of psychological development,,Diagnosis,N/A,Other disorders of psychological development,,,,,ICD 10 - WHO,F88,SAME-AS
+,Unspecified disorder of psychological development,,Diagnosis,N/A,Unspecified disorder of psychological development,,,,,ICD 10 - WHO,F89,SAME-AS
+,Hyperkinetic disorders,,Diagnosis,N/A,Hyperkinetic disorders,,,,,ICD 10 - WHO,F90,SAME-AS
+,Disturbance of activity and attention,,Diagnosis,N/A,Disturbance of activity and attention,,,,,ICD 10 - WHO,F90.0,SAME-AS
+,Hyperkinetic conduct disorde,,Diagnosis,N/A,Hyperkinetic conduct disorde,,,,,ICD 10 - WHO,F90.1,SAME-AS
+,Other hyperkinetic disorders,,Diagnosis,N/A,Other hyperkinetic disorders,,,,,ICD 10 - WHO,F90.8,SAME-AS
+,"Hyperkinetic disorder, unspecified",,Diagnosis,N/A,"Hyperkinetic disorder, unspecified",,,,,ICD 10 - WHO,F90.9,SAME-AS
+,Conduct disorders,,Diagnosis,N/A,Conduct disorders,,,,,ICD 10 - WHO,F91,SAME-AS
+,Conduct disorder confined to the family context,,Diagnosis,N/A,Conduct disorder confined to the family context,,,,,ICD 10 - WHO,F91.0,SAME-AS
+,Unsocialized conduct disorder,,Diagnosis,N/A,Unsocialized conduct disorder,,,,,ICD 10 - WHO,F91.1,SAME-AS
+,Socialized conduct disorder,,Diagnosis,N/A,Socialized conduct disorder,,,,,ICD 10 - WHO,F91.2,SAME-AS
+,Oppositional defiant disorder,,Diagnosis,N/A,Oppositional defiant disorder,,,,,ICD 10 - WHO,F91.3,SAME-AS
+,Other conduct disorders,,Diagnosis,N/A,Other conduct disorders,,,,,ICD 10 - WHO,F91.8,SAME-AS
+,"Conduct disorder, unspecified",,Diagnosis,N/A,"Conduct disorder, unspecified",,,,,ICD 10 - WHO,F91.9,SAME-AS
+,Mixed disorders of conduct and emotions,,Diagnosis,N/A,Mixed disorders of conduct and emotions,,,,,ICD 10 - WHO,F92,SAME-AS
+,Depressive conduct disorder,,Diagnosis,N/A,Depressive conduct disorder,,,,,ICD 10 - WHO,F92.0,SAME-AS
+,Other mixed disorders of conduct and emotions,,Diagnosis,N/A,Other mixed disorders of conduct and emotions,,,,,ICD 10 - WHO,F92.8,SAME-AS
+,"Mixed disorder of conduct and emotions, unspecified",,Diagnosis,N/A,"Mixed disorder of conduct and emotions, unspecified",,,,,ICD 10 - WHO,F92.9,SAME-AS
+,Emotional disorders with onset specific to childhood,,Diagnosis,N/A,Emotional disorders with onset specific to childhood,,,,,ICD 10 - WHO,F93,SAME-AS
+,Separation anxiety disorder of childhood,,Diagnosis,N/A,Separation anxiety disorder of childhood,,,,,ICD 10 - WHO,F93.0,SAME-AS
+,Phobic anxiety disorder of childhood,,Diagnosis,N/A,Phobic anxiety disorder of childhood,,,,,ICD 10 - WHO,F93.1,SAME-AS
+,Social anxiety disorder of childhood,,Diagnosis,N/A,Social anxiety disorder of childhood,,,,,ICD 10 - WHO,F93.2,SAME-AS
+,Sibling rivalry disorder,,Diagnosis,N/A,Sibling rivalry disorder,,,,,ICD 10 - WHO,F93.3,SAME-AS
+,Other childhood emotional disorders,,Diagnosis,N/A,Other childhood emotional disorders,,,,,ICD 10 - WHO,F93.8,SAME-AS
+,"Childhood emotional disorder, unspecified",,Diagnosis,N/A,"Childhood emotional disorder, unspecified",,,,,ICD 10 - WHO,F93.9,SAME-AS
+,Disorders of social functioning with onset specific to childhood and adolescence,,Diagnosis,N/A,Disorders of social functioning with onset specific to childhood and adolescence,,,,,ICD 10 - WHO,F94,SAME-AS
+,Elective mutism,,Diagnosis,N/A,Elective mutism,,,,,ICD 10 - WHO,F94.0,SAME-AS
+,Reactive attachment disorder of childhood,,Diagnosis,N/A,Reactive attachment disorder of childhood,,,,,ICD 10 - WHO,F94.1,SAME-AS
+,Disinhibited attachment disorder of childhood,,Diagnosis,N/A,Disinhibited attachment disorder of childhood,,,,,ICD 10 - WHO,F94.2,SAME-AS
+,Other childhood disorders of social functioning,,Diagnosis,N/A,Other childhood disorders of social functioning,,,,,ICD 10 - WHO,F94.8,SAME-AS
+,"Childhood disorder of social functioning, unspecified",,Diagnosis,N/A,"Childhood disorder of social functioning, unspecified",,,,,ICD 10 - WHO,F94.9,SAME-AS
+,Tic disorders,,Diagnosis,N/A,Tic disorders,,,,,ICD 10 - WHO,F95,SAME-AS
+,Transient tic disorder,,Diagnosis,N/A,Transient tic disorder,,,,,ICD 10 - WHO,F95.0,SAME-AS
+,Chronic motor or vocal tic disorder,,Diagnosis,N/A,Chronic motor or vocal tic disorder,,,,,ICD 10 - WHO,F95.1,SAME-AS
+,Combined vocal and multiple motor tic disorder [de la Tourette],,Diagnosis,N/A,Combined vocal and multiple motor tic disorder [de la Tourette],,,,,ICD 10 - WHO,F95.2,SAME-AS
+,Other tic disorders,,Diagnosis,N/A,Other tic disorders,,,,,ICD 10 - WHO,F95.8,SAME-AS
+,"Tic disorder, unspecified",,Diagnosis,N/A,"Tic disorder, unspecified",,,,,ICD 10 - WHO,F95.9,SAME-AS
+,Other behavioural and emotional disorders with onset usually occurring in childhood and adolescence,,Diagnosis,N/A,Other behavioural and emotional disorders with onset usually occurring in childhood and adolescence,,,,,ICD 10 - WHO,F98,SAME-AS
+,Nonorganic enuresis,,Diagnosis,N/A,Nonorganic enuresis,,,,,ICD 10 - WHO,F98.0,SAME-AS
+,Nonorganic encopresis,,Diagnosis,N/A,Nonorganic encopresis,,,,,ICD 10 - WHO,F98.1,SAME-AS
+,Feeding disorder of infancy and childhood,,Diagnosis,N/A,Feeding disorder of infancy and childhood,,,,,ICD 10 - WHO,F98.2,SAME-AS
+,Pica of infancy and childhood,,Diagnosis,N/A,Pica of infancy and childhood,,,,,ICD 10 - WHO,F98.3,SAME-AS
+,Stereotyped movement disorders,,Diagnosis,N/A,Stereotyped movement disorders,,,,,ICD 10 - WHO,F98.4,SAME-AS
+,Stuttering [stammering],,Diagnosis,N/A,Stuttering [stammering],,,,,ICD 10 - WHO,F98.5,SAME-AS
+,Cluttering,,Diagnosis,N/A,Cluttering,,,,,ICD 10 - WHO,F98.6,SAME-AS
+,Other specified behavioural and emotional disorders with onset usually occurring in childhood and adolescence,,Diagnosis,N/A,Other specified behavioural and emotional disorders with onset usually occurring in childhood and adolescence,,,,,ICD 10 - WHO,F98.8,SAME-AS
+,Unspecified behavioural and emotional disorders with onset usually occurring in childhood and adolescence,,Diagnosis,N/A,Unspecified behavioural and emotional disorders with onset usually occurring in childhood and adolescence,,,,,ICD 10 - WHO,F98.9,SAME-AS
+,"Mental disorder, not otherwise specified",,Diagnosis,N/A,"Mental disorder, not otherwise specified",,,,,ICD 10 - WHO,F99,SAME-AS
+,Schizophrenia,,Diagnosis,N/A,Schizophrenia,,,,,ICD 10 - WHO,F20,SAME-AS
+,Paranoid schizophrenia,,Diagnosis,N/A,Paranoid schizophrenia,,,,,ICD 10 - WHO,F20.0,SAME-AS
+,Hebephrenic schizophrenia,,Diagnosis,N/A,Hebephrenic schizophrenia,,,,,ICD 10 - WHO,F20.1,SAME-AS
+,Catatonic schizophrenia,,Diagnosis,N/A,Catatonic schizophrenia,,,,,ICD 10 - WHO,F20.2,SAME-AS
+,Undifferentiated schizophrenia,,Diagnosis,N/A,Undifferentiated schizophrenia,,,,,ICD 10 - WHO,F20.3,SAME-AS
+,Post-schizophrenic depression,,Diagnosis,N/A,Post-schizophrenic depression,,,,,ICD 10 - WHO,F20.4,SAME-AS
+,Residual schizophrenia,,Diagnosis,N/A,Residual schizophrenia,,,,,ICD 10 - WHO,F20.5,SAME-AS
+,Simple schizophrenia,,Diagnosis,N/A,Simple schizophrenia,,,,,ICD 10 - WHO,F20.6,SAME-AS
+,Other schizophrenia,,Diagnosis,N/A,Other schizophrenia,,,,,ICD 10 - WHO,F20.8,SAME-AS
+,"Schizophrenia, unspecified",,Diagnosis,N/A,"Schizophrenia, unspecified",,,,,ICD 10 - WHO,F20.9,SAME-AS
+,Schizotypal disorder,,Diagnosis,N/A,Schizotypal disorder,,,,,ICD 10 - WHO,F21,SAME-AS
+,Persistent delusional disorders,,Diagnosis,N/A,Persistent delusional disorders,,,,,ICD 10 - WHO,F22,SAME-AS
+,Delusional disorder,,Diagnosis,N/A,Delusional disorder,,,,,ICD 10 - WHO,F22.0,SAME-AS
+,Other persistent delusional disorders,,Diagnosis,N/A,Other persistent delusional disorders,,,,,ICD 10 - WHO,F22.8,SAME-AS
+,"Persistent delusional disorder, unspecified",,Diagnosis,N/A,"Persistent delusional disorder, unspecified",,,,,ICD 10 - WHO,F22.9,SAME-AS
+,Acute and transient psychotic disorders,,Diagnosis,N/A,Acute and transient psychotic disorders,,,,,ICD 10 - WHO,F23,SAME-AS
+,Acute polymorphic psychotic disorder without symptoms of schizophrenia,,Diagnosis,N/A,Acute polymorphic psychotic disorder without symptoms of schizophrenia,,,,,ICD 10 - WHO,F23.0,SAME-AS
+,Acute polymorphic psychotic disorder with symptoms of schizophrenia,,Diagnosis,N/A,Acute polymorphic psychotic disorder with symptoms of schizophrenia,,,,,ICD 10 - WHO,F23.1,SAME-AS
+,Acute schizophrenia-like psychotic disorder,,Diagnosis,N/A,Acute schizophrenia-like psychotic disorder,,,,,ICD 10 - WHO,F23.2,SAME-AS
+,Other acute predominantly delusional psychotic disorders,,Diagnosis,N/A,Other acute predominantly delusional psychotic disorders,,,,,ICD 10 - WHO,F23.3,SAME-AS
+,Other acute and transient psychotic disorders,,Diagnosis,N/A,Other acute and transient psychotic disorders,,,,,ICD 10 - WHO,F23.8,SAME-AS
+,"Acute and transient psychotic disorder, unspecified",,Diagnosis,N/A,"Acute and transient psychotic disorder, unspecified",,,,,ICD 10 - WHO,F23.9,SAME-AS
+,Induced delusional disorder,,Diagnosis,N/A,Induced delusional disorder,,,,,ICD 10 - WHO,F24,SAME-AS
+,Schizoaffective disorders,,Diagnosis,N/A,Schizoaffective disorders,,,,,ICD 10 - WHO,F25,SAME-AS
+,"Schizoaffective disorder, manic type",,Diagnosis,N/A,"Schizoaffective disorder, manic type",,,,,ICD 10 - WHO,F25.0,SAME-AS
+,"Schizoaffective disorder, depressive type",,Diagnosis,N/A,"Schizoaffective disorder, depressive type",,,,,ICD 10 - WHO,F25.1,SAME-AS
+,"Schizoaffective disorder, mixed type",,Diagnosis,N/A,"Schizoaffective disorder, mixed type",,,,,ICD 10 - WHO,F25.2,SAME-AS
+,Other schizoaffective disorders,,Diagnosis,N/A,Other schizoaffective disorders,,,,,ICD 10 - WHO,F25.8,SAME-AS
+,"Schizoaffective disorder, unspecified",,Diagnosis,N/A,"Schizoaffective disorder, unspecified",,,,,ICD 10 - WHO,F25.9,SAME-AS
+,Other nonorganic psychotic disorders,,Diagnosis,N/A,Other nonorganic psychotic disorders,,,,,ICD 10 - WHO,F28,SAME-AS
+,Feeding disorder of infancy and childhood,,Diagnosis,N/A,Feeding disorder of infancy and childhood,,,,,ICD 10 - WHO,F29,SAME-AS
+,Phobic anxiety disorders,,Diagnosis,N/A,Phobic anxiety disorders,,,,,ICD 10 - WHO,F40,SAME-AS
+,Agoraphobia,,Diagnosis,N/A,Agoraphobia,,,,,ICD 10 - WHO,F40.0,SAME-AS
+,Social phobias,,Diagnosis,N/A,Social phobias,,,,,ICD 10 - WHO,F40.1,SAME-AS
+,Specific (isolated) phobias,,Diagnosis,N/A,Specific (isolated) phobias,,,,,ICD 10 - WHO,F40.2,SAME-AS
+,Other phobic anxiety disorders,,Diagnosis,N/A,Other phobic anxiety disorders,,,,,ICD 10 - WHO,F40.8,SAME-AS
+,"Phobic anxiety disorder, unspecified",,Diagnosis,N/A,"Phobic anxiety disorder, unspecified",,,,,ICD 10 - WHO,F40.9,SAME-AS
+,Other anxiety disorders,,Diagnosis,N/A,Other anxiety disorders,,,,,ICD 10 - WHO,F41,SAME-AS
+,Panic disorder [episodic paroxysmal anxiety],,Diagnosis,N/A,Panic disorder [episodic paroxysmal anxiety],,,,,ICD 10 - WHO,F41.0,SAME-AS
+,Generalized anxiety disorder,,Diagnosis,N/A,Generalized anxiety disorder,,,,,ICD 10 - WHO,F41.1,SAME-AS
+,Mixed anxiety and depressive disorder,,Diagnosis,N/A,Mixed anxiety and depressive disorder,,,,,ICD 10 - WHO,F41.2,SAME-AS
+,Other mixed anxiety disorders,,Diagnosis,N/A,Other mixed anxiety disorders,,,,,ICD 10 - WHO,F41.3,SAME-AS
+,Other specified anxiety disorders,,Diagnosis,N/A,Other specified anxiety disorders,,,,,ICD 10 - WHO,F41.8,SAME-AS
+,"Anxiety disorder, unspecified",,Diagnosis,N/A,"Anxiety disorder, unspecified",,,,,ICD 10 - WHO,F41.9,SAME-AS
+,Obsessive-compulsive disorder,,Diagnosis,N/A,Obsessive-compulsive disorder,,,,,ICD 10 - WHO,F42,SAME-AS
+,Predominantly obsessional thoughts or ruminations,,Diagnosis,N/A,Predominantly obsessional thoughts or ruminations,,,,,ICD 10 - WHO,F42.0,SAME-AS
+,Predominantly compulsive acts [obsessional rituals],,Diagnosis,N/A,Predominantly compulsive acts [obsessional rituals],,,,,ICD 10 - WHO,F42.1,SAME-AS
+,Mixed obsessional thoughts and acts,,Diagnosis,N/A,Mixed obsessional thoughts and acts,,,,,ICD 10 - WHO,F42.2,SAME-AS
+,Other obsessive-compulsive disorders,,Diagnosis,N/A,Other obsessive-compulsive disorders,,,,,ICD 10 - WHO,F42.8,SAME-AS
+,"Obsessive-compulsive disorder, unspecified",,Diagnosis,N/A,"Obsessive-compulsive disorder, unspecified",,,,,ICD 10 - WHO,F42.9,SAME-AS
+,"Reaction to severe stress, and adjustment disorders",,Diagnosis,N/A,"Reaction to severe stress, and adjustment disorders",,,,,ICD 10 - WHO,F43,SAME-AS
+,Acute stress reaction,,Diagnosis,N/A,Acute stress reaction,,,,,ICD 10 - WHO,F43.0,SAME-AS
+,Post-traumatic stress disorder,,Diagnosis,N/A,Post-traumatic stress disorder,,,,,ICD 10 - WHO,F43.1,SAME-AS
+,Adjustment disorders,,Diagnosis,N/A,Adjustment disorders,,,,,ICD 10 - WHO,F43.2,SAME-AS
+,Other reactions to severe stress,,Diagnosis,N/A,Other reactions to severe stress,,,,,ICD 10 - WHO,F43.8,SAME-AS
+,"Reaction to severe stress, unspecified",,Diagnosis,N/A,"Reaction to severe stress, unspecified",,,,,ICD 10 - WHO,F43.9,SAME-AS
+,Dissociative [conversion] disorders,,Diagnosis,N/A,Dissociative [conversion] disorders,,,,,ICD 10 - WHO,F44,SAME-AS
+,Dissociative amnesia,,Diagnosis,N/A,Dissociative amnesia,,,,,ICD 10 - WHO,F44.0,SAME-AS
+,Dissociative fugue,,Diagnosis,N/A,Dissociative fugue,,,,,ICD 10 - WHO,F44.1,SAME-AS
+,Dissociative stupor,,Diagnosis,N/A,Dissociative stupor,,,,,ICD 10 - WHO,F44.2,SAME-AS
+,Trance and possession disorders,,Diagnosis,N/A,Trance and possession disorders,,,,,ICD 10 - WHO,F44.3,SAME-AS
+,Dissociative motor disorders,,Diagnosis,N/A,Dissociative motor disorders,,,,,ICD 10 - WHO,F44.4,SAME-AS
+,Dissociative convulsions,,Diagnosis,N/A,Dissociative convulsions,,,,,ICD 10 - WHO,F44.5,SAME-AS
+,Dissociative anaesthesia and sensory loss,,Diagnosis,N/A,Dissociative anaesthesia and sensory loss,,,,,ICD 10 - WHO,F44.6,SAME-AS
+,Mixed dissociative [conversion] disorders,,Diagnosis,N/A,Mixed dissociative [conversion] disorders,,,,,ICD 10 - WHO,F44.7,SAME-AS
+,Other dissociative [conversion] disorders,,Diagnosis,N/A,Other dissociative [conversion] disorders,,,,,ICD 10 - WHO,F44.8,SAME-AS
+,"Dissociative [conversion] disorder, unspecified",,Diagnosis,N/A,"Dissociative [conversion] disorder, unspecified",,,,,ICD 10 - WHO,F44.9,SAME-AS
+,Somatoform disorders,,Diagnosis,N/A,Somatoform disorders,,,,,ICD 10 - WHO,F45,SAME-AS
+,Somatization disorder,,Diagnosis,N/A,Somatization disorder,,,,,ICD 10 - WHO,F45.0,SAME-AS
+,Undifferentiated somatoform disorder,,Diagnosis,N/A,Undifferentiated somatoform disorder,,,,,ICD 10 - WHO,F45.1,SAME-AS
+,Hypochondriacal disorder,,Diagnosis,N/A,Hypochondriacal disorder,,,,,ICD 10 - WHO,F45.2,SAME-AS
+,Somatoform autonomic dysfunction,,Diagnosis,N/A,Somatoform autonomic dysfunction,,,,,ICD 10 - WHO,F45.3,SAME-AS
+,Persistent somatoform pain disorder,,Diagnosis,N/A,Persistent somatoform pain disorder,,,,,ICD 10 - WHO,F45.4,SAME-AS
+,Other somatoform disorders,,Diagnosis,N/A,Other somatoform disorders,,,,,ICD 10 - WHO,F45.8,SAME-AS
+,"Somatoform disorder, unspecified",,Diagnosis,N/A,"Somatoform disorder, unspecified",,,,,ICD 10 - WHO,F45.9,SAME-AS
+,Other neurotic disorders,,Diagnosis,N/A,Other neurotic disorders,,,,,ICD 10 - WHO,F48,SAME-AS
+,Neurasthenia,,Diagnosis,N/A,Neurasthenia,,,,,ICD 10 - WHO,F48.0,SAME-AS
+,Depersonalization-derealization syndrome,,Diagnosis,N/A,Depersonalization-derealization syndrome,,,,,ICD 10 - WHO,F48.1,SAME-AS
+,Other specified neurotic disorders,,Diagnosis,N/A,Other specified neurotic disorders,,,,,ICD 10 - WHO,F48.8,SAME-AS
+,"Neurotic disorder, unspecified",,Diagnosis,N/A,"Neurotic disorder, unspecified",,,,,ICD 10 - WHO,F48.9,SAME-AS

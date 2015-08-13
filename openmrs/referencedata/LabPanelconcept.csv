@@ -1,0 +1,11 @@
+uuid,name,description,class,datatype,shortname,synonym.1,reference-term-source,reference-term-code,reference-term-relationship,child.1,child.2,child.3,child.4,child.5,child.6,child.7,child.8,child.9,child.10,child.11,child.12,child.13,child.14,child.15,child.16,child.17,child.18,child.19,child.20,child.21,child.22,child.23,child.24
+,CBC,,LabSet,N/A,CBC,,,,,Haemoglobin (Blood),Total Leucocyte Count,Neutrophil,Lymphocyte (Blood),Eosinophil (Blood),Monocyte (Blood),Basophil (Blood),Platelets,RBC count,MCV,MCH,MCHC,PCV (Blood),,,,,,,,,,,
+,HbA1c Panel,,LabSet,N/A,HbA1c Panel,,,,,Blood Sugar Fasting,Blood Sugar P.P,HbA1c,,,,,,,,,,,,,,,,,,,,,
+,Kidney Function,,LabSet,N/A,Kidney Function,,,,,Urea,Creatinine,Sodium,Potassium,Calcium,Chloride,Uric acid,,,,,,,,,,,,,,,,,
+,Liver Function,,LabSet,N/A,Liver Function,,,,,SGOT/AST,SGPT/ALT,Alkaline Phosphate,Bilirubin Total,Bilirubin Direct,Protein (Serum),A-G Ratio,Gamma-GT,,,,,,,,,,,,,,,,
+,Lipid Profile,,LabSet,N/A,Lipid Profile,,,,,Total Cholesterol,HDL,LDL,Triglyceride,,,,,,,,,,,,,,,,,,,,
+,Cardiac Marker,,LabSet,N/A,Cardiac Marker,,,,,LDH (Serum),CPK,CK-MB,Troponin-I,SGOT/AST,,,,,,,,,,,,,,,,,,,
+,Basic Serology,,LabSet,N/A,Basic Serology,,,,,HIV (Serum),HBsAg (Serum),VDRL(TPHA) (Serum),,,,,,,,,,,,,,,,,,,,,
+,Urine Routine Examination,,LabSet,N/A,Urine Routine Examination,,,,,pH (Urine),Albumin (Urine),Sugar,,,,,,,,,,,,,,,,,,,,,
+,Urine Specific Test,,LabSet,N/A,Urine Specific Test,,,,,pH (Urine),Albumin (Urine),Sugar,Ketone Bodies,Bile Salt (Urine),Urobilinogen (Urine),Bile pigment,,,,,,,,,,,,,,,,,
+,Urine PregnancyTest,,LabSet,N/A,Urine PregnancyTest,,,,,Urine Pregnancy Test,,,,,,,,,,,,,,,,,,,,,,,
