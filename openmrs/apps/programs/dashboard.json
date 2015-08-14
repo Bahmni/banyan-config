@@ -3,14 +3,7 @@
     "dashboardName": "General",
     "displayByDefault": true,
     "sections": [
-            {
-                "type": "patientInformation",
-                "config": {
-                  "title": "PatientInformation",
-                  "patientAttributes": [],
-                  "addressFields": []
-                }
-            },
+
       {
         "title": "Treatments",
         "name": "treatment",
@@ -35,6 +28,24 @@
         }
       },
       {
+        "title": "Radiology",
+        "name": "radiology"
+      },
+{
+                "title": "Lab Results",
+                "name": "labOrders",
+                "dashboardParams": {
+					"title": null,
+                    "numberOfVisits": 1,
+                    "showChart": false,
+                    "showTable": true,
+                    "showDetailsButton": false
+                },
+                "allLabDetails": {
+                    "numberOfVisits": 10
+                }
+            },
+      {
                 "title": "Lab Results",
                 "name": "labOrders",
                 "dashboardParams": {
@@ -52,54 +63,50 @@
             },
 
             {
-                "title": "Department of Medical and Psychiatry Orders",
+                "title": "Lab Orders Display Control",
                 "name": "ordersControl",
-                "orderType": "Department of Medical and Psychiatry Order",
+                "orderType": "Lab Order",
                 "showDetailsButton" : true,
 "dashboardParams":{
-                    "conceptNames":[ "Order Fullfillment Status"]
+                    "conceptNames":[ "Systolic", "Diastolic", "Posture", "Temperature"]
                 },
                 "allOrdersDetails":{
-                    "conceptNames":[ "Order Fullfillment Status"]
+                    "conceptNames":[ "Systolic", "Diastolic", "Posture", "Temperature"] 
                 }
             },
-       {
-                "title": "Department of Psychology Orders",
-                "name": "ordersControl",
-                "orderType": "Department of Psychology Order",
-                "showDetailsButton" : true,
-"dashboardParams":{
-                    "conceptNames":[ "Order Fullfillment Status"]
-                },
-                "allOrdersDetails":{
-                    "conceptNames":[ "Order Fullfillment Status"]
-                }
-            },
-        {
-                "title": "Department of OT and VT Orders",
-                "name": "ordersControl",
-                "orderType": "Department of OT and VT Order",
-                "showDetailsButton" : true,
-"dashboardParams":{
-                    "conceptNames":[ "Order Fullfillment Status"]
-                },
-                "allOrdersDetails":{
-                    "conceptNames":[ "Order Fullfillment Status"]
-                }
-            },
-        {
-                "title": "Department of Social Work Orders",
-                "name": "ordersControl",
-                "orderType": "Department of Social Work Order",
-                "showDetailsButton" : true,
-"dashboardParams":{
-                    "conceptNames":[ "Order Fullfillment Status"]
-                },
-                "allOrdersDetails":{
-                    "conceptNames":[ "Order Fullfillment Status"]
-                }
-            },
-        {
+	    {
+		"title": "Lab Results",
+		 "name": "labOrders",
+ 		"dashboardParams": {
+   			"title": null,
+   			"numberOfVisits": 1,
+   			"showChart": false,
+   			"showTable": true,
+   "showDetailsButton": false,
+   "showNormalLabResults": true, 
+   "showCommentsExpanded": true,
+   "showAccessionNotes": true,
+   "visitUuids": null, 
+   "patientUuid": null 
+ },
+ "allLabDetails": {
+   "numberOfVisits": 3,
+   "observationGraph" : {
+   "type": "observationGraph",
+   "name": "observationGraph",
+   "title": "Temperature",
+   "config": {
+     "yAxisConcepts": ["Temperature"],
+     "numberOfVisits": 3
+   }
+ }
+}
+},
+
+
+
+
+      {
         "title": "Nutritional Values",
         "name": "vitals",
         "isObservation": true,

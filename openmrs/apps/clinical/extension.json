@@ -64,25 +64,51 @@
         "requiredPrivilege": "app:clinical"
     },
     {
-      "id": "bahmni.clinical.patients.search.allPatients",
+      "id": "bahmni.clinical.patients.search.CaseManagerClients",
       "extensionPointId": "org.bahmni.patient.search",
       "type": "config",
       "extensionParams": {
-        "searchHandler": "emrapi.sqlSearch.activePatientsByProvider",
-        "display":"My Patients",
+        "searchHandler": "emrapi.sqlSearch.CaseManagerClients",
+        "display":"Case Manager's Clients",
         "forwardUrl" : "#/patient/{{patientUuid}}/dashboard"
+      },
+      "label": "Active",
+      "order": 3,
+      "requiredPrivilege": "app:clinical"
+    },
+     {
+      "id": "bahmni.clinical.patients.search.ProgramManagement",
+      "extensionPointId": "org.bahmni.patient.search",
+      "type": "config",
+      "extensionParams": {
+        "searchHandler": "emrapi.sqlSearch.activePatients",
+        "display":"Program Management",
+        "forwardUrl" : "#/patient/{{patientUuid}}/consultationContext"
       },
       "label": "Active",
       "order": 2,
       "requiredPrivilege": "app:clinical"
     },
-     {
-      "id": "bahmni.clinical.patients.search.allPatients",
+      {
+      "id": "bahmni.clinical.patients.search.TCCProgramGH2",
       "extensionPointId": "org.bahmni.patient.search",
       "type": "config",
       "extensionParams": {
-        "searchHandler": "emrapi.sqlSearch.activePatients",
-        "display":"TCC Program",
+        "searchHandler": "emrapi.sqlSearch.TCCProgramGH2",
+        "display":"TCC Program - Group Home 2",
+        "forwardUrl" : "#/patient/{{patientUuid}}/consultationContext"
+      },
+      "label": "Active",
+      "order": 3,
+      "requiredPrivilege": "app:clinical"
+    },
+       {
+      "id": "bahmni.clinical.patients.search.TCCProgramGH3",
+      "extensionPointId": "org.bahmni.patient.search",
+      "type": "config",
+      "extensionParams": {
+        "searchHandler": "emrapi.sqlSearch.TCCProgramGH3",
+        "display":"TCC Program - Group Home 3",
         "forwardUrl" : "#/patient/{{patientUuid}}/consultationContext"
       },
       "label": "Active",
@@ -90,6 +116,19 @@
       "requiredPrivilege": "app:clinical"
     },
    {
+      "id": "bahmni.clinical.patients.search.CCACIP",
+      "extensionPointId": "org.bahmni.patient.search",
+      "type": "config",
+      "extensionParams": {
+        "searchHandler": "emrapi.sqlSearch.CCACIP",
+        "display":"CC and AC Program - TCC IP",
+        "forwardUrl" : "#/patient/{{patientUuid}}/consultationContext"
+      },
+      "label": "Active",
+      "order": 3,
+      "requiredPrivilege": "app:clinical"
+    },
+{
         "id": "bahmni.clinical.patients.search.allPatients",
         "extensionPointId": "org.bahmni.patient.search",
         "type": "config",

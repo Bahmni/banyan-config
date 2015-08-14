@@ -39,7 +39,6 @@
         "order": 4,
         "requiredPrivilege": "app:clinical"
     },
-    
     {
         "id": "bahmni.patient.document.upload",
         "extensionPointId": "org.bahmni.home.dashboard",
@@ -47,7 +46,7 @@
         "label": "Patient Documents",
         "url": "../document-upload/?encounterType=Patient Document&topLevelConcept=Patient Document&defaultOption=Patient file",
         "icon": "fa-camera",
-        "order": 5,
+        "order": 6,
         "requiredPrivilege": "app:document-upload"
     },
     {
@@ -57,7 +56,7 @@
         "label": "Reports",
         "url": "../reports/#/dashboard",
         "icon": "fa-user",
-        "order": 6
+        "order": 7
     },
     {
         "id": "bahmni.admin",
@@ -66,7 +65,7 @@
         "label": "Admin",
         "url": "../admin/#/dashboard/home",
         "icon": "fa-user",
-        "order": 7,
+        "order": 8,
         "requiredPrivilege": "app:admin"
     }
 ]
