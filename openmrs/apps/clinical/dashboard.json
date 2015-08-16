@@ -3,13 +3,13 @@
     "dashboardName": "General",
     "displayByDefault": true,
     "sections": [
-            {
-                "type": "patientInformation",
-                "config": {
-                  "title": "PatientInformation",
-                  "patientAttributes": [],
-                  "addressFields": []
-                }
+			{
+                "title": "Patient Information",
+                "name": "patientInformation",
+                "patientAttributes": ["Occupation","Marital Status","Mother Tongue","Family Type","Availability of Relative"],
+                "addressFields": ["cityVillage",
+                    "countyDistrict",
+                    "stateProvince"]
             },
       {
         "title": "Treatments",
@@ -34,6 +34,17 @@
           "showDetailsButton": true
         }
       },
+       {
+                "title": "Diagnosis",
+                "name": "diagnosis",
+                "showDetailsButton": false,
+                "showCertainty": true,
+                "showOrder": true
+        },
+        {
+ 		   "title": "Programs",
+    		"name": "programs"
+		},
       {
                 "title": "Lab Results",
                 "name": "labOrders",
@@ -52,7 +63,7 @@
             },
 
             {
-                "title": "Department of Medical and Psychiatry Orders",
+                "title": "Dept. Medical and Psychiatry Orders",
                 "name": "ordersControl",
                 "orderType": "Department of Medical and Psychiatry Order",
                 "showDetailsButton" : true,
@@ -64,7 +75,7 @@
                 }
             },
        {
-                "title": "Department of Psychology Orders",
+                "title": "Dept. of Psychology Orders",
                 "name": "ordersControl",
                 "orderType": "Department of Psychology Order",
                 "showDetailsButton" : true,
@@ -76,7 +87,7 @@
                 }
             },
         {
-                "title": "Department of OT and VT Orders",
+                "title": "Dept. of OT and VT Orders",
                 "name": "ordersControl",
                 "orderType": "Department of OT and VT Order",
                 "showDetailsButton" : true,
@@ -88,7 +99,7 @@
                 }
             },
         {
-                "title": "Department of Social Work Orders",
+                "title": "Dept. of Social Work Orders",
                 "name": "ordersControl",
                 "orderType": "Department of Social Work Order",
                 "showDetailsButton" : true,
@@ -127,6 +138,20 @@
           "maximumNoOfVisits": 10
         }
       },
+                      {
+                    "title": "Navigation Links Control",
+                    "name": "navigationLinksControl",
+                    "links": [
+                        {
+                            "title": "Patient ADT Page",
+                            "url": "../adt/#/patient/:patientUuid/visit/:visitUuid/"
+                        },
+                        {
+                            "title": "Program Management Page",
+                            "url": "../clinical/#/patient/:patientUuid/consultationContext"
+                        }
+                    ]
+                },
       {
         "title": "Diabetes",
         "templateName": "Diabetes Template",
@@ -181,31 +206,30 @@
       }
     ]
   },
-  {
-    "dashboardName": "General - 2",
-    "sections": [
       {
-        "title": "Patient Information",
-        "name": "patientInformation",
-        "patientAttributes": [
-          "caste",
-          "class",
-          "education",
-          "occupation",
-          "debt",
-          "distanceFromCenter",
-          "isUrban",
-          "cluster",
-          "RationCard",
-          "familyIncome"
-        ],
-        "addressFields": [
-          "address1",
-          "address2",
-          "cityVillage",
-          "countryDistrict"
-        ]
-      }
-    ]
-  }
+        "dashboardName": "Trends",
+        "displayByDefault": true,
+        "maxRecentlyViewedPatients": 10,
+        "sections": {
+            "patientInformation": {
+                "title": "Patient Information",
+                "name": "patientInformation",
+                "patientAttributes": [],
+                "addressFields": []
+            },
+           	 "weight/Bmi": {
+                "type":"observationGraph",
+                "name":"observationGraph",
+                "title": "Weight/BMI",
+                "config": {
+                    "yAxisConcepts": [
+                        "Weight",
+                        "BMI"
+                    ],
+                    "xAxisConcept": "observationDateTime",
+                    "numberOfVisits": 10
+                }
+            }
+        }
+    }
 ]

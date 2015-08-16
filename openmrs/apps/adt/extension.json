@@ -93,7 +93,7 @@
         "extensionPointId": "org.bahmni.patient.search",
         "type": "config",
         "extensionParams": {
-            "searchHandler": "emrapi.sqlSearch.patientsToAdmit",
+            "searchHandler": "emrapi.sqlSearch.patientsToAdmit_banyan",
             "display":"To Admit",
             "forwardUrl":"#/patient/{{patientUuid}}/visit/{{visitUuid}}/admit"
         },

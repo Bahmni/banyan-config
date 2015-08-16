@@ -18,9 +18,6 @@
             "activeVisitUuid"
         ],
         "config" : {
-            "relationshipTypeMap": {
-                        "Case Manager":"provider"
-                    },
              "additionalPatientInformation" : [
                 { "name":"Phone Number", "display":true },
 				{ "name":"Identification Mark", "display":true },

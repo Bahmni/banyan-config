@@ -75,18 +75,7 @@
                             "title": "Patient Visit Page",
                             "url": "../clinical/#/patient/:patientUuid/dashboard/visit/:visitUuid"
                         },
-                        {
-                            "title": "Patient ADT Page",
-                            "url": "../adt/#/patient/:patientUuid/visit/:visitUuid/"
-                        },
-                        {
-                            "title": "Patient Dashboard",
-                            "url": "../clinical/#/patient/:patientUuid/dashboard"
-                        },
-                        {
-                            "title": "Discharge Summary Page",
-                            "url": "../clinical/#/patient/:patientUuid/dashboard/visit/:visitUuid"
-                        },
+                        
                         {
                             "title": "Program Management Page",
                             "url": "../clinical/#/patient/:patientUuid/consultationContext"
