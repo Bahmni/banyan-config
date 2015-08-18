@@ -26,7 +26,7 @@
 				{ "name":"Language 2", "display":true }
             ],
             "autoCompleteFields":["familyName", "caste"],
-            "defaultIdentifierPrefix": "GAN",
+            "defaultIdentifierPrefix": "TCC",
             "defaultVisitType": "General",
             "searchByIdForwardUrl": "/patient/{{patientUuid}}",
             "showMiddleName": false,
