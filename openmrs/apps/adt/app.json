@@ -68,12 +68,21 @@
                     "name": "navigationLinksControl",
                     "links": [
                         {
+                            "title": "Home Dashboard",
+                            "url": "../home/#/dashboard"
+                        },
+                        {
+                            "title": "Patient Visit Page",
+                            "url": "../clinical/#/patient/:patientUuid/dashboard/visit/:visitUuid"
+                        },
+                        
+                        {
                             "title": "Program Management Page",
-			    "url": "../clinical/#/patient/{{patientUuid}}/consultationContext"
+                            "url": "../clinical/#/patient/:patientUuid/consultationContext"
                         },
                         {
                             "title": "Consultation",
-			    "url": "../clinical/#/patient/{{patientUuid}}/concept-set-group/observations"
+                            "url": "../clinical/#/patient/:patientUuid/concept-set-group/observations"
                         }
                     ]
                 }

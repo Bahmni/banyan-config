@@ -22,11 +22,11 @@
                 { "name":"Phone Number", "display":true },
 				{ "name":"Identification Mark", "display":true },
 				{ "name":"Mother Tongue", "display":true },
-				{ "name":"Language 1", "display":true },
-				{ "name":"Language 2", "display":true }
+				{ "name":"Second Language", "display":true },
+				{ "name":"Third Language", "display":true }
             ],
             "autoCompleteFields":["familyName", "caste"],
-            "defaultIdentifierPrefix": "TCC",
+            "defaultIdentifierPrefix": "GAN",
             "defaultVisitType": "General",
             "searchByIdForwardUrl": "/patient/{{patientUuid}}",
             "showMiddleName": false,
