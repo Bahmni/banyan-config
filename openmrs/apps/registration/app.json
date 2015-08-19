@@ -1,68 +1,96 @@
-[
-    {
-        "id": "bahmni.registration",
-        "instanceOf":"bahmni.template.registration",
-        "description": "Bahmni Patient Registration App",
-        "extensionPoints": [
+{
+    "id": "bahmni.registration",
+    "instanceOf": "bahmni.template.registration",
+    "description": "Bahmni Patient Registration App",
+    "extensionPoints": [
+        {
+            "id": "org.bahmni.registration.patient.search.result.action",
+            "description": "Bahmni Patient Search Result Action"
+        },
+        {
+            "id": "org.bahmni.registration.patient.next",
+            "description": "After Bahmni Patient Registration, forward url configuration"
+        }
+    ],
+    "contextModel": [
+        "patientUuid",
+        "activeVisitUuid"
+    ],
+    "config": {
+        "additionalPatientInformation": [
             {
-                "id": "org.bahmni.registration.patient.search.result.action",
-                "description": "Bahmni Patient Search Result Action"
+                "name": "Phone Number",
+                "display": true
             },
             {
-                "id": "org.bahmni.registration.patient.next",
-                "description": "After Bahmni Patient Registration, forward url configuration"
+                "name": "Identification Mark",
+                "display": true
+            },
+            {
+                "name": "Mother Tongue",
+                "display": true
+            },
+            {
+                "name": "Language 1",
+                "display": true
+            },
+            {
+                "name": "Language 2",
+                "display": true
             }
         ],
-        "contextModel": [
-            "patientUuid",
-            "activeVisitUuid"
+        "autoCompleteFields": [
+            "familyName",
+            "caste"
         ],
-        "config" : {
-             "additionalPatientInformation" : [
-                { "name":"Phone Number", "display":true },
-				{ "name":"Identification Mark", "display":true },
-				{ "name":"Mother Tongue", "display":true },
-				{ "name":"Language 1", "display":true },
-				{ "name":"Language 2", "display":true }
-            ],
-            "autoCompleteFields":["familyName", "caste"],
-            "defaultIdentifierPrefix": "TCC",
-            "defaultVisitType": "General",
-            "searchByIdForwardUrl": "/patient/{{patientUuid}}",
-            "showMiddleName": false,
-            "showCasteSameAsLastNameCheckbox": true,
-            "localNameSearch": false,
-            "printOptions": [
-                {
-                    "label": "<u>P</u>rint Registration Card",
-                    "templateUrl": "/bahmni_config/openmrs/apps/registration/registrationCardLayout/print.html",
-                    "shortcutKey": "p"
-                },
-                {
-                    "label": "P<u>r</u>int Supplemental Paper",
-                    "templateUrl": "/bahmni_config/openmrs/apps/registration/supplementalPaperLayout/print.html",
-                    "shortcutKey": "r"
-                }
-            ],
-            "conceptSetUI": {
-                "REGISTRATION FEES": {
-                    "required": true,
-                    "label": "Fee"
-                }
+        "defaultIdentifierPrefix": "TCC",
+        "defaultVisitType": "General",
+        "searchByIdForwardUrl": "/patient/{{patientUuid}}",
+        "showMiddleName": false,
+        "showCasteSameAsLastNameCheckbox": true,
+        "localNameSearch": false,
+        "printOptions": [
+            {
+                "label": "<u>P</u>rint Registration Card",
+                "templateUrl": "/bahmni_config/openmrs/apps/registration/registrationCardLayout/print.html",
+                "shortcutKey": "p"
             },
-	     "fieldValidation" : {
-                "primaryContact" : {"pattern" : "[0-9]{8,10}", "errorMessage" : "Should be 12 characters starting with 91 (country code)"},
-                "landHolding" : {"pattern" : "[0-9]{0,3}", "errorMessage" : "Should be between 1 to 999 acres"},
-                "familyName" : {"pattern" : "[a-zA-Z]{0,}", "errorMessage" : "Should contain characters"},
-                "address1" : {"pattern" : "[a-zA-Z0-9]{3}", "errorMessage" : "Should contain 3 characters"}
+            {
+                "label": "P<u>r</u>int Supplemental Paper",
+                "templateUrl": "/bahmni_config/openmrs/apps/registration/supplementalPaperLayout/print.html",
+                "shortcutKey": "r"
+            }
+        ],
+        "conceptSetUI": {
+            "REGISTRATION FEES": {
+                "required": true,
+                "label": "Fee"
+            }
+        },
+        "fieldValidation": {
+            "primaryContact": {
+                "pattern": "[0-9]{8,10}",
+                "errorMessage": "Should be 12 characters starting with 91 (country code)"
             },
-            "patientSearch": {
-                "address": {
-                    "label": "Rural Ward",
-                    "placeholder": "Enter ward",
-                    "field": "address2"
-                }
+            "landHolding": {
+                "pattern": "[0-9]{0,3}",
+                "errorMessage": "Should be between 1 to 999 acres"
+            },
+            "familyName": {
+                "pattern": "[a-zA-Z]{0,}",
+                "errorMessage": "Should contain characters"
+            },
+            "address1": {
+                "pattern": "[a-zA-Z0-9]{3}",
+                "errorMessage": "Should contain 3 characters"
+            }
+        },
+        "patientSearch": {
+            "address": {
+                "label": "Rural Ward",
+                "placeholder": "Enter ward",
+                "field": "address2"
             }
         }
     }
-]
+}
