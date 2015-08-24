@@ -1,209 +1,221 @@
 {
-  "general": {
-    "title": "General",
-    "displayByDefault": true,
-    "printing": {
-      "title": "Bahmni",
-      "header": "Visit",
-      "logo": "/bahmni_config/openmrs/apps/registration/registrationCardLayout/images/bahmni-icon.png"
+    "general": {
+        "title": "General",
+        "displayByDefault": true,
+        "printing": {
+            "title": "Bahmni",
+            "header": "Visit",
+            "logo": "/bahmni_config/openmrs/apps/registration/registrationCardLayout/images/bahmni-icon.png"
+        },
+        "defaultSections": true,
+        "sections": {
+            "patientInformation": {
+                "type": "Patient Information",
+                "name": "patientInformation",
+                "config": {
+                    "title": "PatientInformation",
+                    "patientAttributes": [
+                        "Occupation",
+                        "Marital Status",
+                        "Mother Tongue",
+                        "Family Type",
+                        "Availability of Relative"
+                    ],
+                    "addressFields": [
+                        "cityVillage",
+                        "countyDistrict",
+                        "stateProvince"
+                    ]
+                },
+                "displayOrder": 0
+            }
+        }
     },
-    "defaultSections": true,
-    "sections": {
-      "patientInformation": {
-        "type": "Patient Information",
-        "name": "patientInformation",
-        "config": {
-          "title": "PatientInformation",
-          "patientAttributes": [
-            "Occupation",
-            "Marital Status",
-            "Mother Tongue",
-            "Family Type",
-            "Availability of Relative"
-          ],
-          "addressFields": [
-            "cityVillage",
-            "countyDistrict",
-            "stateProvince"
-          ]
+    "mnp": {
+        "title": "Medical and Psychiatry",
+        "displayByDefault": true,
+        "printing": {
+            "title": "Bahmni",
+            "header": "Visit",
+            "logo": "/bahmni_config/openmrs/apps/registration/registrationCardLayout/images/bahmni-icon.png"
+        },
+        "defaultSections": true,
+        "sections": {
+            "patientInformation": {
+                "type": "patientInformation",
+                "config": {
+                    "addressFields": [
+                        "cityVillage",
+                        "countyDistrict",
+                        "stateProvince"
+                    ],
+                    "title": "PatientInformation",
+                    "patientAttributes": [
+                        "Occupation",
+                        "Marital Status",
+                        "Mother Tongue",
+                        "Family Type",
+                        "Availability of Relative"
+                    ]
+                },
+                "displayOrder": 0
+            },
+            "diagnoses": {
+                "type": "diagnosis",
+                "config": {
+                    "title": "Diagnoses",
+                    "showCertainty": false,
+                    "showOrder": false,
+                    "showDetailsButton": true
+                },
+                "displayOrder": 1
+            },
+            "caseOrders": {
+                "title": "Case Referral Orders",
+                "type": "order",
+                "config": {
+                    "title": "Case Referral Orders",
+                    "name": "ordersControl",
+                    "orderType": "Department of Medical and Psychiatry Order",
+                    "showDetailsButton": true,
+                    "conceptNames": [
+                        "Order Fullfillment Status"
+                    ]
+                },
+                "displayOrder": 2
+            },
+            "clinicalNotes": {
+                "type": "observation",
+                "title": "Clinical Notes",
+                "config": {
+                    "conceptNames": [
+                        "History and Examination Notes",
+                        "Discharge Summary, Admission Indication",
+                        "Hospital Course",
+                        "Discharge Summary, Surgical Indication",
+                        "Date of Operation",
+                        "Operative Procedure",
+                        "Lab Investigation Notes",
+                        "Radiology Notes",
+                        "Other Notes"
+                    ],
+                    "scope": "latest",
+                    "numberOfVisits": "1"
+                },
+                "displayOrder": 3
+            }
         }
-      }
-    }
-  },
-  "mnp": {
-    "title": "Medical and Psychiatry",
-    "displayByDefault": true,
-    "printing": {
-      "title": "Bahmni",
-      "header": "Visit",
-      "logo": "/bahmni_config/openmrs/apps/registration/registrationCardLayout/images/bahmni-icon.png"
     },
-    "defaultSections": true,
-    "sections": {
-      "patientInformation": {
-        "type": "patientInformation",
-        "config": {
-          "addressFields": [
-            "cityVillage",
-            "countyDistrict",
-            "stateProvince"
-          ],
-          "title": "PatientInformation",
-          "patientAttributes": [
-            "Occupation",
-            "Marital Status",
-            "Mother Tongue",
-            "Family Type",
-            "Availability of Relative"
-          ]
+    "dischargeSummary": {
+        "title": "Discharge Summary",
+        "displayByDefault": true,
+        "printing": {
+            "title": "Bahmni",
+            "header": "Visit",
+            "logo": "/bahmni_config/openmrs/apps/registration/registrationCardLayout/images/bahmni-icon.png"
+        },
+        "sections": {
+            "patientInformation": {
+                "type": "patientInformation",
+                "config": {
+                    "addressFields": [
+                        "cityVillage",
+                        "countyDistrict",
+                        "stateProvince"
+                    ],
+                    "title": "PatientInformation",
+                    "patientAttributes": [
+                        "Occupation",
+                        "Marital Status",
+                        "Mother Tongue",
+                        "Family Type",
+                        "Availability of Relative"
+                    ]
+                },
+                "displayOrder": 0
+            },
+            "diagnoses": {
+                "type": "diagnosis",
+                "config": {
+                    "title": "Diagnoses",
+                    "showCertainty": false,
+                    "showOrder": false,
+                    "showDetailsButton": true
+                },
+                "displayOrder": 1
+            },
+            "admissionDetails": {
+                "type": "admissionDetails",
+                "config": {
+                    "showDetailsButton": true
+                },
+                "displayOrder": 2
+            },
+            "labInvestigations": {
+                "type": "investigationResult",
+                "config": {
+                    "title": "Lab Investigations",
+                    "showChart": true,
+                    "showTable": false,
+                    "showNormalLabResults": true,
+                    "showCommentsExpanded": true,
+                    "showAccessionNotes": true,
+                    "numberOfVisits": 10,
+                    "initialAccessionCount": 1,
+                    "latestAccessionCount": 1
+                },
+                "displayOrder": 3
+            },
+            "treatments": {
+                "type": "treatment",
+                "config": {
+                    "title": "Treatments",
+                    "showFlowSheet": false,
+                    "showListView": true,
+                    "showOtherActive": true,
+                    "showDetailsButton": true,
+                    "showRoute": true,
+                    "showDrugForm": true
+                },
+                "displayOrder": 4
+            },
+            "clearancesummary": {
+                "type": "observation",
+                "title": "Department Clearance Summary",
+                "config": {
+                    "conceptNames": [
+                        "Type of Discharge",
+                        "Case Manager",
+                        "Primary Care and Assets",
+                        "Psychiatrist review and opinon",
+                        "Medical Review",
+                        "Vocational Training/Work",
+                        "Reintegration/Referral Plan",
+                        "Follow up Plan",
+                        "Family Factors",
+                        "Illness Related factors"
+                    ],
+                    "scope": "initial"
+                },
+                "displayOrder": 5
+            },
+            "dischargesheet": {
+                "type": "observation",
+                "title": "Discharge Sheet",
+                "config": {
+                    "conceptNames": [
+                        "Brief Description of the family",
+                        "Brief clinical History",
+                        "Course in the hospital",
+                        "Current Status",
+                        "After care plan",
+                        "Social care",
+                        "Treatment"
+                    ],
+                    "scope": "initial"
+                },
+                "displayOrder": 6
+            }
         }
-      },
-      "diagnoses": {
-        "type": "diagnosis",
-        "config": {
-          "title": "Diagnoses",
-          "showCertainty": false,
-          "showOrder": false,
-          "showDetailsButton": true
-        }
-      },
-      "caseOrders": {
-        "title": "Case Referral Orders",
-        "type": "order",
-        "config": {
-          "title": "Case Referral Orders",
-          "name": "ordersControl",
-          "orderType": "Department of Medical and Psychiatry Order",
-          "showDetailsButton": true,
-          "conceptNames": [
-            "Order Fullfillment Status"
-          ]
-        }
-      },
-      "clinicalNotes": {
-        "type": "observation",
-        "title": "Clinical Notes",
-        "config": {
-          "conceptNames": [
-            "History and Examination Notes",
-            "Discharge Summary, Admission Indication",
-            "Hospital Course",
-            "Discharge Summary, Surgical Indication",
-            "Date of Operation",
-            "Operative Procedure",
-            "Lab Investigation Notes",
-            "Radiology Notes",
-            "Other Notes"
-          ],
-          "scope": "latest",
-          "numberOfVisits": "1"
-        }
-      }
     }
-  },
-  "dischargeSummary": {
-    "title": "Discharge Summary",
-    "displayByDefault": true,
-    "printing": {
-      "title": "Bahmni",
-      "header": "Visit",
-      "logo": "/bahmni_config/openmrs/apps/registration/registrationCardLayout/images/bahmni-icon.png"
-    },
-    "sections": {
-      "patientInformation": {
-        "type": "patientInformation",
-        "config": {
-          "addressFields": [
-            "cityVillage",
-            "countyDistrict",
-            "stateProvince"
-          ],
-          "title": "PatientInformation",
-          "patientAttributes": [
-            "Occupation",
-            "Marital Status",
-            "Mother Tongue",
-            "Family Type",
-            "Availability of Relative"
-          ]
-        }
-      },
-      "diagnoses": {
-        "type": "diagnosis",
-        "config": {
-          "title": "Diagnoses",
-          "showCertainty": false,
-          "showOrder": false,
-          "showDetailsButton": true
-        }
-      },
-      "admissionDetails": {
-        "type": "admissionDetails",
-        "config": {
-          "showDetailsButton": true
-        }
-      },
-      "labInvestigations": {
-        "type": "investigationResult",
-        "config": {
-          "title": "Lab Investigations",
-          "showChart": true,
-          "showTable": false,
-          "showNormalLabResults": true,
-          "showCommentsExpanded": true,
-          "showAccessionNotes": true,
-          "numberOfVisits": 10,
-          "initialAccessionCount": 1,
-          "latestAccessionCount": 1
-        }
-      },
-      "treatments": {
-        "type": "treatment",
-        "config": {
-          "title": "Treatments",
-          "showFlowSheet": false,
-          "showListView": true,
-          "showOtherActive": true,
-          "showDetailsButton": true,
-          "showRoute": true,
-          "showDrugForm": true
-        }
-      },
-      "clearancesummary": {
-        "type": "observation",
-        "title": "Department Clearance Summary",
-        "config": {
-          "conceptNames": [
-            "Type of Discharge",
-            "Case Manager",
-            "Primary Care and Assets",
-            "Psychiatrist review and opinon",
-            "Medical Review",
-            "Vocational Training/Work",
-            "Reintegration/Referral Plan",
-            "Follow up Plan",
-            "Family Factors",
-            "Illness Related factors"
-          ],
-          "scope": "initial"
-        }
-      },
-      "dischargesheet": {
-        "type": "observation",
-        "title": "Discharge Sheet",
-        "config": {
-          "conceptNames": [
-            "Brief Description of the family",
-            "Brief clinical History",
-            "Course in the hospital",
-            "Current Status",
-            "After care plan",
-            "Social care",
-            "Treatment"
-          ],
-          "scope": "initial"
-        }
-      }
-    }
-  }
 }

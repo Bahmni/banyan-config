@@ -17,7 +17,8 @@
                     "cityVillage",
                     "countyDistrict",
                     "stateProvince"
-                ]
+                ],
+                "displayOrder": 0
             },
             "treatments": {
                 "title": "Treatments",
@@ -40,18 +41,21 @@
                     "numberOfVisits": 4,
                     "showOtherActive": true,
                     "showDetailsButton": true
-                }
+                },
+                "displayOrder": 1
             },
             "diagnosis": {
                 "title": "Diagnosis",
                 "name": "diagnosis",
                 "showDetailsButton": false,
                 "showCertainty": true,
-                "showOrder": true
+                "showOrder": true,
+                "displayOrder": 2
             },
             "programs": {
                 "title": "Programs",
-                "name": "programs"
+                "name": "programs",
+                "displayOrder": 3
             },
             "lab_results": {
                 "title": "Lab Results",
@@ -67,7 +71,8 @@
                 },
                 "allLabDetails": {
                     "numberOfVisits": 10
-                }
+                },
+                "displayOrder": 4
             },
             "dept._medical_and_psychiatry_orders": {
                 "title": "Dept. Medical and Psychiatry Orders",
@@ -83,7 +88,8 @@
                     "conceptNames": [
                         "Order Fullfillment Status"
                     ]
-                }
+                },
+                "displayOrder": 5
             },
             "dept._of_psychology_orders": {
                 "title": "Dept. of Psychology Orders",
@@ -99,7 +105,8 @@
                     "conceptNames": [
                         "Order Fullfillment Status"
                     ]
-                }
+                },
+                "displayOrder": 6
             },
             "dept._of_ot_and_vt_orders": {
                 "title": "Dept. of OT and VT Orders",
@@ -115,7 +122,8 @@
                     "conceptNames": [
                         "Order Fullfillment Status"
                     ]
-                }
+                },
+                "displayOrder": 7
             },
             "dept._of_social_work_orders": {
                 "title": "Dept. of Social Work Orders",
@@ -131,7 +139,8 @@
                     "conceptNames": [
                         "Order Fullfillment Status"
                     ]
-                }
+                },
+                "displayOrder": 8
             },
             "nutritional_values": {
                 "title": "Nutritional Values",
@@ -150,7 +159,8 @@
                     "numberOfVisits": 2,
                     "scope": "latest",
                     "showDetailsButton": true
-                }
+                },
+                "displayOrder": 9
             },
             "visits": {
                 "title": "Visits",
@@ -158,7 +168,8 @@
                 "dashboardParams": {
                     "title": null,
                     "maximumNoOfVisits": 10
-                }
+                },
+                "displayOrder": 10
             },
             "navigation_links_control": {
                 "title": "Navigation Links Control",
@@ -172,7 +183,8 @@
                         "title": "Program Management Page",
                         "url": "../clinical/#/patient/:patientUuid/consultationContext"
                     }
-                ]
+                ],
+                "displayOrder": 11
             },
             "diabetes": {
                 "title": "Diabetes",
@@ -208,7 +220,8 @@
                             "Polymorph"
                         ]
                     }
-                }
+                },
+                "displayOrder": 12
             },
             "scales": {
                 "title": "Scales",
@@ -220,11 +233,13 @@
                 "allDiseaseDetails": {
                     "showDetailsButton": true,
                     "pivotTable": {}
-                }
+                },
+                "displayOrder": 13
             },
             "admission_details": {
                 "title": "Admission Details",
-                "name": "admissionDetails"
+                "name": "admissionDetails",
+                "displayOrder": 14
             }
         }
     },
@@ -237,7 +252,8 @@
                 "title": "Patient Information",
                 "name": "patientInformation",
                 "patientAttributes": [],
-                "addressFields": []
+                "addressFields": [],
+                "displayOrder": 0
             },
             "weight/bmi": {
                 "type": "observationGraph",
@@ -250,7 +266,8 @@
                     ],
                     "xAxisConcept": "observationDateTime",
                     "numberOfVisits": 10
-                }
+                },
+                "displayOrder": 1
             }
         }
     }
