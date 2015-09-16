@@ -95,15 +95,15 @@
                         },
                         {
                             "title": "Patient Visit Page",
-                            "url": "../clinical/#/patient/:patientUuid/dashboard/visit/:visitUuid"
+                            "url": "../clinical/#/default/patient/{{patientUuid}}/dashboard/visit/{{visitUuid}}"
                         },
                         {
                             "title": "Program Management Page",
-                            "url": "../clinical/#/patient/:patientUuid/consultationContext"
+                            "url": "../clinical/#/default/patient/{{patientUuid}}/consultationContext"
                         },
                         {
                             "title": "Consultation",
-                            "url": "../clinical/#/patient/:patientUuid/concept-set-group/observations"
+                            "url": "../clinical/#/default/patient/{{patientUuid}}/concept-set-group/observations"
                         }
                     ],
                     "displayOrder": 5

@@ -177,11 +177,11 @@
                 "links": [
                     {
                         "title": "Patient ADT Page",
-                        "url": "../adt/#/patient/:patientUuid/visit/:visitUuid/"
+                        "url": "../adt/#/patient/{{patientUuid}}/visit/{{visitUuid}}/"
                     },
                     {
                         "title": "Program Management Page",
-                        "url": "../clinical/#/patient/:patientUuid/consultationContext"
+                        "url": "../clinical/#/programs/patient/{{patientUuid}}/consultationContext"
                     }
                 ],
                 "displayOrder": 11
