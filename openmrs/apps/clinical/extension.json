@@ -57,7 +57,7 @@
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.CaseManagerClients",
             "display": "Case Manager's Clients",
-            "forwardUrl": "#/patient/{{patientUuid}}/dashboard"
+            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
         },
         "label": "Active",
         "order": 5,
@@ -66,11 +66,11 @@
     "bahmni_clinical_patients_search_programmanagement_program_management_app:clinical": {
         "id": "bahmni.clinical.patients.search.ProgramManagement",
         "extensionPointId": "org.bahmni.patient.search",
-        "type": "config",
+        "type":"config",
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.activePatients",
             "display": "Program Management",
-            "forwardUrl": "#/patient/{{patientUuid}}/consultationContext"
+            "forwardUrl": "#/programs/patient/{{patientUuid}}/consultationContext"
         },
         "label": "Active",
         "order": 6,
@@ -83,7 +83,7 @@
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.TCCProgramGH2",
             "display": "TCC Program - Group Home 2",
-            "forwardUrl": "#/patient/{{patientUuid}}/dashboard"
+            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
         },
         "label": "Active",
         "order": 3,
@@ -96,7 +96,7 @@
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.TCCProgramGH3",
             "display": "TCC Program - Group Home 3",
-            "forwardUrl": "#/patient/{{patientUuid}}/dashboard"
+            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
         },
         "label": "Active",
         "order": 4,
@@ -109,7 +109,7 @@
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.TCCProgramIP",
             "display": "TCC Program - TCC IP",
-            "forwardUrl": "#/patient/{{patientUuid}}/dashboard"
+            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
         },
         "label": "Active",
         "order": 1,
@@ -122,7 +122,7 @@
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.CCACIP",
             "display": "CC and AC Program - TCC IP",
-            "forwardUrl": "#/patient/{{patientUuid}}/dashboard"
+            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
         },
         "label": "Active",
         "order": 2,
@@ -134,7 +134,7 @@
         "type": "config",
         "extensionParams": {
             "display": "All",
-            "forwardUrl": "#/patient/{{patientUuid}}/dashboard"
+            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
         },
         "label": "All",
         "order": 7,
