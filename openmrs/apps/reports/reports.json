@@ -120,5 +120,26 @@
         "config":{
             "orderTypes": ["Department of OT and VT Order"]
         }
+    },
+    "TCCProgram": {
+        "name":"TCC Program State Transition Report",
+        "type":"programStateTransitionReport",
+        "config":{
+            "programName":"TCC Program"
+        }
+    },
+    "CCProgram": {
+        "name":"CC Program State Transition Report",
+        "type":"programStateTransitionReport",
+        "config":{
+            "programName":"CC Program"
+        }
+    },
+    "AftercareProgram": {
+        "name":"Aftercare Program State Transition Report",
+        "type":"programStateTransitionReport",
+        "config":{
+            "programName":"Aftercare Program"
+        }
     }
 }
