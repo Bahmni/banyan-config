@@ -74,7 +74,7 @@
         "type": "link",
         "label": "Admin",
         "url": "../admin/#/dashboard/home",
-        "icon": "fa-user",
+        "icon": "fa-cogs",
         "order": 8,
         "requiredPrivilege": "app:admin"
     }
