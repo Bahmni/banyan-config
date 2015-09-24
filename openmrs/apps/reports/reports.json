@@ -35,7 +35,7 @@
         }
     },
     "patientProgram2": {
-        "name": "CC Program State Count Report",
+        "name": "Community Clinic Program State Count Report",
         "type": "programStateCount",
         "config": {
             "programName": "CC Program"

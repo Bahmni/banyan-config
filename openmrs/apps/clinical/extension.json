@@ -63,20 +63,7 @@
         "order": 5,
         "requiredPrivilege": "app:clinical"
     },
-    "bahmni_clinical_patients_search_programmanagement_program_management_app:clinical": {
-        "id": "bahmni.clinical.patients.search.ProgramManagement",
-        "extensionPointId": "org.bahmni.patient.search",
-        "type":"config",
-        "extensionParams": {
-            "searchHandler": "emrapi.sqlSearch.activePatients",
-            "display": "Program Management",
-            "forwardUrl": "#/programs/patient/{{patientUuid}}/consultationContext"
-        },
-        "label": "Active",
-        "order": 6,
-        "requiredPrivilege": "app:clinical"
-    },
-    "bahmni_clinical_patients_search_tccprogramgh2_tcc_program_group_home_2_app:clinical": {
+   "bahmni_clinical_patients_search_tccprogramgh2_tcc_program_group_home_2_app:clinical": {
         "id": "bahmni.clinical.patients.search.TCCProgramGH2",
         "extensionPointId": "org.bahmni.patient.search",
         "type": "config",
