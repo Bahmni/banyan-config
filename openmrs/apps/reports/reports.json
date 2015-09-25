@@ -93,14 +93,21 @@
             "countOnlyClosedVisits":"false"
         }
     },
-    "BMI_report": {
-        "name": "BMI Report",
+    "BMI_status_count_report": {
+        "name": "BMI Status Count Report",
         "type": "NumericConceptValuesCount",
         "config": {
             "rangeGroupName": "BMI",
             "ageGroupName": "All Ages",
             "conceptNames": ["BMI"],
             "countOncePerPatient": "false"
+        }
+    },
+   "BMI_values_Report":{
+        "name": "BMI Values Report",
+        "type": "obsTemplate",
+        "config": {
+            "templateName": "Nutritional Values"
         }
     },
     "diagnosis_report":
@@ -144,5 +151,38 @@
         "config":{
             "orderTypes": ["Department of OT and VT Order"]
         }
+    },
+   "caseManagerReviewReport":{
+        "name": "Case Manager Review Report",
+        "type": "obsTemplate",
+        "config": {
+            "templateName": "Case Manager Review"
+        }
+    },
+   "DentalReviewReport":{
+        "name": "Dental Review Report",
+        "type": "obsTemplate",
+        "config": {
+            "templateName": "Dental Review"
+        }
+    },
+   "PsychiatristReviewReport":{
+        "name": "Psychiatrist  Review Report",
+        "type": "obsTemplate",
+        "config": {
+            "templateName": "Psychiatrist Review Notes"
+        }
+    },
+   "dept_psychology_report":{
+        "name": "Dept of Psychology Review Report",
+        "type": "obsTemplate",
+        "config": {
+            "templateName": "Department of Psychology"
+        }
+    },
+   "laboratory_services":
+   {
+        "name": "Laboratory Services",
+        "type": "TestCount"
     }
 }
