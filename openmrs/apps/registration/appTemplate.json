@@ -20,7 +20,7 @@
         },
         "defaultIdentifierPrefix": {
             "name": "defaultIdentifierPrefix",
-            "description": "Default identifier prefix used in search, create patient. eg. GAN",
+            "description": "Default identifier prefix used in search, create patient. eg. TCC”,
             "defaultValue": null
         },
         "searchByIdForwardUrl": {

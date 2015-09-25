@@ -30,17 +30,8 @@
         "order": 1,
         "requiredPrivilege": "app:clinical:dispositionTab"
     },
-    "bahmni_clinical_orders_pending_app:radiologyorders": {
-        "id": "bahmni.clinical.orders.pending",
-        "extensionPointId": "org.bahmni.clinical.orders",
-        "type": "link",
-        "label": "Pending Orders",
-        "url": "pendingOrders",
-        "icon": "fa-user-md",
-        "order": 5,
-        "requiredPrivilege": "app:radiologyOrders"
-    },
-    "bahmni_clinical_consultation_orders_app:clinical:diagnosistab": {
+	"bahmni_clinical_consultation_orders:app:clinical":	
+    {
         "id": "bahmni.clinical.consultation.orders",
         "extensionPointId": "org.bahmni.clinical.consultation.board",
         "type": "link",
@@ -48,9 +39,9 @@
         "url": "orders",
         "icon": "icon-user-md",
         "order": 6,
-        "requiredPrivilege": "app:clinical:diagnosisTab"
+        "requiredPrivilege": "app:clinical"
     },
-    "bahmni_clinical_patients_search_casemanagerclients_case_manager's_clients_app:clinical": {
+   "bahmni_clinical_patients_search_casemanagerclients_case_manager's_clients_app:clinical": {
         "id": "bahmni.clinical.patients.search.CaseManagerClients",
         "extensionPointId": "org.bahmni.patient.search",
         "type": "config",
@@ -199,7 +190,7 @@
         "order": 6,
         "requiredPrivilege": "Discharge Summary"
     },
-    "bahmni_clinical_billing_treatment_app:clinical:consultationtab": {
+    "bahmni_clinical_billing_treatment":{
         "id": "bahmni.clinical.billing.treatment",
         "extensionPointId": "org.bahmni.clinical.consultation.board",
         "type": "link",

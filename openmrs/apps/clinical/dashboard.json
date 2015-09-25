@@ -1,274 +1,235 @@
 {
-    "general": {
-        "dashboardName": "General",
-        "displayByDefault": true,
-        "sections": {
-            "patient_information": {
-                "title": "Patient Information",
-                "name": "patientInformation",
-                "patientAttributes": [
-                    "Occupation",
-                    "Marital Status",
-                    "Mother Tongue",
-                    "Family Type",
-                    "Availability of Relative"
-                ],
-                "addressFields": [
-                    "cityVillage",
-                    "countyDistrict",
-                    "stateProvince"
-                ],
-                "displayOrder": 0
-            },
-            "treatments": {
-                "title": "Treatments",
-                "name": "treatment",
-                "dashboardParams": {
-                    "showFlowSheet": true,
-                    "showListView": true,
-                    "showRoute": true,
-                    "showDrugForm": true,
-                    "numberOfVisits": 3,
-                    "showOtherActive": true,
-                    "showDetailsButton": true
-                },
-                "allTreatmentDetails": {
-                    "title": "Treatments",
-                    "showFlowSheet": true,
-                    "showListView": true,
-                    "showRoute": true,
-                    "showDrugForm": true,
-                    "numberOfVisits": 4,
-                    "showOtherActive": true,
-                    "showDetailsButton": true
-                },
-                "displayOrder": 1
-            },
-            "diagnosis": {
-                "title": "Diagnosis",
-                "name": "diagnosis",
-                "showDetailsButton": false,
-                "showCertainty": true,
-                "showOrder": true,
-                "displayOrder": 2
-            },
-            "programs": {
-                "title": "Programs",
-                "name": "programs",
-                "displayOrder": 3
-            },
-            "lab_results": {
-                "title": "Lab Results",
-                "name": "labOrders",
-                "dashboardParams": {
-                    "title": null,
-                    "numberOfVisits": 1,
-                    "showChart": false,
-                    "showTable": true,
-                    "showDetailsButton": false,
-                    "initialAccessionCount": 0,
-                    "latestAccessionCount": 1
-                },
-                "allLabDetails": {
-                    "numberOfVisits": 10
-                },
-                "displayOrder": 4
-            },
-            "dept._medical_and_psychiatry_orders": {
-                "title": "Dept. Medical and Psychiatry Orders",
-                "name": "ordersControl",
-                "orderType": "Department of Medical and Psychiatry Order",
-                "showDetailsButton": true,
-                "dashboardParams": {
-                    "conceptNames": [
-                        "Order Fullfillment Status"
-                    ]
-                },
-                "allOrdersDetails": {
-                    "conceptNames": [
-                        "Order Fullfillment Status"
-                    ]
-                },
-                "displayOrder": 5
-            },
-            "dept._of_psychology_orders": {
-                "title": "Dept. of Psychology Orders",
-                "name": "ordersControl",
-                "orderType": "Department of Psychology Order",
-                "showDetailsButton": true,
-                "dashboardParams": {
-                    "conceptNames": [
-                        "Order Fullfillment Status"
-                    ]
-                },
-                "allOrdersDetails": {
-                    "conceptNames": [
-                        "Order Fullfillment Status"
-                    ]
-                },
-                "displayOrder": 6
-            },
-            "dept._of_ot_and_vt_orders": {
-                "title": "Dept. of OT and VT Orders",
-                "name": "ordersControl",
-                "orderType": "Department of OT and VT Order",
-                "showDetailsButton": true,
-                "dashboardParams": {
-                    "conceptNames": [
-                        "Order Fullfillment Status"
-                    ]
-                },
-                "allOrdersDetails": {
-                    "conceptNames": [
-                        "Order Fullfillment Status"
-                    ]
-                },
-                "displayOrder": 7
-            },
-            "dept._of_social_work_orders": {
-                "title": "Dept. of Social Work Orders",
-                "name": "ordersControl",
-                "orderType": "Department of Social Work Order",
-                "showDetailsButton": true,
-                "dashboardParams": {
-                    "conceptNames": [
-                        "Order Fullfillment Status"
-                    ]
-                },
-                "allOrdersDetails": {
-                    "conceptNames": [
-                        "Order Fullfillment Status"
-                    ]
-                },
-                "displayOrder": 8
-            },
-            "nutritional_values": {
-                "title": "Nutritional Values",
-                "name": "vitals",
-                "isObservation": true,
-                "dashboardParams": {
-                    "conceptNames": [
-                        "Nutritional Values"
-                    ],
-                    "numberOfVisits": 2
-                },
-                "allObservationDetails": {
-                    "conceptNames": [
-                        "Nutritional Values"
-                    ],
-                    "numberOfVisits": 2,
-                    "scope": "latest",
-                    "showDetailsButton": true
-                },
-                "displayOrder": 9
-            },
-            "visits": {
-                "title": "Visits",
-                "name": "visits",
-                "dashboardParams": {
-                    "title": null,
-                    "maximumNoOfVisits": 10
-                },
-                "displayOrder": 10
-            },
-            "navigation_links_control": {
-                "title": "Navigation Links Control",
-                "name": "navigationLinksControl",
-                "links": [
-                    {
-                        "title": "Patient ADT Page",
-                        "url": "../adt/#/patient/{{patientUuid}}/visit/{{visitUuid}}/"
-                    },
-                    {
-                        "title": "Program Management Page",
-                        "url": "../clinical/#/programs/patient/{{patientUuid}}/consultationContext"
-                    }
-                ],
-                "displayOrder": 11
-            },
-            "diabetes": {
-                "title": "Diabetes",
-                "templateName": "Diabetes Template",
-                "name": "diseaseTemplate",
-                "dashboardParams": {
-                    "showOnly": []
-                },
-                "allDiseaseDetails": {
-                    "showDetailsButton": true,
-                    "pivotTable": {
-                        "numberOfVisits": "15",
-                        "groupBy": "encounters",
-                        "obsConcepts": [
-                            "Weight",
-                            "Height",
-                            "Systolic",
-                            "Diastolic",
-                            "Diabetes, Foot Exam",
-                            "Diabetes, Eye Exam"
-                        ],
-                        "drugConcepts": [
-                            "Ipratropium Pressurised",
-                            "Garbhpal Rasa"
-                        ],
-                        "labConcepts": [
-                            "RBS",
-                            "FBS",
-                            "PP2BS",
-                            "Hb1AC",
-                            "Creatinine",
-                            "Albumin",
-                            "Polymorph"
-                        ]
-                    }
-                },
-                "displayOrder": 12
-            },
-            "scales": {
-                "title": "Scales",
-                "templateName": "Scales",
-                "name": "diseaseTemplate",
-                "dashboardParams": {
-                    "showOnly": []
-                },
-                "allDiseaseDetails": {
-                    "showDetailsButton": true,
-                    "pivotTable": {}
-                },
-                "displayOrder": 13
-            },
-            "admission_details": {
-                "title": "Admission Details",
-                "name": "admissionDetails",
-                "displayOrder": 14
-            }
+  "general": {
+    "dashboardName": "General",
+    "displayByDefault": true,
+    "sections": {
+      "patient_information":
+      {
+        "title": "Patient Information",
+        "name": "patientInformation",
+        "patientAttributes": [
+          "Occupation",
+          "Marital Status",
+          "Mother Tongue",
+          "Family Type",
+          "Availability of Relative"
+        ],
+        "addressFields": [
+          "cityVillage",
+          "countyDistrict",
+          "stateProvince"
+        ]
+      },
+      "treatements":
+      {
+        "title": "Treatments",
+        "name": "treatment",
+        "dashboardParams": {
+          "showFlowSheet": true,
+          "showListView": true,
+          "showRoute": true,
+          "showDrugForm": true,
+          "numberOfVisits": 3,
+          "showOtherActive": true,
+          "showDetailsButton": true
+        },
+        "allTreatmentDetails": {
+          "title": "Treatments",
+          "showFlowSheet": true,
+          "showListView": true,
+          "showRoute": true,
+          "showDrugForm": true,
+          "numberOfVisits": 4,
+          "showOtherActive": true,
+          "showDetailsButton": true
         }
-    },
-    "trends": {
-        "dashboardName": "Trends",
-        "displayByDefault": true,
-        "maxRecentlyViewedPatients": 10,
-        "sections": {
-            "patient_information": {
-                "title": "Patient Information",
-                "name": "patientInformation",
-                "patientAttributes": [],
-                "addressFields": [],
-                "displayOrder": 0
-            },
-            "weight/bmi": {
-                "type": "observationGraph",
-                "name": "observationGraph",
-                "title": "Weight/BMI",
-                "config": {
-                    "yAxisConcepts": [
-                        "Weight",
-                        "BMI"
-                    ],
-                    "xAxisConcept": "observationDateTime",
-                    "numberOfVisits": 10
-                },
-                "displayOrder": 1
-            }
+      },
+      "diagnosis":
+      {
+        "title": "Diagnosis",
+        "name": "diagnosis",
+        "showDetailsButton": false,
+        "showCertainty": true,
+        "showOrder": true
+      },
+      "programs":
+      {
+        "title": "Programs",
+        "name": "programs"
+      },
+      "lab_results":
+      {
+        "title": "Lab Results",
+        "name": "labOrders",
+        "dashboardParams": {
+          "title": null,
+          "numberOfVisits": 1,
+          "showChart": false,
+          "showTable": true,
+          "showDetailsButton": false,
+          "initialAccessionCount": 0,
+          "latestAccessionCount": 1
+        },
+        "allLabDetails": {
+          "numberOfVisits": 10
         }
+      },
+      "dept_medical_psyciatry_orders":
+      {
+        "title": "Dept. Medical and Psychiatry Orders",
+        "name": "ordersControl",
+        "orderType": "Department of Medical and Psychiatry Order",
+        "showDetailsButton": true,
+        "dashboardParams": {
+          "conceptNames": [
+            "Order Fullfillment Status"
+          ]
+        },
+        "allOrdersDetails": {
+          "conceptNames": [
+            "Order Fullfillment Status"
+          ]
+        }
+      },
+      "dept_of_psychology_orders":
+      {
+        "title": "Dept. of Psychology Orders",
+        "name": "ordersControl",
+        "orderType": "Department of Psychology Order",
+        "showDetailsButton": true,
+        "dashboardParams": {
+          "conceptNames": [
+            "Order Fullfillment Status"
+          ]
+        },
+        "allOrdersDetails": {
+          "conceptNames": [
+            "Order Fullfillment Status"
+          ]
+        }
+      },
+      "dept_of_ot_and_vt_orders":
+      {
+        "title": "Dept. of OT and VT Orders",
+        "name": "ordersControl",
+        "orderType": "Department of OT and VT Order",
+        "showDetailsButton": true,
+        "dashboardParams": {
+          "conceptNames": [
+            "Order Fullfillment Status"
+          ]
+        },
+        "allOrdersDetails": {
+          "conceptNames": [
+            "Order Fullfillment Status"
+          ]
+        }
+      },
+      "dept_social_work_orders":
+      {
+        "title": "Dept. of Social Work Orders",
+        "name": "ordersControl",
+        "orderType": "Department of Social Work Order",
+        "showDetailsButton": true,
+        "dashboardParams": {
+          "conceptNames": [
+            "Order Fullfillment Status"
+          ]
+        },
+        "allOrdersDetails": {
+          "conceptNames": [
+            "Order Fullfillment Status"
+          ]
+        }
+      },
+      "nutritional_values":
+      {
+        "title": "Nutritional Values",
+        "name": "vitals",
+        "isObservation": true,
+        "dashboardParams": {
+          "conceptNames": [
+            "Nutritional Values"
+          ],
+          "numberOfVisits": 2
+        },
+        "allObservationDetails": {
+          "conceptNames": [
+            "Nutritional Values"
+          ],
+          "numberOfVisits": 2,
+          "scope": "latest",
+          "showDetailsButton": true
+        }
+      },
+      "vitals":
+      {
+        "title": "Visits",
+        "name": "visits",
+        "dashboardParams": {
+          "title": null,
+          "maximumNoOfVisits": 10
+        }
+      },
+      "navigation_links_control":
+      {
+        "title": "Navigation Links Control",
+        "name": "navigationLinksControl",
+        "links": [
+          {
+            "title": "Patient ADT Page",
+            "url": "../adt/#/patient/{{patientUuid}}/visit/{{visitUuid}}/"
+          },
+          {
+            "title": "Program Management Page",
+            "url": "../clinical/#/patient/{{patientUuid}}/consultationContext"
+          }
+        ]
+      },
+      "scales":
+      {
+        "title": "Scales",
+        "templateName": "Scales",
+        "name": "diseaseTemplate",
+        "dashboardParams": {
+          "showOnly": []
+        },
+        "allDiseaseDetails": {
+          "showDetailsButton": true,
+          "pivotTable": {}
+        }
+      },
+      "admission_details":
+      {
+        "title": "Admission Details",
+        "name": "admissionDetails"
+      }
     }
+  },
+  "Trends": {
+    "dashboardName": "Trends",
+    "displayByDefault": true,
+    "maxRecentlyViewedPatients": 10,
+    "sections": {
+      "patientInformation": {
+        "title": "Patient Information",
+        "name": "patientInformation",
+        "patientAttributes": [],
+        "addressFields": []
+      },
+      "weight/Bmi": {
+        "type": "observationGraph",
+        "name": "observationGraph",
+        "title": "Weight/BMI",
+        "config": {
+          "yAxisConcepts": [
+            "Weight",
+            "BMI"
+          ],
+          "xAxisConcept": "observationDateTime",
+          "numberOfVisits": 10
+        }
+      }
+    }
+  }
 }

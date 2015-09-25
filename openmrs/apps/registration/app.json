@@ -17,28 +17,13 @@
         "activeVisitUuid"
     ],
     "config": {
-        "additionalPatientInformation": [
-            {
-                "name": "Phone Number",
-                "display": true
-            },
-            {
-                "name": "Identification Mark",
-                "display": true
-            },
-            {
-                "name": "Mother Tongue",
-                "display": true
-            },
-            {
-                "name": "Language 1",
-                "display": true
-            },
-            {
-                "name": "Language 2",
-                "display": true
-            }
-        ],
+       "additionalPatientInformation" : [
+                { "name":"Phone Number", "display":true },
+				{ "name":"Identification Mark", "display":true },
+				{ "name":"Mother Tongue", "display":true },
+				{ "name":"Second Language", "display":true },
+				{ "name":"Third Language", "display":true }
+            ],
         "autoCompleteFields": [
             "familyName",
             "caste"
@@ -62,10 +47,7 @@
             }
         ],
         "conceptSetUI": {
-            "REGISTRATION FEES": {
-                "required": true,
-                "label": "Fee"
-            }
+           
         },
         "fieldValidation": {
             "primaryContact": {
