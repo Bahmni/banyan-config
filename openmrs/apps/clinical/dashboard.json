@@ -1,10 +1,8 @@
 {
     "general": {
-        "dashboardName": "General",
         "displayByDefault": true,
         "sections": {
             "patient_information": {
-                "title": "Patient Information",
                 "name": "patientInformation",
                 "patientAttributes": [
                     "Occupation",
@@ -18,10 +16,10 @@
                     "countyDistrict",
                     "stateProvince"
                 ],
-                "displayOrder": 0
+                "displayOrder": 0,
+                "translationKey": "Patient Information"
             },
             "treatments": {
-                "title": "Treatments",
                 "name": "treatment",
                 "dashboardParams": {
                     "showFlowSheet": true,
@@ -42,23 +40,23 @@
                     "showOtherActive": true,
                     "showDetailsButton": true
                 },
-                "displayOrder": 1
+                "displayOrder": 1,
+                "translationKey": "Treatments"
             },
             "diagnosis": {
-                "title": "Diagnosis",
                 "name": "diagnosis",
                 "showDetailsButton": false,
                 "showCertainty": true,
                 "showOrder": true,
-                "displayOrder": 2
+                "displayOrder": 2,
+                "translationKey": "Diagnosis"
             },
             "programs": {
-                "title": "Programs",
                 "name": "programs",
-                "displayOrder": 3
+                "displayOrder": 3,
+                "translationKey": "Programs"
             },
             "lab_results": {
-                "title": "Lab Results",
                 "name": "labOrders",
                 "dashboardParams": {
                     "title": null,
@@ -72,10 +70,10 @@
                 "allLabDetails": {
                     "numberOfVisits": 10
                 },
-                "displayOrder": 4
+                "displayOrder": 4,
+                "translationKey": "Lab Results"
             },
             "dept._medical_and_psychiatry_orders": {
-                "title": "Dept. Medical and Psychiatry Orders",
                 "name": "ordersControl",
                 "orderType": "Department of Medical and Psychiatry Order",
                 "showDetailsButton": true,
@@ -89,10 +87,10 @@
                         "Order Fullfillment Status"
                     ]
                 },
-                "displayOrder": 5
+                "displayOrder": 5,
+                "translationKey": "Dept. Medical and Psychiatry Orders"
             },
             "dept._of_psychology_orders": {
-                "title": "Dept. of Psychology Orders",
                 "name": "ordersControl",
                 "orderType": "Department of Psychology Order",
                 "showDetailsButton": true,
@@ -106,10 +104,10 @@
                         "Order Fullfillment Status"
                     ]
                 },
-                "displayOrder": 6
+                "displayOrder": 6,
+                "translationKey": "Dept. of Psychology Orders"
             },
             "dept._of_ot_and_vt_orders": {
-                "title": "Dept. of OT and VT Orders",
                 "name": "ordersControl",
                 "orderType": "Department of OT and VT Order",
                 "showDetailsButton": true,
@@ -123,10 +121,10 @@
                         "Order Fullfillment Status"
                     ]
                 },
-                "displayOrder": 7
+                "displayOrder": 7,
+                "translationKey": "Dept. of OT and VT Orders"
             },
             "dept._of_social_work_orders": {
-                "title": "Dept. of Social Work Orders",
                 "name": "ordersControl",
                 "orderType": "Department of Social Work Order",
                 "showDetailsButton": true,
@@ -140,10 +138,10 @@
                         "Order Fullfillment Status"
                     ]
                 },
-                "displayOrder": 8
+                "displayOrder": 8,
+                "translationKey": "Dept. of Social Work Orders"
             },
             "nutritional_values": {
-                "title": "Nutritional Values",
                 "name": "vitals",
                 "isObservation": true,
                 "dashboardParams": {
@@ -160,34 +158,34 @@
                     "scope": "latest",
                     "showDetailsButton": true
                 },
-                "displayOrder": 9
+                "displayOrder": 9,
+                "translationKey": "Nutritional Values"
             },
             "visits": {
-                "title": "Visits",
                 "name": "visits",
                 "dashboardParams": {
                     "title": null,
                     "maximumNoOfVisits": 10
                 },
-                "displayOrder": 10
+                "displayOrder": 10,
+                "translationKey": "Visits"
             },
             "navigation_links_control": {
-                "title": "Navigation Links Control",
                 "name": "navigationLinksControl",
                 "links": [
                     {
-                        "title": "Patient ADT Page",
+                        "translationKey": "Patient ADT Page",
                         "url": "../adt/#/patient/{{patientUuid}}/visit/{{visitUuid}}/"
                     },
                     {
-                        "title": "Program Management Page",
+                        "translationKey": "Program Management Page",
                         "url": "../clinical/#/programs/patient/{{patientUuid}}/consultationContext"
                     }
                 ],
-                "displayOrder": 11
+                "displayOrder": 11,
+                "translationKey": "Navigation Links Control"
             },
             "diabetes": {
-                "title": "Diabetes",
                 "templateName": "Diabetes Template",
                 "name": "diseaseTemplate",
                 "dashboardParams": {
@@ -221,10 +219,10 @@
                         ]
                     }
                 },
-                "displayOrder": 12
+                "displayOrder": 12,
+                "translationKey": "Diabetes"
             },
             "scales": {
-                "title": "Scales",
                 "templateName": "Scales",
                 "name": "diseaseTemplate",
                 "dashboardParams": {
@@ -234,31 +232,31 @@
                     "showDetailsButton": true,
                     "pivotTable": {}
                 },
-                "displayOrder": 13
+                "displayOrder": 13,
+                "translationKey": "Scales"
             },
             "admission_details": {
-                "title": "Admission Details",
                 "name": "admissionDetails",
-                "displayOrder": 14
+                "displayOrder": 14,
+                "translationKey": "Admission Details"
             }
-        }
+        },
+        "translationKey": "General"
     },
     "trends": {
-        "dashboardName": "Trends",
         "displayByDefault": true,
         "maxRecentlyViewedPatients": 10,
         "sections": {
             "patient_information": {
-                "title": "Patient Information",
                 "name": "patientInformation",
                 "patientAttributes": [],
                 "addressFields": [],
-                "displayOrder": 0
+                "displayOrder": 0,
+                "translationKey": "Patient Information"
             },
             "weight/bmi": {
                 "type": "observationGraph",
                 "name": "observationGraph",
-                "title": "Weight/BMI",
                 "config": {
                     "yAxisConcepts": [
                         "Weight",
@@ -267,8 +265,10 @@
                     "xAxisConcept": "observationDateTime",
                     "numberOfVisits": 10
                 },
-                "displayOrder": 1
+                "displayOrder": 1,
+                "translationKey": "Weight/BMI"
             }
-        }
+        },
+        "translationKey": "Trends"
     }
 }

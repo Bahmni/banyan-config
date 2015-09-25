@@ -3,32 +3,32 @@
         "id": "bahmni.clinical.consultation.observations",
         "extensionPointId": "org.bahmni.clinical.consultation.board",
         "type": "link",
-        "label": "Forms",
         "url": "concept-set-group/observations",
         "default": true,
         "icon": "fa-user-md",
         "order": 2,
-        "requiredPrivilege": "app:clinical:observationTab"
+        "requiredPrivilege": "app:clinical:observationTab",
+        "translationKey": "Forms"
     },
     "bahmni_clinical_consultation_diagnosis_app:clinical:diagnosistab": {
         "id": "bahmni.clinical.consultation.diagnosis",
         "extensionPointId": "org.bahmni.clinical.consultation.board",
         "type": "link",
-        "label": "Diagnosis",
         "url": "diagnosis",
         "icon": "fa-user-md",
         "order": 3,
-        "requiredPrivilege": "app:clinical:diagnosisTab"
+        "requiredPrivilege": "app:clinical:diagnosisTab",
+        "translationKey": "Diagnosis"
     },
     "bahmni_clinical_consultation_disposition_app:clinical:dispositiontab": {
         "id": "bahmni.clinical.consultation.disposition",
         "extensionPointId": "org.bahmni.clinical.consultation.board",
         "type": "link",
-        "label": "Disposition",
         "url": "disposition",
         "icon": "fa-user-md",
         "order": 1,
-        "requiredPrivilege": "app:clinical:dispositionTab"
+        "requiredPrivilege": "app:clinical:dispositionTab",
+        "translationKey": "Disposition"
     },
     "bahmni_clinical_orders_pending_app:radiologyorders": {
         "id": "bahmni.clinical.orders.pending",
@@ -44,11 +44,11 @@
         "id": "bahmni.clinical.consultation.orders",
         "extensionPointId": "org.bahmni.clinical.consultation.board",
         "type": "link",
-        "label": "Orders",
         "url": "orders",
         "icon": "icon-user-md",
         "order": 6,
-        "requiredPrivilege": "app:clinical:diagnosisTab"
+        "requiredPrivilege": "app:clinical:diagnosisTab",
+        "translationKey": "Orders"
     },
     "bahmni_clinical_patients_search_casemanagerclients_case_manager's_clients_app:clinical": {
         "id": "bahmni.clinical.patients.search.CaseManagerClients",
@@ -56,8 +56,8 @@
         "type": "config",
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.CaseManagerClients",
-            "display": "Case Manager's Clients",
-            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
+            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard",
+            "translationKey": "Case Manager's Clients"
         },
         "label": "Active",
         "order": 5,
@@ -66,11 +66,11 @@
     "bahmni_clinical_patients_search_programmanagement_program_management_app:clinical": {
         "id": "bahmni.clinical.patients.search.ProgramManagement",
         "extensionPointId": "org.bahmni.patient.search",
-        "type":"config",
+        "type": "config",
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.activePatients",
-            "display": "Program Management",
-            "forwardUrl": "#/programs/patient/{{patientUuid}}/consultationContext"
+            "forwardUrl": "#/programs/patient/{{patientUuid}}/consultationContext",
+            "translationKey": "Program Management"
         },
         "label": "Active",
         "order": 6,
@@ -82,8 +82,8 @@
         "type": "config",
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.TCCProgramGH2",
-            "display": "TCC Program - Group Home 2",
-            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
+            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard",
+            "translationKey": "TCC Program - Group Home 2"
         },
         "label": "Active",
         "order": 3,
@@ -95,8 +95,8 @@
         "type": "config",
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.TCCProgramGH3",
-            "display": "TCC Program - Group Home 3",
-            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
+            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard",
+            "translationKey": "TCC Program - Group Home 3"
         },
         "label": "Active",
         "order": 4,
@@ -108,8 +108,8 @@
         "type": "config",
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.TCCProgramIP",
-            "display": "TCC Program - TCC IP",
-            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
+            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard",
+            "translationKey": "TCC Program - TCC IP"
         },
         "label": "Active",
         "order": 1,
@@ -121,8 +121,8 @@
         "type": "config",
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.CCACIP",
-            "display": "CC and AC Program - TCC IP",
-            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
+            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard",
+            "translationKey": "CC and AC Program - TCC IP"
         },
         "label": "Active",
         "order": 2,
@@ -133,8 +133,8 @@
         "extensionPointId": "org.bahmni.patient.search",
         "type": "config",
         "extensionParams": {
-            "display": "All",
-            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard"
+            "forwardUrl": "#/default/patient/{{patientUuid}}/dashboard",
+            "translationKey": "All"
         },
         "label": "All",
         "order": 7,
@@ -216,10 +216,10 @@
         "id": "bahmni.clinical.billing.treatment",
         "extensionPointId": "org.bahmni.clinical.consultation.board",
         "type": "link",
-        "label": "Treatment",
         "url": "treatment",
         "icon": "fa-user-md",
         "order": 7,
-        "requiredPrivilege": "app:clinical:consultationTab"
+        "requiredPrivilege": "app:clinical:consultationTab",
+        "translationKey": "Treatment"
     }
 }
