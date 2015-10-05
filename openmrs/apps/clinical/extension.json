@@ -69,7 +69,7 @@
         "type": "config",
         "extensionParams": {
             "searchHandler": "emrapi.sqlSearch.activePatients",
-            "forwardUrl": "#/programs/patient/{{patientUuid}}/consultationContext",
+            "forwardUrl": "#/default/patient/{{patientUuid}}/consultationContext",
             "translationKey": "Program Management"
         },
         "label": "Active",
