@@ -1,5 +1,6 @@
 {
     "general": {
+        "title": "General",
         "displayByDefault": true,
         "printing": {
             "title": "Bahmni",
@@ -12,6 +13,7 @@
                 "type": "Patient Information",
                 "name": "patientInformation",
                 "config": {
+                    "title": "PatientInformation",
                     "patientAttributes": [
                         "Occupation",
                         "Marital Status",
@@ -23,15 +25,14 @@
                         "cityVillage",
                         "countyDistrict",
                         "stateProvince"
-                    ],
-                    "translationKey": "PatientInformation"
+                    ]
                 },
                 "displayOrder": 0
             }
-        },
-        "translationKey": "General"
+        }
     },
     "mnp": {
+        "title": "Medical and Psychiatry",
         "displayByDefault": true,
         "printing": {
             "title": "Bahmni",
@@ -48,24 +49,24 @@
                         "countyDistrict",
                         "stateProvince"
                     ],
+                    "title": "PatientInformation",
                     "patientAttributes": [
                         "Occupation",
                         "Marital Status",
                         "Mother Tongue",
                         "Family Type",
                         "Availability of Relative"
-                    ],
-                    "translationKey": "PatientInformation"
+                    ]
                 },
                 "displayOrder": 0
             },
             "diagnoses": {
                 "type": "diagnosis",
                 "config": {
+                    "title": "Diagnoses",
                     "showCertainty": false,
                     "showOrder": false,
-                    "showDetailsButton": true,
-                    "translationKey": "Diagnoses"
+                    "showDetailsButton": true
                 },
                 "displayOrder": 1
             },
@@ -73,13 +74,13 @@
                 "title": "Case Referral Orders",
                 "type": "order",
                 "config": {
+                    "title": "Case Referral Orders",
                     "name": "ordersControl",
                     "orderType": "Department of Medical and Psychiatry Order",
                     "showDetailsButton": true,
                     "conceptNames": [
                         "Order Fullfillment Status"
-                    ],
-                    "translationKey": "Case Referral Orders"
+                    ]
                 },
                 "displayOrder": 2
             },
@@ -103,10 +104,10 @@
                 },
                 "displayOrder": 3
             }
-        },
-        "translationKey": "Medical and Psychiatry"
+        }
     },
     "dischargeSummary": {
+        "title": "Discharge Summary",
         "displayByDefault": true,
         "printing": {
             "title": "Bahmni",
@@ -122,24 +123,24 @@
                         "countyDistrict",
                         "stateProvince"
                     ],
+                    "title": "PatientInformation",
                     "patientAttributes": [
                         "Occupation",
                         "Marital Status",
                         "Mother Tongue",
                         "Family Type",
                         "Availability of Relative"
-                    ],
-                    "translationKey": "PatientInformation"
+                    ]
                 },
                 "displayOrder": 0
             },
             "diagnoses": {
                 "type": "diagnosis",
                 "config": {
+                    "title": "Diagnoses",
                     "showCertainty": false,
                     "showOrder": false,
-                    "showDetailsButton": true,
-                    "translationKey": "Diagnoses"
+                    "showDetailsButton": true
                 },
                 "displayOrder": 1
             },
@@ -153,6 +154,7 @@
             "labInvestigations": {
                 "type": "investigationResult",
                 "config": {
+                    "title": "Lab Investigations",
                     "showChart": true,
                     "showTable": false,
                     "showNormalLabResults": true,
@@ -160,21 +162,20 @@
                     "showAccessionNotes": true,
                     "numberOfVisits": 10,
                     "initialAccessionCount": 1,
-                    "latestAccessionCount": 1,
-                    "translationKey": "Lab Investigations"
+                    "latestAccessionCount": 1
                 },
                 "displayOrder": 3
             },
             "treatments": {
                 "type": "treatment",
                 "config": {
+                    "title": "Treatments",
                     "showFlowSheet": false,
                     "showListView": true,
                     "showOtherActive": true,
                     "showDetailsButton": true,
                     "showRoute": true,
-                    "showDrugForm": true,
-                    "translationKey": "Treatments"
+                    "showDrugForm": true
                 },
                 "displayOrder": 4
             },
@@ -215,7 +216,6 @@
                 },
                 "displayOrder": 6
             }
-        },
-        "translationKey": "Discharge Summary"
+        }
     }
 }

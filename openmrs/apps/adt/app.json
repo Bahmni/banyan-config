@@ -29,9 +29,11 @@
         "onDischargeForwardTo": "#/patient/search",
         "defaultVisitType": "General",
         "dashboard": {
+            "dashboardName": "General",
             "conceptName": "Adt Notes",
             "sections": {
                 "vitals": {
+                    "title": "Vitals",
                     "name": "vitals",
                     "isObservation": true,
                     "dashboardParams": {
@@ -40,23 +42,23 @@
                         ],
                         "numberOfVisits": 2
                     },
-                    "displayOrder": 0,
-                    "translationKey": "Vitals"
+                    "displayOrder": 0
                 },
                 "disposition": {
+                    "title": "Disposition",
                     "name": "disposition",
                     "numberOfVisits": 1,
-                    "displayOrder": 1,
-                    "translationKey": "Disposition"
+                    "displayOrder": 1
                 },
                 "diagnosis": {
+                    "title": "Diagnosis",
                     "name": "diagnosis",
                     "numberOfVisits": 1,
                     "showDetailsButton": true,
-                    "displayOrder": 2,
-                    "translationKey": "Diagnosis"
+                    "displayOrder": 2
                 },
                 "patient_information": {
+                    "title": "Patient Information",
                     "name": "patientInformation",
                     "patientAttributes": [
                         "caste",
@@ -76,39 +78,37 @@
                         "cityVillage",
                         "countryDistrict"
                     ],
-                    "displayOrder": 3,
-                    "translationKey": "Patient Information"
+                    "displayOrder": 3
                 },
                 "admission_details": {
+                    "title": "Admission Details",
                     "name": "admissionDetails",
-                    "displayOrder": 4,
-                    "translationKey": "Admission Details"
+                    "displayOrder": 4
                 },
                 "navigation_links_control": {
+                    "title": "Navigation Links Control",
                     "name": "navigationLinksControl",
                     "links": [
                         {
-                            "translationKey": "Home Dashboard",
+                            "title": "Home Dashboard",
                             "url": "../home/#/dashboard"
                         },
                         {
-                            "translationKey": "Patient Visit Page",
+                            "title": "Patient Visit Page",
                             "url": "../clinical/#/default/patient/{{patientUuid}}/dashboard/visit/{{visitUuid}}"
                         },
                         {
-                            "translationKey": "Program Management Page",
+                            "title": "Program Management Page",
                             "url": "../clinical/#/default/patient/{{patientUuid}}/consultationContext"
                         },
                         {
-                            "translationKey": "Consultation",
+                            "title": "Consultation",
                             "url": "../clinical/#/default/patient/{{patientUuid}}/concept-set-group/observations"
                         }
                     ],
-                    "displayOrder": 5,
-                    "translationKey": "Navigation Links Control"
+                    "displayOrder": 5
                 }
-            },
-            "translationKey": "General"
+            }
         }
     }
 }
