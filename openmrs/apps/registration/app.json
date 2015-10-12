@@ -17,28 +17,18 @@
         "activeVisitUuid"
     ],
     "config": {
-        "additionalPatientInformation": [
-            {
-                "name": "Phone Number",
-                "display": true
-            },
-            {
-                "name": "Identification Mark",
-                "display": true
-            },
-            {
-                "name": "Mother Tongue",
-                "display": true
-            },
-            {
-                "name": "Language 1",
-                "display": true
-            },
-            {
-                "name": "Language 2",
-                "display": true
+        "patientInformation": {
+            "additionalPatientInformation": {
+                "title": "Additional Patient Information",
+                "attributes": [
+                    "Phone Number",
+                    "Identification Mark",
+                    "Mother Tongue",
+                    "Language 1",
+                    "Language 2"
+                ]
             }
-        ],
+        },
         "autoCompleteFields": [
             "familyName",
             "caste"
