@@ -5,9 +5,11 @@
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog/1.9 http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-1.9.xsd">
     <changeSet id="201509021050" author="Preethi,Hanisha">
-        <sqlCheck expectedResult="0">
-            select count(*) from site_information where name='defaultOrganizationName';
-        </sqlCheck>
+        <preConditions onFail="MARK_RAN">
+            <sqlCheck expectedResult="0">
+                select count(*) from site_information where name='defaultOrganizationName';
+            </sqlCheck>
+        </preConditions>
         <comment>Add default organization name for openelis</comment>
         <sql>
             INSERT INTO site_information(id, name, lastupdated, description, value, encrypted, value_type)  VALUES ( nextVal( 'site_information_seq' ) , 'defaultOrganizationName', now(), 'Default organization name for department to be synced from openmrs',  'banyan', 'f', 'text' );
