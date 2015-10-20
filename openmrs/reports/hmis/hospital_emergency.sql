@@ -1,4 +1,4 @@
-select answer_concept_name.name as Name, count(distinct v.patient_id) as 'Count of Patients'
+select answer_concept_name.name as Name, count(distinct v.patient_id) as Count_of_Patients
 from visit v
   inner join patient pt on v.patient_id = pt.patient_id
         and v.voided = 0
@@ -22,4 +22,4 @@ from visit v
   on value_coded = answer_list.answers
   inner join concept_name as answer_concept_name on answer_list.answers = answer_concept_name.concept_id
                                                     and answer_concept_name.concept_name_type = 'FULLY_SPECIFIED'
-   group by answer_concept_name.name ;
+   group by answer_concept_name.name order by Count_of_Patients desc;

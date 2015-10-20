@@ -1,4 +1,4 @@
-select pt.identifier as 'Patient ID',count(DISTINCT o.obs_id)As 'Count - Case Reviews'
+select pt.identifier as 'Patient ID',count(DISTINCT o.obs_id)As Count_Case_Reviews
 from
   patient p
   inner JOIN
@@ -15,4 +15,4 @@ left JOIN
   concept_name cn on o.concept_id=cn.concept_id
                      and cn.name='Case Manager Review' and cn.concept_name_type = 'FULLY_SPECIFIED'
 
-GROUP BY v.patient_id;
+GROUP BY v.patient_id order by Count_Case_Reviews desc;
