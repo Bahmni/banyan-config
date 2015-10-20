@@ -86,11 +86,33 @@
     "hospital_admission_report":
     {
         "name":"External Hospital Admission and Emergency Report",
-        "type":"obsCount",
+        "type": "MRSGeneric",
         "config": {
-            "ageGroupName": "All Ages",
-            "conceptNames":["Category"],
-            "countOnlyClosedVisits":"false"
+          "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/hospital_emergency.sql"
+        }
+    },
+     "patient_observation_report":
+    {
+        "name":"Patient Observation Report",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/patient_observation.sql"
+        }
+    },
+     "provider_observation_report":
+    {
+        "name":"Provider Activity Report",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/provider_observation.sql"
+        }
+    },
+    "case_review_report":
+    {
+        "name":"Case Review Report",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/case_review.sql"
         }
     },
     "BMI_status_count_report": {
