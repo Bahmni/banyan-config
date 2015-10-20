@@ -1,0 +1,215 @@
+{    
+	"programPatientState1Report":{
+        "name": "TCC Program Enrollment Report",
+        "type": "PatientProgramReport",
+        "config": {
+            "programName":"TCC Program"
+        }
+    },
+    "TCCProgram": {
+        "name":"TCC Program State Transition Report",
+        "type":"programStateTransitionReport",
+        "config":{
+            "programName":"TCC Program"
+        }
+    },
+    "patientProgram1": {
+        "name": "TCC Program State Count Report",
+        "type": "programStateCount",
+        "config": {
+            "programName": "TCC Program"
+        }
+    },
+    "programPatientState2Report":{
+        "name": "Community Clinic Program Enrollment Report",
+        "type": "PatientProgramReport",
+        "config": {
+            "programName":"CC Program"
+        }
+    },
+    "CCProgram": {
+        "name":"Community Clinic Program State Transition Report",
+        "type":"programStateTransitionReport",
+        "config":{
+            "programName":"CC Program"
+        }
+    },
+    "patientProgram2": {
+        "name": "Community Clinic Program State Count Report",
+        "type": "programStateCount",
+        "config": {
+            "programName": "CC Program"
+        }
+    },
+    "programPatientState3Report":{
+        "name": "Aftercare Program Enrollment Report",
+        "type": "PatientProgramReport",
+        "config": {
+            "programName":"Aftercare Program"
+        }
+    },
+     "AftercareProgram": {
+        "name":"Aftercare Program State Transition Report",
+        "type":"programStateTransitionReport",
+        "config":{
+            "programName":"Aftercare Program"
+        }
+    },
+    "patientProgram3": {
+        "name": "Aftercare Program State Count Report",
+        "type": "programStateCount",
+        "config": {
+            "programName": "Aftercare Program"
+        }
+    },
+       "ipdPatients": {
+            "name": "Discharge Report",
+            "type": "ipdPatients",
+            "config": {
+              "addressAttributes": ["address1", "city_village"],
+              "patientAttributes": ["caste", "education"],
+              "conceptNames": ["Height", "Weight"],
+              "filterBy": "Date of Discharge"
+                      }
+   },
+    "psychiatrist_review_report":
+    {
+        "name": "M and P  Reports",
+        "type": "obsCount",
+        "config": {
+            "ageGroupName": "All Ages",
+            "conceptNames":["Psychiatrist Review Notes","Dental Review","Medical Examination"],
+            "countOnlyClosedVisits":"false",
+	    "countOncePerPatient":"true"
+        }
+    },
+    "hospital_admission_report":
+    {
+        "name":"External Hospital Admission and Emergency Report",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/hospital_emergency.sql"
+        }
+    },
+     "patient_observation_report":
+    {
+        "name":"Patient Observation Report",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/patient_observation.sql"
+        }
+    },
+     "provider_observation_report":
+    {
+        "name":"Provider Activity Report",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/provider_observation.sql"
+        }
+    },
+    "case_review_report":
+    {
+        "name":"Case Review Report",
+        "type": "MRSGeneric",
+        "config": {
+          "sqlPath": "/var/www/bahmni_config/openmrs/reports/hmis/case_review.sql"
+        }
+    },
+    "BMI_status_count_report": {
+        "name": "BMI Status Count Report",
+        "type": "NumericConceptValuesCount",
+        "config": {
+            "rangeGroupName": "BMI",
+            "ageGroupName": "All Ages",
+            "conceptNames": ["BMI"],
+            "countOncePerPatient": "false"
+        }
+    },
+   "BMI_values_Report":{
+        "name": "BMI Values Report",
+        "type": "obsTemplate",
+        "config": {
+            "templateName": "Nutritional Values"
+        }
+    },
+    "diagnosis_report":
+    {
+        "name":"Diagnosis Report ",
+          "type": "diagnosisCount",
+      "config": {
+        "dateRangeRequired": false,
+        "applyDateRangeFor": "diagnosisDate",
+        "visitsToConsider": "all",
+        "ageGroupName": "All Ages",
+        "concept": "Diagnosis Set of Sets",
+        "rowsGroupBy": ["header_concept_name", "leaf_concept_name"],
+        "columnsGroupBy": ["agegroup_name", "gender"]
+
+        }
+    },
+    "order_fulfillment_for_Medical_and_Psychiatry":
+    {
+        "name":"Medical and Psychiatry Order Fulfillment Report",
+        "type":"OrderFulfillmentReport",
+        "config":{
+            "orderTypes": ["Department of Medical and Psychiatry Order"]
+        }
+    },
+    "order_fulfillment_for_Psychology_Order":
+    {
+        "name":"Psychology Order Fulfillment Report",
+        "type":"OrderFulfillmentReport",
+        "config":{
+            "orderTypes": ["Department of Psychology Order"]
+        }
+    },
+    "order_fulfillment_for_Social_Work_Order":
+    {
+        "name":"Department of Social Work Order Fulfillment Report",
+        "type":"OrderFulfillmentReport",
+        "config":{
+            "orderTypes": ["Department of Social Work Order"]
+        }
+    },
+    "order_fulfillment_for_Department_of_OT_and_VT_Order":
+    {
+        "name":"Department of OT and VT Order",
+        "type":"OrderFulfillmentReport",
+        "config":{
+            "orderTypes": ["Department of OT and VT Order"]
+        }
+    },
+   "caseManagerReviewReport":{
+        "name": "Case Manager Review Report",
+        "type": "obsTemplate",
+        "config": {
+            "templateName": "Case Manager Review"
+        }
+    },
+   "DentalReviewReport":{
+        "name": "Dental Review Report",
+        "type": "obsTemplate",
+        "config": {
+            "templateName": "Dental Review"
+        }
+    },
+   "PsychiatristReviewReport":{
+        "name": "Psychiatrist  Review Report",
+        "type": "obsTemplate",
+        "config": {
+            "templateName": "Psychiatrist Review Notes"
+        }
+    },
+   "dept_psychology_report":{
+        "name": "Dept of Psychology Review Report",
+        "type": "obsTemplate",
+        "config": {
+            "templateName": "Department of Psychology"
+        }
+    },
+   "laboratory_services":
+   {
+        "name": "Laboratory Services",
+        "type": "TestCount"
+    }
+}
