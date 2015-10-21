@@ -9,7 +9,7 @@ from patient_identifier pt
                   or  ((cast(v.date_stopped as DATE) between  '#startDate#' and DATE(now())  or v.date_stopped is null) AND cast(v.date_started as DATE) < '#startDate#')
              )
   left  JOIN
-  obs o on o.person_id=pt.patient_id and cast(o.obs_datetime as DATE) between '#startDate#' and '#endDate#'
+  obs o on o.person_id=pt.patient_id and o.voided=FALSE and cast(o.obs_datetime as DATE) between '#startDate#' and '#endDate#'
 group by pt.identifier order by Observation_Count desc;
 
 

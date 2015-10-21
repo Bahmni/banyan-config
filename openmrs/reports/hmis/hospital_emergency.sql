@@ -7,7 +7,7 @@ from visit v
   inner join person p on p.person_id = pt.patient_id
         and p.voided = 0
         and p.uuid is not null
-  inner join obs o on o.person_id = p.person_id
+  inner join obs o on o.person_id = p.person_id and o.voided=FALSE
         and cast(o.obs_datetime as DATE) between '#startDate#' and '#endDate#'
   inner join concept_name cn1 on o.concept_id=cn1.concept_id
         and cn1.name='Category'

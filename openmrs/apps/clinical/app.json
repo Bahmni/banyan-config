@@ -38,7 +38,7 @@
                 "autocomplete": true
             },
             "Symptoms": {
-                "multiSelect": true
+                "autocomplete": true
             },
             "Blood Group": {
                 "conciseText": true
