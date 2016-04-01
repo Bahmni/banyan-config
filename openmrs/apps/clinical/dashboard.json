@@ -5,7 +5,7 @@
         "sections": {
             "patient_information": {
                 "title": "Patient Information",
-                "name": "patientInformation",
+                "type": "patientInformation",
                 "patientAttributes": [
                     "Occupation",
                     "Marital Status",
@@ -22,8 +22,8 @@
             },
             "treatments": {
                 "title": "Treatments",
-                "name": "treatment",
-                "dashboardParams": {
+                "type": "treatment",
+                "dashboardConfig": {
                     "showFlowSheet": true,
                     "showListView": true,
                     "showRoute": true,
@@ -32,7 +32,7 @@
                     "showOtherActive": true,
                     "showDetailsButton": true
                 },
-                "allTreatmentDetails": {
+                "expandedViewConfig": {
                     "title": "Treatments",
                     "showFlowSheet": true,
                     "showListView": true,
@@ -46,7 +46,7 @@
             },
             "diagnosis": {
                 "title": "Diagnosis",
-                "name": "diagnosis",
+                "type": "diagnosis",
                 "showDetailsButton": false,
                 "showCertainty": true,
                 "showOrder": true,
@@ -54,13 +54,13 @@
             },
             "programs": {
                 "title": "Programs",
-                "name": "programs",
+                "type": "programs",
                 "displayOrder": 3
             },
             "lab_results": {
                 "title": "Lab Results",
-                "name": "labOrders",
-                "dashboardParams": {
+                "type": "labOrders",
+                "dashboardConfig": {
                     "title": null,
                     "numberOfVisits": 1,
                     "showChart": false,
@@ -69,22 +69,22 @@
                     "initialAccessionCount": 0,
                     "latestAccessionCount": 1
                 },
-                "allLabDetails": {
+                "expandedViewConfig": {
                     "numberOfVisits": 10
                 },
                 "displayOrder": 4
             },
             "dept._medical_and_psychiatry_orders": {
                 "title": "Dept. Medical and Psychiatry Orders",
-                "name": "ordersControl",
+                "type": "ordersControl",
                 "orderType": "Department of Medical and Psychiatry Order",
                 "showDetailsButton": true,
-                "dashboardParams": {
+                "dashboardConfig": {
                     "conceptNames": [
                         "Order Fullfillment Status"
                     ]
                 },
-                "allOrdersDetails": {
+                "expandedViewConfig": {
                     "conceptNames": [
                         "Order Fullfillment Status"
                     ]
@@ -93,15 +93,15 @@
             },
             "dept._of_psychology_orders": {
                 "title": "Dept. of Psychology Orders",
-                "name": "ordersControl",
+                "type": "ordersControl",
                 "orderType": "Department of Psychology Order",
                 "showDetailsButton": true,
-                "dashboardParams": {
+                "dashboardConfig": {
                     "conceptNames": [
                         "Order Fullfillment Status"
                     ]
                 },
-                "allOrdersDetails": {
+                "expandedViewConfig": {
                     "conceptNames": [
                         "Order Fullfillment Status"
                     ]
@@ -110,15 +110,15 @@
             },
             "dept._of_ot_and_vt_orders": {
                 "title": "Dept. of OT and VT Orders",
-                "name": "ordersControl",
+                "type": "ordersControl",
                 "orderType": "Department of OT and VT Order",
                 "showDetailsButton": true,
-                "dashboardParams": {
+                "dashboardConfig": {
                     "conceptNames": [
                         "Order Fullfillment Status"
                     ]
                 },
-                "allOrdersDetails": {
+                "expandedViewConfig": {
                     "conceptNames": [
                         "Order Fullfillment Status"
                     ]
@@ -127,15 +127,15 @@
             },
             "dept._of_social_work_orders": {
                 "title": "Dept. of Social Work Orders",
-                "name": "ordersControl",
+                "type": "ordersControl",
                 "orderType": "Department of Social Work Order",
                 "showDetailsButton": true,
-                "dashboardParams": {
+                "dashboardConfig": {
                     "conceptNames": [
                         "Order Fullfillment Status"
                     ]
                 },
-                "allOrdersDetails": {
+                "expandedViewConfig": {
                     "conceptNames": [
                         "Order Fullfillment Status"
                     ]
@@ -144,15 +144,15 @@
             },
             "nutritional_values": {
                 "title": "Nutritional Values",
-                "name": "vitals",
+                "type": "vitals",
                 "isObservation": true,
-                "dashboardParams": {
+                "dashboardConfig": {
                     "conceptNames": [
                         "Nutritional Values"
                     ],
                     "numberOfVisits": 2
                 },
-                "allObservationDetails": {
+                "expandedViewConfig": {
                     "conceptNames": [
                         "Nutritional Values"
                     ],
@@ -164,8 +164,8 @@
             },
             "visits": {
                 "title": "Visits",
-                "name": "visits",
-                "dashboardParams": {
+                "type": "visits",
+                "dashboardConfig": {
                     "title": null,
                     "maximumNoOfVisits": 10
                 },
@@ -173,7 +173,7 @@
             },
             "navigation_links_control": {
                 "title": "Navigation Links Control",
-                "name": "navigationLinksControl",
+                "type": "navigationLinksControl",
                 "links": [
                     {
                         "title": "Patient ADT Page",
@@ -189,11 +189,11 @@
             "diabetes": {
                 "title": "Diabetes",
                 "templateName": "Diabetes Template",
-                "name": "diseaseTemplate",
-                "dashboardParams": {
+                "type": "diseaseTemplate",
+                "dashboardConfig": {
                     "showOnly": []
                 },
-                "allDiseaseDetails": {
+                "expandedViewConfig": {
                     "showDetailsButton": true,
                     "pivotTable": {
                         "numberOfVisits": "15",
@@ -226,11 +226,11 @@
             "scales": {
                 "title": "Scales",
                 "templateName": "Scales",
-                "name": "diseaseTemplate",
-                "dashboardParams": {
+                "type": "diseaseTemplate",
+                "dashboardConfig": {
                     "showOnly": []
                 },
-                "allDiseaseDetails": {
+                "expandedViewConfig": {
                     "showDetailsButton": true,
                     "pivotTable": {}
                 },
@@ -238,7 +238,7 @@
             },
             "admission_details": {
                 "title": "Admission Details",
-                "name": "admissionDetails",
+                "type": "admissionDetails",
                 "displayOrder": 14
             }
         }
@@ -250,14 +250,13 @@
         "sections": {
             "patient_information": {
                 "title": "Patient Information",
-                "name": "patientInformation",
+                "type": "patientInformation",
                 "patientAttributes": [],
                 "addressFields": [],
                 "displayOrder": 0
             },
             "weight/bmi": {
                 "type": "observationGraph",
-                "name": "observationGraph",
                 "title": "Weight/BMI",
                 "config": {
                     "yAxisConcepts": [
