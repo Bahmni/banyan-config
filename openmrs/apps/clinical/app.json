@@ -86,21 +86,17 @@
                 "conciseText": true
             },
             "Chief Complaint Data": {
+                "autocomplete": true,
+                "codedConceptName":"Chief Complaint",
+                "nonCodedConceptName":"Non-Coded Chief Complaint",
+                "durationRequired": false,
                 "multiple": 3
             },
             "If Yes Specify": {
                 "conciseText": true
             },
-            "Chief Complaint": {
-                "freeTextAutocomplete": true,
-                "durationRequired": false
-            },
             "Posture": {
                 "buttonSelect": true
-            },
-            "Non-Coded Chief Complaint": {
-                "freeTextAutocomplete": true,
-                "durationRequired": false
             },
             "P/A Presenting Part": {
                 "multiSelect": true
